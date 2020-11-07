@@ -7,6 +7,7 @@
     <section class="absolute w-full h-full">
       <div
         class="h-full"
+        :style="{}"
         style="
           background-size: 100%;
           background-repeat: no-repeat;
