@@ -46,6 +46,13 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
 
+  // PWA module configuration (https://pwa.nuxtjs.org/setup)
+  pwa: {
+    meta: {
+      theme_color: '#111119',
+    },
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 }
