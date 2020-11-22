@@ -65,7 +65,7 @@
             src="~/assets/img/seats.jpg"
           />
           <div
-            class="text-2xl p-10 bg-gray-100 text-gray-600 italic rounded-b-lg"
+            class="text-xl p-8 bg-gray-100 text-gray-600 italic rounded-b-lg"
           >
             &quot;there’s two types of people, either you can punch in your
             dreams or you can’t&quot;
