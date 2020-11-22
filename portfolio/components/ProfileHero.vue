@@ -1,11 +1,9 @@
 <template>
   <div class="container mx-auto py-4 px-8 md:px-16">
     <div class="flex flex-col lg:flex-row">
-      <div class="flex flex-col justify-center m-4 w-full lg:w-1/2">
-        <div class="text-xl mt-4 text-gray-200">
-          yung software engineer &trade;
-        </div>
-        <div class="md:text-5xl text-2xl text-gray-100 uppercase font-black">
+      <div class="flex flex-col justify-center w-full lg:w-1/2">
+        <div class="text-gray-300">yung software engineer &trade;</div>
+        <div class="text-3xl md:text-5xl text-gray-100 uppercase font-black">
           Lewis Lloyd
         </div>
         <div class="text-xl mt-4 text-gray-200">
