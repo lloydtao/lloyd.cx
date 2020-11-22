@@ -16,6 +16,12 @@ module.exports = {
       body: ['Raleway', 'sans-serif'],
       hero: ['Raleway', 'sans-serif'],
     },
+    extend: {
+      colors: {
+        github: '#211F1F',
+        twitter: '#00acee',
+      },
+    },
   },
   variants: {},
   plugins: [],
