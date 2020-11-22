@@ -1,18 +1,16 @@
 <template>
-  <div class="container mx-auto py-8 px-16">
+  <div class="container mx-auto py-4 px-8 md:px-16">
     <div class="flex flex-col lg:flex-row">
-      <div class="flex flex-col justify-center m-4 w-full lg:w-1/2">
-        <div class="text-xl mt-4 text-gray-200">
-          yung software engineer &trade;
-        </div>
-        <div class="md:text-5xl text-2xl text-gray-100 uppercase font-black">
+      <div class="flex flex-col justify-center w-full lg:w-1/2">
+        <div class="text-gray-300">yung software engineer &trade;</div>
+        <div class="text-3xl md:text-5xl text-gray-100 uppercase font-black">
           Lewis Lloyd
         </div>
         <div class="text-xl mt-4 text-gray-200">
           Specialising in full-stack web applications and cloud architecture,
           with a dash of product management and technical strategy.
         </div>
-        <div class="mt-4">
+        <div class="mt-4 mb-4">
           <a href="https://github.com/LloydTao">
             <button
               type="button"
@@ -57,9 +55,7 @@
           >
         </div>
       </div>
-      <div
-        class="flex justify-center m-4 w-full lg:w-1/2 rounded-lg shadow-2xl"
-      >
+      <div class="flex justify-center w-full lg:w-1/2 rounded-lg shadow-2xl">
         <div class="rounded-t-full">
           <img
             alt="card img"
@@ -67,7 +63,7 @@
             src="~/assets/img/seats.jpg"
           />
           <div
-            class="text-2xl p-10 bg-gray-100 text-gray-600 italic rounded-b-lg"
+            class="text-xl p-8 bg-gray-100 text-gray-600 italic rounded-b-lg"
           >
             &quot;there’s two types of people, either you can punch in your
             dreams or you can’t&quot;
