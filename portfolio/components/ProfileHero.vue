@@ -12,7 +12,7 @@
           Specialising in full-stack web applications and cloud architecture,
           with a dash of product management and technical strategy.
         </div>
-        <div class="mt-4">
+        <div class="mt-4 mb-4">
           <a href="https://github.com/LloydTao">
             <button
               type="button"
