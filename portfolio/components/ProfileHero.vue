@@ -57,9 +57,7 @@
           >
         </div>
       </div>
-      <div
-        class="flex justify-center m-4 w-full lg:w-1/2 rounded-lg shadow-2xl"
-      >
+      <div class="flex justify-center w-full lg:w-1/2 rounded-lg shadow-2xl">
         <div class="rounded-t-full">
           <img
             alt="card img"
