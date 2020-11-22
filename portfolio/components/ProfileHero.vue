@@ -57,12 +57,20 @@
           >
         </div>
       </div>
-      <div class="flex justify-center m-4 w-full lg:w-1/2">
-        <div class="shadow-2xl rounded-lg">
-          <img alt="card img" class="rounded-t" src="~/assets/img/seats.jpg" />
-          <div class="text-2xl p-10 bg-gray-100">
-            "there’s two types of people, either you can punch in your dreams or
-            you can’t"
+      <div
+        class="flex justify-center m-4 w-full lg:w-1/2 rounded-lg shadow-2xl"
+      >
+        <div class="rounded-t-full">
+          <img
+            alt="card img"
+            class="rounded-t-lg"
+            src="~/assets/img/seats.jpg"
+          />
+          <div
+            class="text-2xl p-10 bg-gray-100 text-gray-600 italic rounded-b-lg"
+          >
+            &quot;there’s two types of people, either you can punch in your
+            dreams or you can’t&quot;
           </div>
         </div>
       </div>
