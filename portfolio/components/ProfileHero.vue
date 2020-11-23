@@ -1,16 +1,16 @@
 <template>
-  <div class="container mx-auto py-4 px-8 md:px-16">
-    <div class="flex flex-col lg:flex-row">
-      <div class="flex flex-col justify-center w-full lg:w-1/2">
+  <div class="container mx-auto pt-4 pb-8 px-8 md:px-16">
+    <div class="flex flex-col lg:flex-row mx-2 md:mx-4">
+      <div class="flex flex-col justify-center lg:w-1/2 pr-3">
         <div class="text-gray-300">yung software engineer &trade;</div>
-        <div class="text-3xl md:text-5xl text-gray-100 uppercase font-black">
+        <div class="text-4xl md:text-5xl text-gray-100 uppercase font-black">
           Lewis Lloyd
         </div>
-        <div class="text-xl mt-4 text-gray-200">
+        <div class="text-xl mt-2 text-gray-200">
           Specialising in full-stack web applications and cloud architecture,
           with a dash of product management and technical strategy.
         </div>
-        <div class="mt-4 mb-4">
+        <div class="mt-4">
           <a href="https://github.com/LloydTao">
             <button
               type="button"
@@ -55,7 +55,7 @@
           >
         </div>
       </div>
-      <div class="flex justify-center w-full lg:w-1/2 rounded-lg shadow-2xl">
+      <div class="flex justify-center shadow-md lg:w-1/2 rounded-lg my-4">
         <div class="rounded-t-full">
           <img
             alt="card img"
