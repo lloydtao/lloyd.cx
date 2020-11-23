@@ -2,11 +2,13 @@
   <div class="container mx-auto pt-4 pb-8 px-8 md:px-16">
     <div class="flex flex-col lg:flex-row mx-2 md:mx-4">
       <div class="flex flex-col justify-center lg:w-1/2 pr-3">
-        <div class="text-gray-300">yung software engineer &trade;</div>
-        <div class="text-4xl md:text-5xl text-gray-100 uppercase font-black">
+        <div class="text-gray-300 m-1">yung software engineer &trade;</div>
+        <div
+          class="text-4xl md:text-5xl m-1 text-gray-100 uppercase font-black"
+        >
           Lewis Lloyd
         </div>
-        <div class="text-xl mt-2 text-gray-200">
+        <div class="text-xl m-1 text-gray-200">
           Specialising in full-stack web applications and cloud architecture,
           with a dash of product management and technical strategy.
         </div>
@@ -14,7 +16,7 @@
           <a href="https://github.com/LloydTao">
             <button
               type="button"
-              class="shadow-md py-2 px-4 bg-github hover:bg-gray-800 rounded"
+              class="shadow-md py-2 px-4 m-1 bg-github hover:bg-gray-800 rounded"
             >
               <div class="flex items-center text-gray-100">
                 <svg
@@ -35,7 +37,7 @@
           <a href="https://twitter.com/LloydTao">
             <button
               type="button"
-              class="shadow-md py-2 px-4 bg-twitter hover:bg-blue-400 rounded"
+              class="shadow-md py-2 px-4 m-1 bg-twitter hover:bg-blue-400 rounded"
             >
               <div class="flex items-center text-gray-100">
                 <svg
@@ -55,7 +57,7 @@
           >
         </div>
       </div>
-      <div class="flex justify-center shadow-md lg:w-1/2 rounded-lg my-4">
+      <div class="flex justify-center shadow-md lg:w-1/2 rounded-lg my-4 m-1">
         <div class="rounded-t-full">
           <img
             alt="card img"
