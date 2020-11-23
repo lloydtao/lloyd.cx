@@ -8,7 +8,7 @@
       />
     </div>
     <!-- Content -->
-    <div class="absolute w-full top-0">
+    <div class="absolute w-full top-0 md:px-2">
       <HeaderSlim />
       <Nuxt />
       <FooterSlim />
