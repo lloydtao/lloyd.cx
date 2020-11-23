@@ -2,7 +2,7 @@
   <nav
     class="w-full flex flex-wrap items-center justify-between px-2 pt-3 mb-1 md:mb-4 navbar-expand-lg"
   >
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto">
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
@@ -17,7 +17,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-full md:w-8/12 px-4 mt-2">
+        <div class="w-full md:w-8/12 mt-2">
           <ul class="flex flex-wrap list-none md:justify-end justify-center">
             <li>
               <NuxtLink
