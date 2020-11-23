@@ -7,9 +7,9 @@
         <div class="w-full md:w-4/12 mt-2">
           <ul class="flex flex-wrap list-none md:justify-start justify-center">
             <li>
-              <a class="text-gray-300 text-sm font-semibold py-1"
-                >Lewis Lloyd &copy; {{ date }}</a
-              >
+              <div class="text-gray-300 text-sm font-semibold py-1">
+                Lewis Lloyd &copy; {{ date }}
+              </div>
             </li>
           </ul>
         </div>
