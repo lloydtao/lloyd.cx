@@ -60,9 +60,9 @@
       <div class="flex justify-center shadow-md lg:w-1/2 rounded-lg my-4 m-1">
         <div class="rounded-t-full">
           <img
-            alt="card img"
             class="rounded-t-lg"
             src="~/assets/img/seats.jpg"
+            alt="L-sit static hold in Harrison Study Room"
           />
           <div
             class="text-xl p-8 bg-gray-100 text-gray-600 italic rounded-b-lg"

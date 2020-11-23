@@ -5,6 +5,7 @@
       <img
         class="h-full w-auto top-0 -mt-48 md:-mt-32 lg:-mt-8 xl:mt-0"
         src="~/assets/img/bg.svg"
+        alt="Blue and purple background graphics"
       />
     </div>
     <!-- Content -->
