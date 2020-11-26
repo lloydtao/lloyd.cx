@@ -24,8 +24,8 @@ jobs:
       - name: Install and Build 🔧
         working-directory: ${{ matrix.working-directory }}
         run: |
-          npm install
-          npm run generate
+          yarn install
+          yarn generate
 
       - name: Deploy 🚀
         working-directory: ${{ matrix.working-directory }}
