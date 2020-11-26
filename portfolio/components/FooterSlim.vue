@@ -4,16 +4,16 @@
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
-        <div class="w-full md:w-4/12 px-4 mt-2">
+        <div class="w-full md:w-4/12 mt-2">
           <ul class="flex flex-wrap list-none md:justify-start justify-center">
             <li>
-              <a class="text-gray-300 text-sm font-semibold py-1"
-                >Lewis Lloyd &copy; {{ date }}</a
-              >
+              <div class="text-gray-300 text-sm font-semibold py-1">
+                Lewis Lloyd &copy; {{ date }}
+              </div>
             </li>
           </ul>
         </div>
-        <div class="w-full md:w-8/12 px-4 mt-2">
+        <div class="w-full md:w-8/12 mt-2">
           <ul class="flex flex-wrap list-none md:justify-end justify-center">
             <li>
               <a
@@ -25,7 +25,7 @@
             <li>
               <a
                 href="https://www.linkedin.com/in/LloydTao/"
-                class="text-gray-300 hover:text-gray-300 text-sm block py-1 px-3"
+                class="text-gray-300 hover:text-gray-500 text-sm block py-1 px-3"
                 >LinkedIn</a
               >
             </li>

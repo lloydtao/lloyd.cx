@@ -18,8 +18,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        github: '#211F1F',
-        twitter: '#00acee',
+        github: {
+          primary: '#211F1F',
+          lighter: '#373535',
+          darker: '#141313',
+        },
+        twitter: {
+          primary: '#187CBE',
+          lighter: '#2f89c5',
+          darker: '#1670ab',
+        },
       },
     },
   },
