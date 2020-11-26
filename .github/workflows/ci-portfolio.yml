@@ -11,13 +11,13 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest]
-        node-version: [14]
+        os: [ubuntu-20.04]
+        node-version: [12]
         working-directory: [./portfolio]
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2.3.4
     
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2.1.2
