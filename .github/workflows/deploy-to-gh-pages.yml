@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-20.04]
-        node-version: [14]
+        node-version: [12]
         working-directory: [./portfolio]
 
     steps:
@@ -43,7 +43,7 @@ jobs:
 
       - name: Deploy project to GitHub Pages
         working-directory: ${{ matrix.working-directory }}
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: build
