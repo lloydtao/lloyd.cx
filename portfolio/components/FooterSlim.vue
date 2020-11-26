@@ -25,7 +25,7 @@
             <li>
               <a
                 href="https://www.linkedin.com/in/LloydTao/"
-                class="text-gray-300 hover:text-gray-300 text-sm block py-1 px-3"
+                class="text-gray-300 hover:text-gray-500 text-sm block py-1 px-3"
                 >LinkedIn</a
               >
             </li>
