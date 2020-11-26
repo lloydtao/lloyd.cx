@@ -61,7 +61,9 @@
         <div class="rounded-t-full">
           <img
             class="rounded-t-lg"
-            src="~/assets/img/seats.jpg?sqip"
+            src="~/assets/img/seats.jpg"
+            width="762"
+            height="505"
             alt="L-sit static hold in Harrison Study Room"
           />
           <div
