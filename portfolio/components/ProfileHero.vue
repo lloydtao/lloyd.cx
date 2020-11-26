@@ -16,7 +16,7 @@
           <a href="https://github.com/LloydTao">
             <button
               type="button"
-              class="shadow-md py-2 px-4 m-1 bg-github hover:bg-gray-800 rounded"
+              class="shadow-md py-2 px-4 m-1 bg-github-primary hover:bg-github-darker rounded"
             >
               <div class="flex items-center text-white">
                 <svg
@@ -35,7 +35,7 @@
           <a href="https://twitter.com/LloydTao">
             <button
               type="button"
-              class="shadow-md py-2 px-4 m-1 bg-twitter hover:bg-blue-400 rounded"
+              class="shadow-md py-2 px-4 m-1 bg-twitter-primary hover:bg-twitter-darker rounded"
             >
               <div class="flex items-center text-white">
                 <svg
