@@ -2,16 +2,14 @@
   <div class="container mx-auto pt-4 pb-8 px-8 md:px-16">
     <div class="flex flex-col lg:flex-row mx-2 md:mx-4">
       <div class="flex flex-col justify-center lg:w-1/2 pr-3">
-        <div class="text-gray-300 m-1">yung software engineer &trade;</div>
-        <div
-          class="text-4xl md:text-5xl m-1 text-gray-100 uppercase font-black"
-        >
+        <p class="text-gray-300 m-1">yung software engineer &trade;</p>
+        <h1 class="text-4xl md:text-5xl m-1 text-gray-100 uppercase font-black">
           Lewis Lloyd
-        </div>
-        <div class="text-xl m-1 text-gray-200">
+        </h1>
+        <p class="text-xl m-1 text-gray-200">
           Specialising in full-stack web applications and cloud architecture,
           with a dash of product management and technical strategy.
-        </div>
+        </p>
         <div class="mt-4">
           <a href="https://github.com/LloydTao">
             <button
@@ -62,12 +60,10 @@
             height="505"
             alt="L-sit static hold in Harrison Study Room"
           />
-          <div
-            class="text-xl p-8 bg-gray-100 text-gray-700 italic rounded-b-lg"
-          >
+          <p class="text-xl p-8 bg-gray-100 text-gray-700 italic rounded-b-lg">
             &quot;there’s two types of people, either you can punch in your
             dreams or you can’t&quot;
-          </div>
+          </p>
         </div>
       </div>
     </div>
