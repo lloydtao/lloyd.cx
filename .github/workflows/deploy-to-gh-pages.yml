@@ -42,9 +42,8 @@ jobs:
         run: yarn generate
 
       - name: Deploy project to GitHub Pages
-        working-directory: ${{ matrix.working-directory }}
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: build
-          FOLDER: dist
+          FOLDER: portfolio/dist
