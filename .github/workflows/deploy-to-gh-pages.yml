@@ -20,13 +20,23 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.4
         with:
-          persist-credentials: false 
+          persist-credentials: false
 
-      - name: Install and Build 🔧
+      - name: Install packages
         working-directory: ${{ matrix.working-directory }}
-        run: |
-          yarn install
-          yarn generate
+        run: yarn install
+
+      - name: Lint project
+        working-directory: ${{ matrix.working-directory }}
+        run: yarn lint
+
+      - name: Test project
+        working-directory: ${{ matrix.working-directory }}
+        run: yarn test
+
+      - name: Generate project
+        working-directory: ${{ matrix.working-directory }}
+        run: yarn generate
 
       - name: Deploy 🚀
         working-directory: ${{ matrix.working-directory }}
