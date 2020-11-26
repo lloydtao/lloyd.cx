@@ -22,14 +22,15 @@ jobs:
           persist-credentials: false 
 
       - name: Install and Build 🔧
+        working-directory: ${{ matrix.working-directory }}
         run: |
-          cd portfolio
           npm install
           npm run generate
 
       - name: Deploy 🚀
+        working-directory: ${{ matrix.working-directory }}
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: build
-          FOLDER: portfolio/dist
+          FOLDER: dist
