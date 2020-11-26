@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: deploy-to-gh-pages
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
-    name: Build and test project
+  build-test-deploy:
+    name: Build, test and deploy
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -41,7 +41,7 @@ jobs:
         working-directory: ${{ matrix.working-directory }}
         run: yarn generate
 
-      - name: Deploy 🚀
+      - name: Deploy project to GitHub Pages
         working-directory: ${{ matrix.working-directory }}
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
