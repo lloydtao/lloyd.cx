@@ -7,8 +7,8 @@
           <img
             class="rounded-t-lg"
             src="~/assets/img/samoyed-wink.gif"
-            width="600"
-            height="200"
+            width="500"
+            height="500"
             alt="A flirty samoyed"
           />
           <p class="text-xl p-8 bg-gray-100 text-gray-700 italic rounded-b-lg">
@@ -24,8 +24,8 @@
           <img
             class="rounded-t-lg"
             src="~/assets/img/samoyed-happy.gif"
-            width="600"
-            height="200"
+            width="500"
+            height="500"
             alt="A happy samoyed"
           />
           <p class="text-xl p-8 bg-gray-100 text-gray-700 italic rounded-b-lg">
@@ -41,8 +41,8 @@
           <img
             class="rounded-t-lg"
             src="~/assets/img/samoyed-tired.gif"
-            width="600"
-            height="200"
+            width="500"
+            height="500"
             alt="A tired samoyed"
           />
           <p class="text-xl p-8 bg-gray-100 text-gray-700 italic rounded-b-lg">
