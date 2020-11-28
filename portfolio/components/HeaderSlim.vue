@@ -21,21 +21,21 @@
           <ul class="flex flex-wrap list-none md:justify-end justify-center">
             <li>
               <NuxtLink
-                to="/"
+                to="/portfolio"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
                 >Portfolio</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
-                to="/"
+                to="/open-source"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
                 >Open Source</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
-                to="/"
+                to="/lectures"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
                 >Lectures</NuxtLink
               >
