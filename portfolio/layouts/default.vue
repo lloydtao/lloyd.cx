@@ -10,6 +10,17 @@
         alt="Blue and purple background graphics"
       />
     </div>
+    <!-- Snow -->
+    <Snowf
+      :amount="64"
+      :size="5"
+      :speed="0.5"
+      :wind="0.5"
+      :opacity="0.8"
+      :swing="0.5"
+      :resize="true"
+      color="#fff"
+    />
     <!-- Content -->
     <div class="absolute w-full top-0 md:px-2">
       <HeaderSlim />
@@ -18,6 +29,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import Snowf from 'vue-snowf'
+
+export default {
+  components: {
+    Snowf,
+  },
+}
+</script>
 
 <style>
 body {
