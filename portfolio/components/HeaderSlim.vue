@@ -8,7 +8,8 @@
       >
         <div class="w-full md:w-4/12 px-4 mt-2">
           <ul class="flex flex-wrap list-none md:justify-start justify-center">
-            <li>
+            <li class="flex items-center space-x-3">
+              <img src="~/assets/img/logo.png" class="h-8" />
               <NuxtLink
                 to="/"
                 class="text-gray-200 hover:text-gray-400 text-2xl font-semibold py-1"
