@@ -19,8 +19,38 @@
             "purpose": "any maskable"
         }
     ],
-    "theme_color": "#111827",
+    "start_url": "/?standalone=true",
     "background_color": "#111827",
-    "start_url": "/",
-    "display": "standalone"
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#111827", 
+    "lang": "en",
+    "shortcuts": [
+      {
+        "name": "Home",
+        "short_name": "Home",
+        "description": "Visit the home page",
+        "url": "/?source=pwa"
+      },
+      {
+        "name": "Portfolio",
+        "short_name": "Portfolio",
+        "description": "Visit the portfolio page",
+        "url": "/portfolio?source=pwa"
+      },
+      {
+        "name": "Articles",
+        "short_name": "Articles",
+        "description": "Visit the articles page",
+        "url": "/articles?source=pwa"
+      }
+    ],
+    "description": "Weather forecast information",
+    "screenshots": [
+      {
+        "src": "/screenshot.png",
+        "type": "image/png",
+        "sizes": "1080x1440"
+      }
+    ]
 }
