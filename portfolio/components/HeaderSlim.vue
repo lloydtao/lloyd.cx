@@ -29,16 +29,16 @@
             </li>
             <li>
               <NuxtLink
-                to="/open-source"
+                to="/portfolio"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >Open Source</NuxtLink
+                >Portfolio</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
-                to="/lectures"
+                to="/articles"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >Lectures</NuxtLink
+                >Articles</NuxtLink
               >
             </li>
           </ul>
