@@ -19,7 +19,7 @@
             "purpose": "any maskable"
         }
     ],
-    "start_url": "/",
+    "start_url": "/?standalone=true",
     "background_color": "#111827",
     "display": "standalone",
     "scope": "/",
