@@ -10,8 +10,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'apple-mobile-web-app-title', content: 'lloyd.cx' },
       { name: 'application-name', content: 'lloyd.cx' },
-      { name: 'msapplication-TileColor', content: '#da532c' },
-      { name: 'theme-color', content: '#ffffff' },
+      { name: 'msapplication-TileColor', content: '#111827' },
+      { name: 'theme-color', content: '#111827' },
       {
         hid: 'description',
         name: 'description',
@@ -38,7 +38,7 @@ export default {
         href: '/favicon-16x16.png',
       },
       { rel: 'manifest', href: '/site.webmanifest' },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#111827' },
     ],
   },
 
