@@ -4,14 +4,14 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'portfolio',
+    title: 'lloyd.cx',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'the beautiful works of lewis lloyd (@lloydtao)',
+        content: 'yung software engineer ™ (@lloydtao)',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
