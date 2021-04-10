@@ -8,7 +8,8 @@
       >
         <div class="w-full md:w-4/12 px-4 mt-2">
           <ul class="flex flex-wrap list-none md:justify-start justify-center">
-            <li>
+            <li class="flex items-center space-x-3">
+              <img src="~/assets/img/logo.png" class="h-8" />
               <NuxtLink
                 to="/"
                 class="text-gray-200 hover:text-gray-400 text-2xl font-semibold py-1"
@@ -21,6 +22,13 @@
           <ul class="flex flex-wrap list-none md:justify-end justify-center">
             <li>
               <NuxtLink
+                to="/"
+                class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                >Home</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink
                 to="/portfolio"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
                 >Portfolio</NuxtLink
@@ -28,16 +36,9 @@
             </li>
             <li>
               <NuxtLink
-                to="/open-source"
+                to="/articles"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >Open Source</NuxtLink
-              >
-            </li>
-            <li>
-              <NuxtLink
-                to="/lectures"
-                class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >Lectures</NuxtLink
+                >Articles</NuxtLink
               >
             </li>
           </ul>
