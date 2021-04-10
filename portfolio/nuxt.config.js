@@ -80,8 +80,8 @@ export default {
   // PWA module configuration (https://pwa.nuxtjs.org/setup)
   pwa: {
     meta: {
-      theme_color: '#111119',
-    },
+      theme_color: '#111827',
+    }
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
