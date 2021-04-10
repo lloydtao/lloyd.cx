@@ -22,9 +22,9 @@
           <ul class="flex flex-wrap list-none md:justify-end justify-center">
             <li>
               <NuxtLink
-                to="/portfolio"
+                to="/"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >Portfolio</NuxtLink
+                >Home</NuxtLink
               >
             </li>
             <li>
