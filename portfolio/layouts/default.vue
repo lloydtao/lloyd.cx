@@ -12,9 +12,9 @@
     </div>
     <!-- Content -->
     <div class="absolute w-full top-0 md:px-2">
-      <HeaderSlim />
+      <Navbar />
       <Nuxt />
-      <FooterSlim />
+      <Footer />
     </div>
   </div>
 </template>
