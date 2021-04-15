@@ -1,59 +1,127 @@
 <template>
-  <nav
-    class="w-full flex flex-wrap items-center justify-between px-2 pt-3 mb-1 md:mb-4 navbar-expand-lg"
-  >
-    <div class="container mx-auto">
-      <div
-        class="flex flex-wrap items-center md:justify-between justify-center"
-      >
-        <div class="w-full md:w-4/12 px-4 mt-2">
-          <ul class="flex flex-wrap list-none md:justify-start justify-center">
-            <li class="flex items-center space-x-3">
-              <img
-                class="w-8"
-                src="~/assets/img/logo.png?webp"
-                width="32"
-                height="32"
-                alt="Pink boxes logo"
-              />
-              <NuxtLink
-                to="/"
-                class="text-gray-200 hover:text-gray-400 text-2xl font-semibold py-1"
-                >lloyd.cx</NuxtLink
-              >
+  <nav class="flex container mx-auto px-5 py-5">
+    <ul class="flex flex-grow space-x-4">
+      <li>
+        <NuxtLink
+          to="/"
+          class="flex items-center space-x-3 text-gray-700 md:mr-5"
+        >
+          <img
+            class="w-8"
+            src="~/assets/img/logo.png?webp"
+            width="32"
+            height="32"
+            alt="Pink boxes logo"
+          />
+          <span
+            class="text-gray-200 hover:text-gray-300 text-2xl font-semibold py-1"
+            >lloyd.cx</span
+          >
+        </NuxtLink>
+      </li>
+    </ul>
+    <ul class="flex items-center space-x-5">
+      <li class="hidden sm:flex">
+        <NuxtLink
+          to="/"
+          class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+          >Home</NuxtLink
+        >
+      </li>
+      <li class="hidden sm:flex">
+        <NuxtLink
+          to="/portfolio"
+          class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+          >Portfolio</NuxtLink
+        >
+      </li>
+      <li class="hidden sm:flex">
+        <NuxtLink
+          to="/articles"
+          class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+          >Articles</NuxtLink
+        >
+      </li>
+    </ul>
+    <ul class="flex sm:hidden" @click="showMenu = !showMenu">
+      <li>
+        <a href="#" class="flex-none absolute right-0 px-5 z-30"
+          ><p
+            class="text-gray-200 font-semibold tracking-wide hover:bg-gray-900 hover:bg-opacity-30 rounded px-2 py-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg></p
+        ></a>
+        <div
+          class="absolute top-0 right-0 z-10 h-screen w-full bg-black transition"
+          :class="{
+            'invisible opacity-0': !showMenu,
+            'visible opacity-20': showMenu,
+          }"
+        ></div>
+        <div
+          class="absolute right-0 z-20 w-full px-5 mt-16 transition"
+          :class="{
+            'invisible opacity-0': !showMenu,
+            'visible opacity-100': showMenu,
+          }"
+        >
+          <ul
+            class="flex flex-col bg-gray-100 w-full rounded shadow-md overflow-hidden"
+          >
+            <li class="flex">
+              <h3 class="flex flex-1 text-gray-600 font-semibold px-5 py-4">
+                Navigation
+              </h3>
             </li>
-          </ul>
-        </div>
-        <div class="w-full md:w-8/12 mt-2">
-          <ul class="flex flex-wrap list-none md:justify-end justify-center">
-            <li>
+            <li class="flex border-t">
               <NuxtLink
                 to="/"
-                class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Home</NuxtLink
               >
             </li>
-            <li>
+            <li class="flex">
               <NuxtLink
                 to="/portfolio"
-                class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Portfolio</NuxtLink
               >
             </li>
-            <li>
+            <li class="flex">
               <NuxtLink
                 to="/articles"
-                class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Articles</NuxtLink
               >
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </nav>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      showMenu: false,
+    }
+  },
+}
 </script>
+
+<style></style>

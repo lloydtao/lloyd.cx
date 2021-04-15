@@ -1,9 +1,7 @@
 <template>
-  <div class="container mx-auto pt-4 pb-8 px-8 md:px-16">
-    <h1 class="text-4xl md:text-5xl m-1 text-gray-100 uppercase font-black">
-      Articles
-    </h1>
-    <p class="text-xl m-1 text-gray-200">Content coming soon. I promise.</p>
+  <div class="container mx-auto px-5">
+    <h1 class="text-5xl text-gray-100 uppercase font-black mt-5">Articles</h1>
+    <p class="text-xl text-gray-200">Content coming soon. I promise.</p>
     <CardRow />
   </div>
 </template>

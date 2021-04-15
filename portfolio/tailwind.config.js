@@ -24,7 +24,7 @@ module.exports = {
           darker: '#141313',
         },
         twitter: {
-          primary: '#187CBE',
+          primary: '#139BF1',
           lighter: '#2f89c5',
           darker: '#1670ab',
         },
