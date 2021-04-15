@@ -60,7 +60,7 @@
           height="411"
           alt="L-sit static hold in Harrison Study Room"
         />
-        <p class="text-xl text-gray-700 bg-gray-100 italic px-8 py-5">
+        <p class="text-xl text-gray-700 italic bg-gray-100 border-t px-8 py-5">
           &quot;there’s two types of people, either you can punch in your dreams
           or you can’t&quot;
         </p>
