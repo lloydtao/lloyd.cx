@@ -65,14 +65,14 @@
             </svg></p
         ></a>
         <div
-          class="absolute z-10 w-full top-0 right-0 transition h-full bg-black"
+          class="absolute top-0 right-0 z-10 h-screen w-full bg-black transition"
           :class="{
             'invisible opacity-0': !showMenu,
             'visible opacity-20': showMenu,
           }"
         ></div>
         <div
-          class="absolute z-20 w-full right-0 px-5 mt-16 transition"
+          class="absolute right-0 z-20 w-full px-5 mt-16 transition"
           :class="{
             'invisible opacity-0': !showMenu,
             'visible opacity-100': showMenu,
