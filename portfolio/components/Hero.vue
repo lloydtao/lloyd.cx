@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col lg:flex-row lg:mt-8">
     <div class="flex flex-col justify-center lg:w-1/2 lg:pr-3">
-      <p class="text-gray-300 mt-1">yung software engineer &trade;</p>
+      <p class="text-gray-300">yung software engineer &trade;</p>
       <h1
-        class="text-3xl sm:text-4xl md:text-5xl text-gray-100 uppercase font-black mt-2 sm:mt-3"
+        class="text-4xl sm:text-5xl text-gray-100 uppercase font-black mt-2 sm:mt-3"
       >
         Lewis Lloyd
       </h1>
