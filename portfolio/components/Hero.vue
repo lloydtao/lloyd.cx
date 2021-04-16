@@ -1,19 +1,23 @@
 <template>
-  <div class="flex flex-col lg:flex-row items-center">
-    <div class="flex flex-col lg:w-1/2 pr-5 mt-8">
-      <p class="text-gray-300 font-semibold">yung software engineer &trade;</p>
-      <h1 class="text-5xl text-gray-100 font-black uppercase mt-3">
+  <div class="flex flex-col lg:flex-row mx-2 md:mx-4">
+    <div class="flex flex-col justify-center lg:w-1/2 lg:pr-3">
+      <p class="text-gray-300 mt-1">yung software engineer &trade;</p>
+      <h1
+        class="text-3xl sm:text-4xl md:text-5xl text-gray-100 uppercase font-black mt-2 sm:mt-3"
+      >
         Lewis Lloyd
       </h1>
-      <p class="text-xl text-gray-200 mt-8">
+      <p class="text-xl text-gray-200 mt-3 sm:mt-5">
         Specialising in full-stack web applications and cloud architecture, with
         a dash of product management and technical strategy.
       </p>
-      <div class="space-x-3 mt-8">
-        <a href="https://github.com/LloydTao">
+      <div
+        class="flex flex-col sm:flex-row space-y-3 sm:space-x-3 sm:space-y-0 mt-5"
+      >
+        <a href="https://github.com/LloydTao" class="flex">
           <button
             type="button"
-            class="shadow-md py-3 px-6 bg-github-primary hover:bg-github-darker rounded"
+            class="flex-1 shadow-md py-3 px-6 bg-github-primary hover:bg-black rounded"
           >
             <div class="flex items-center text-white space-x-5">
               <svg
@@ -29,10 +33,10 @@
             </div>
           </button></a
         >
-        <a href="https://twitter.com/LloydTao">
+        <a href="https://twitter.com/LloydTao" class="flex">
           <button
             type="button"
-            class="shadow-md py-3 px-6 bg-twitter-primary hover:bg-twitter-darker rounded"
+            class="flex-1 shadow-md py-3 px-6 bg-twitter-primary hover:bg-blue-500 rounded"
           >
             <div class="flex items-center text-white space-x-3">
               <svg

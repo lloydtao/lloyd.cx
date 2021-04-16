@@ -68,7 +68,7 @@
           class="absolute top-0 right-0 z-10 h-screen w-full bg-black transition"
           :class="{
             'invisible opacity-0': !showMenu,
-            'visible opacity-20': showMenu,
+            'visible opacity-40': showMenu,
           }"
         ></div>
         <div
