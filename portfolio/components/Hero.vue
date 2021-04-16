@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row mx-2 md:mx-4">
+  <div class="flex flex-col lg:flex-row lg:mt-8">
     <div class="flex flex-col justify-center lg:w-1/2 lg:pr-3">
       <p class="text-gray-300 mt-1">yung software engineer &trade;</p>
       <h1
@@ -54,7 +54,7 @@
         >
       </div>
     </div>
-    <div class="flex rounded shadow lg:w-1/2 overflow-hidden mt-8">
+    <div class="flex rounded shadow lg:w-1/2 overflow-hidden mt-5 lg:mt-0">
       <div>
         <img
           src="~/assets/img/seats.jpg?webp"
