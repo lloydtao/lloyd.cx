@@ -74,8 +74,8 @@
         <div
           class="absolute right-0 z-20 w-full px-5 mt-16 transition transform"
           :class="{
-            'invisible opacity-0 -translate-y-2': !showMenu,
-            'visible opacity-100 translate-y-0': showMenu,
+            'invisible opacity-0 -translate-y-3 translate-x-2 scale-95': !showMenu,
+            'visible opacity-100 translate-y-0 translate-x-0 scale-100': showMenu,
           }"
         >
           <ul
