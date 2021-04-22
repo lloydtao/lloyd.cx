@@ -72,10 +72,10 @@
           }"
         ></div>
         <div
-          class="absolute right-0 z-20 w-full px-5 mt-16 transition"
+          class="absolute right-0 z-20 w-full px-5 mt-16 transition transform"
           :class="{
-            'invisible opacity-0': !showMenu,
-            'visible opacity-100': showMenu,
+            'invisible opacity-0 -translate-y-2 translate-x-1': !showMenu,
+            'visible opacity-100 translate-y-0 translate-x-0': showMenu,
           }"
         >
           <ul
