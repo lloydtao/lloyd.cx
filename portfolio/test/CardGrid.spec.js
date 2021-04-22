@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import CardRow from '~/components/CardRow.vue'
+import CardGrid from '~/components/CardGrid.vue'
 
-describe('CardRow', () => {
+describe('CardGrid', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(CardRow)
+    const wrapper = mount(CardGrid)
     expect(wrapper.vm).toBeTruthy()
   })
 })
