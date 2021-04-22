@@ -43,9 +43,12 @@
         >
       </li>
     </ul>
-    <ul class="flex sm:hidden" @click="showMenu = !showMenu">
+    <ul class="flex sm:hidden">
       <li>
-        <a href="#" class="flex-none absolute right-0 px-5 z-30"
+        <a
+          href="#"
+          class="flex-none absolute right-0 px-5 z-30"
+          @click="showMenu = !showMenu"
           ><p
             class="text-gray-200 font-semibold tracking-wide hover:bg-gray-900 hover:bg-opacity-30 rounded px-2 py-2"
           >
