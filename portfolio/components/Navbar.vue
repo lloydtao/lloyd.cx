@@ -73,6 +73,7 @@
             'invisible opacity-0': !showMenu,
             'visible opacity-40': showMenu,
           }"
+          @click="showMenu = !showMenu"
         ></div>
         <div
           class="absolute right-0 z-20 w-full px-5 mt-16 transition transform"
