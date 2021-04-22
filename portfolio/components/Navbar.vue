@@ -68,17 +68,18 @@
             </svg></p
         ></a>
         <div
-          class="absolute top-0 right-0 z-10 h-screen w-full bg-black transition"
+          class="absolute top-0 right-0 z-10 h-full w-full bg-black transition"
           :class="{
             'invisible opacity-0': !showMenu,
             'visible opacity-40': showMenu,
           }"
+          @click="showMenu = !showMenu"
         ></div>
         <div
           class="absolute right-0 z-20 w-full px-5 mt-16 transition transform"
           :class="{
-            'invisible opacity-0 -translate-y-3 translate-x-2 scale-95': !showMenu,
-            'visible opacity-100 translate-y-0 translate-x-0 scale-100': showMenu,
+            'pointer-events-none opacity-0 -translate-y-3 translate-x-2 scale-95': !showMenu,
+            'pointer-events-auto opacity-100 translate-y-0 translate-x-0 scale-100': showMenu,
           }"
         >
           <ul
