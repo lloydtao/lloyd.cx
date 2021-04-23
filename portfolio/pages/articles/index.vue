@@ -5,7 +5,7 @@
       My explorations into tech, software and engineering.
     </p>
     <div class="mt-5">
-      <CardGrid :posts="posts" />
+      <CardGrid :posts="posts" route="articles-slug" />
     </div>
   </div>
 </template>
