@@ -30,14 +30,14 @@
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
-          to="/portfolio"
+          to="/portfolio/"
           class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
           >Portfolio</NuxtLink
         >
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
-          to="/articles"
+          to="/articles/"
           class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
           >Articles</NuxtLink
         >
@@ -90,23 +90,23 @@
                 Navigation
               </h3>
             </li>
-            <li class="flex border-t">
+            <li class="flex border-t" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Home</NuxtLink
               >
             </li>
-            <li class="flex">
+            <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
-                to="/portfolio"
+                to="/portfolio/"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Portfolio</NuxtLink
               >
             </li>
-            <li class="flex">
+            <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
-                to="/articles"
+                to="/articles/"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Articles</NuxtLink
               >
