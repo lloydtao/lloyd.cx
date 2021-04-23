@@ -90,21 +90,21 @@
                 Navigation
               </h3>
             </li>
-            <li class="flex border-t">
+            <li class="flex border-t" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Home</NuxtLink
               >
             </li>
-            <li class="flex">
+            <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/portfolio"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                 >Portfolio</NuxtLink
               >
             </li>
-            <li class="flex">
+            <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/articles"
                 class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
