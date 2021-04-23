@@ -10,6 +10,7 @@
 <script>
 export default {
   props: {
+    slug: { type: String, default: 'slug' },
     title: { type: String, default: 'Title' },
     description: { type: String, default: 'Description' },
   },

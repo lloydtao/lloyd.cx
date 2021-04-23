@@ -14,7 +14,7 @@
 export default {
   async asyncData({ $content, params }) {
     const posts = await $content('articles')
-      .only(['title', 'description'])
+      .only(['slug', 'title', 'description'])
       .sortBy('createdAt', 'asc')
       .fetch()
     return {

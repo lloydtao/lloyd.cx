@@ -2,7 +2,8 @@
   <ul class="flex flex-wrap -mx-1">
     <Card
       v-for="post in posts"
-      :key="post.title"
+      :key="post.slug"
+      :slug="post.slug"
       :title="post.title"
       :description="post.description"
     />
