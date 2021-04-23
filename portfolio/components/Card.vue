@@ -1,7 +1,9 @@
 <template>
   <li class="w-full md:w-1/2 xl:w-1/3 mb-2 px-1">
     <NuxtLink :to="{ name: route, params: { slug: slug } }">
-      <div class="bg-gray-900 bg-opacity-50 hover:bg-opacity-70 px-5 py-4">
+      <div
+        class="bg-gray-900 bg-opacity-50 hover:bg-opacity-70 rounded px-5 py-4"
+      >
         <h1 class="font-semibold text-white">{{ title }}</h1>
         <p class="text-gray-100 mt-3">{{ description }}</p>
       </div>
