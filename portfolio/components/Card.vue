@@ -5,6 +5,7 @@
         class="bg-gray-900 bg-opacity-50 hover:bg-opacity-70 rounded px-5 py-4"
       >
         <h1 class="font-semibold text-white">{{ title }}</h1>
+        <h2 class="text-sm text-gray-200">{{ series }}</h2>
         <p class="text-gray-100 mt-3">{{ description }}</p>
       </div>
     </NuxtLink>
@@ -17,6 +18,7 @@ export default {
     route: { type: String, default: 'page-slug' },
     slug: { type: String, default: 'slug' },
     title: { type: String, default: 'Title' },
+    series: { type: String, default: 'Series' },
     description: { type: String, default: 'Description' },
   },
 }

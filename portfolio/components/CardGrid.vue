@@ -6,6 +6,7 @@
       :route="route"
       :slug="post.slug"
       :title="post.title"
+      :series="post.series"
       :description="post.description"
     />
   </ul>
