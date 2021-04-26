@@ -6,10 +6,11 @@
     <p class="text-xl text-gray-200 mt-3">
       {{ post.description }}
     </p>
-    <div
-      class="max-w-4xl bg-gray-100 rounded px-5 py-5 md:px-8 md:py-8 mt-8 mx-auto"
-    >
-      <NuxtContent class="prose prose-sm md:prose-lg" :document="post" />
+    <div class="bg-gray-100 rounded px-5 py-5 md:px-8 md:py-8 mt-8 mx-auto">
+      <NuxtContent
+        class="prose prose-sm md:prose-lg mx-auto"
+        :document="post"
+      />
     </div>
   </div>
 </template>
