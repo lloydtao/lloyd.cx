@@ -8,7 +8,12 @@
         <h2 class="text-sm text-gray-300">
           {{ formatDate(publishedAt) }} · {{ series }}
         </h2>
-        <p class="text-sm text-gray-100 mt-3 overflow-hidden">
+        <img
+          :src="coverImage"
+          class="w-full object-cover mt-3"
+          style="max-height: 320px"
+        />
+        <p class="text-gray-100 mt-5 overflow-hidden">
           {{ description }}
         </p>
       </div>
@@ -24,6 +29,7 @@ export default {
     title: { type: String, default: 'Title' },
     series: { type: String, default: 'Series' },
     description: { type: String, default: 'Description' },
+    coverImage: { type: String, default: 'h' },
     publishedAt: { type: String, default: '2000-01-01T00:00:00.000Z' },
   },
   methods: {
