@@ -6,7 +6,7 @@
       >
         <h1 class="font-semibold text-white">{{ title }}</h1>
         <h2 class="text-sm text-gray-300">
-          {{ formatDate(datePublished) }} · {{ series }}
+          {{ formatDate(publishedAt) }} · {{ series }}
         </h2>
         <p class="text-sm text-gray-100 mt-3 overflow-hidden">
           {{ description }}
@@ -24,7 +24,7 @@ export default {
     title: { type: String, default: 'Title' },
     series: { type: String, default: 'Series' },
     description: { type: String, default: 'Description' },
-    datePublished: { type: String, default: '2000-01-01T00:00:00.000Z' },
+    publishedAt: { type: String, default: '2000-01-01T00:00:00.000Z' },
   },
   methods: {
     formatDate(date) {

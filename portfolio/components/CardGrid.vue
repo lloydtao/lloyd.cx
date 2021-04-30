@@ -9,7 +9,7 @@
       :title="post.title"
       :series="post.series"
       :description="post.description"
-      :date-published="post.publishedAt"
+      :published-at="post.publishedAt"
     />
   </ul>
 </template>
