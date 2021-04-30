@@ -9,16 +9,15 @@
     <p class="text-lg text-gray-200 mt-3">
       {{ post.description }}
     </p>
-    <div class="bg-gray-100 rounded mt-8 pb-8 mx-auto overflow-hidden">
+    <div
+      class="bg-gray-100 prose prose-sm md:prose-lg rounded mt-8 mx-auto overflow-hidden"
+    >
       <img
         :src="post.cover_image"
         class="w-full object-cover border-b"
         style="max-height: 320px"
       />
-      <NuxtContent
-        class="prose prose-sm md:prose-lg mx-auto mt-5 md:mt-8"
-        :document="post"
-      />
+      <NuxtContent class="px-8 pb-5" :document="post" />
     </div>
   </div>
 </template>
