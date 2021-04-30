@@ -5,8 +5,12 @@
         class="bg-gray-900 bg-opacity-50 hover:bg-opacity-70 rounded px-5 py-4"
       >
         <h1 class="font-semibold text-white">{{ title }}</h1>
-        <h2 class="text-sm text-gray-200">{{ series }}</h2>
-        <p class="text-gray-100 mt-3">{{ description }}</p>
+        <h2 class="text-sm text-gray-300">
+          {{ formatDate(published) }} · {{ series }}
+        </h2>
+        <p class="text-sm text-gray-100 mt-3 overflow-hidden">
+          {{ description }}
+        </p>
       </div>
     </NuxtLink>
   </li>
@@ -20,6 +24,13 @@ export default {
     title: { type: String, default: 'Title' },
     series: { type: String, default: 'Series' },
     description: { type: String, default: 'Description' },
+    published: { type: String, default: '2000-01-01T00:00:00.000Z' },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
   },
 }
 </script>

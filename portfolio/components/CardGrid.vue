@@ -8,6 +8,7 @@
       :title="post.title"
       :series="post.series"
       :description="post.description"
+      :published="post.publishedAt"
     />
   </ul>
 </template>
