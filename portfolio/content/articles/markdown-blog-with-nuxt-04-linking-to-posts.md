@@ -1,7 +1,7 @@
 ---
 slug: 'markdown-blog-with-nuxt-04-linking-to-posts'
 title: '4. Linking to posts'
-series: 'Building a Markdown Blog with Nuxt'
+series: 'Markdown Blog with Nuxt'
 description: '-'
 publishedAt: "2020-04-26T09:00:00.000Z"
 cover_image: ''

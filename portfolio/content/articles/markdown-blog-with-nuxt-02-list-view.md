@@ -1,7 +1,7 @@
 ---
 slug: 'markdown-blog-with-nuxt-02-list-view'
 title: '2. List view'
-series: 'Building a Markdown Blog with Nuxt'
+series: 'Markdown Blog with Nuxt'
 description: '-'
 publishedAt: "2020-04-12T09:00:00.000Z"
 cover_image: ''
