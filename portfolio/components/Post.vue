@@ -4,6 +4,9 @@
       {{ post.title }}
     </h1>
     <p class="text-xl text-gray-200 mt-3">
+      {{ formatDate(post.publishedAt) }} · {{ post.series }}
+    </p>
+    <p class="text-xl text-gray-200 mt-3">
       {{ post.description }}
     </p>
     <div class="bg-gray-100 rounded px-5 py-5 md:px-8 md:py-8 mt-8 mx-auto">
@@ -23,6 +26,12 @@ export default {
       default() {
         return {}
       },
+    },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     },
   },
 }
