@@ -7,7 +7,7 @@ publishedAt: "2020-04-26T09:00:00.000Z"
 cover_image: ''
 canonical_url: ''
 tags: 'vue, nuxt, javascript, markdown'
-published: 'true'
+published: false
 ---
 
 As a final step, we need to link the cards in the list view to the respective posts.

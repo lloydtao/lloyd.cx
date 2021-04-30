@@ -7,7 +7,7 @@ publishedAt: "2020-04-19T09:00:00.000Z"
 cover_image: ''
 canonical_url: ''
 tags: 'vue, nuxt, javascript, markdown'
-published: 'true'
+published: false
 ---
 
 We need to generate a unique, dedicated page for each blog post. 

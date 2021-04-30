@@ -7,7 +7,7 @@ publishedAt: "2020-04-12T09:00:00.000Z"
 cover_image: ''
 canonical_url: ''
 tags: 'vue, nuxt, javascript, markdown'
-published: 'true'
+published: false
 ---
 
 Hey, all! Today, we'll be adding a blog feature to our website.
