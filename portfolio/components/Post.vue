@@ -16,6 +16,9 @@
         :src="post.cover_image"
         class="w-full object-cover border-b"
         style="max-height: 320px"
+        width="1200"
+        height="675"
+        :alt="post.title"
       />
       <NuxtContent class="px-8 pb-5" :document="post" />
     </div>
