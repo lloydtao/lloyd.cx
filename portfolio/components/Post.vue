@@ -3,13 +3,24 @@
     <h1 class="text-4xl text-gray-100 font-black mt-5">
       {{ post.title }}
     </h1>
-    <p class="text-xl text-gray-200 mt-3">
+    <p class="text-gray-200 mt-3">
+      {{ formatDate(post.publishedAt) }} · {{ post.series }}
+    </p>
+    <p class="text-lg text-gray-200 mt-3">
       {{ post.description }}
     </p>
     <div
-      class="max-w-4xl bg-gray-100 rounded px-5 py-5 md:px-8 md:py-8 mt-8 mx-auto"
+      class="bg-gray-100 prose prose-sm md:prose-lg rounded mt-8 mx-auto overflow-hidden"
     >
-      <NuxtContent class="prose prose-sm md:prose-lg" :document="post" />
+      <img
+        :src="post.cover_image"
+        class="w-full object-cover border-b"
+        style="max-height: 320px"
+        width="1200"
+        height="675"
+        :alt="post.title"
+      />
+      <NuxtContent class="px-8 pb-5" :document="post" />
     </div>
   </div>
 </template>
@@ -22,6 +33,12 @@ export default {
       default() {
         return {}
       },
+    },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     },
   },
 }
