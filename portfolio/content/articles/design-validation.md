@@ -4,19 +4,25 @@ title: 'Design Validation'
 series: 'Agile Software Development'
 description: 'How design documents can make junior team members more successful.'
 publishedAt: "2020-04-30T09:00:00.000Z"
-cover_image: 'https://placekitten.com/1200/675'
-canonical_url: ''
+cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/873h17c79aaftk9wg3w3.png'
+thumbnail: '/~/assets/img/thumbnails/design-validation.png'
 tags: 'agile, leadership, devops'
 published: true
 ---
 
-Software teams have a broad range of skill levels. 
+## Introduction
 
-Whether this is due to familiarity with the tools, general software engineering experience, or a push for mentorship from engineering managers, we shouldn't assume nor expect a level playing field.
+Software teams have a broad range of skill levels.
 
-In my journey to give junior team members independence, I've found that work items have a high risk of running out-of-scope in implementation. 
+This could be due to familiarity with the tools, a push for mentorship from engineering managers, or just general software engineering experience.
 
-This leads to a range of issues, including undesired functionality and conflict with other work items. Product owners put a lot of effort into keeping the backlog well-defined, and we need to stick to what's required!  
+All in all, we shouldn't assume, nor expect, a level playing field across the team.
+
+![A team constructing a web page design together](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4yxz8pmu3agrd3nws6vb.png)
+
+Autonomy is a great thing. However, in the journey to give team members independence, you may find running out-of-scope in implementation. 
+
+This can lead to a range of issues, including undesired functionality and conflict with other work items. Product owners put a lot of effort into keeping the backlog well-defined, and we need to stick to what's required!  
 
 Further, these issues will almost always be identified at the resolution (pull request) level, where time and development costs have already been spent.
 
@@ -32,19 +38,42 @@ This is nicely expanded upon by [reqexperts.com](https://reqexperts.com/resource
 
 > The Design Specification should state how the design will meet the requirements. Design is not a one-to-one response to requirements. Design requires discipline knowledge and integration of disciplines in most cases.
 
-At this stage, a senior team member can approve of the documented strategy, *before* a week or two is spent on the implementation. More often than not, a quick read will result in an all-clear. However, if there's an issue, then specific changes can be requested.
+At this stage, a senior team member can approve of the documented strategy, *before* a week or two is spent on the implementation. 
 
-Of course, your organisation may implement agile in a different way. What's valuable is the core idea of documenting and validating a feature's design **before** its implementation.
+![Senior](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u91rtb1x2bls6nkszdr0.png)
+
+More often than not, a quick read will result in an all-clear. However, if there's an issue, then specific changes can be requested.
+
+Of course, your organisation may implement agile in a different way. 
+
+What's valuable is the core idea of documenting and validating a feature's design **before** its implementation.
 
 I've provided the [template](https://docs.google.com/document/d/1Lxd5JkrKguPrbO6hXFENf5UPMe7jaPXScKa3AQYVsNc/) that I use, and an [example](https://docs.google.com/document/d/1UDV1kNEByRWje3oj7fgkYYkWUo5MYbKLewU245aLEGg/) of a completed document.
 
 ### The Junior Agile Lifecycle
 
-Now that we've identified this extra step, let's outline our **Junior Agile Lifecycle**.
+We've now identified this extra step. 
 
-1. **Concept:** Stakeholder discusses a feature request with the Product Owner.
-2. **Requirements:** Product Owner documents the feature's requirements, and adds the work item to the backlog.
-3. **Design:** Developer picks up the work items and outlines their implementation strategy.
-4. **Design validation:** Design document is reviewed by a Senior Developer.
-5. **Implementation:** Developer implements the work item based on the documented design.
+Using this, we can outline our **junior-friendly agile lifecycle**.
+
+1. **Concept:** Stakeholder discusses feature request with Product Owner.
+2. **Requirements:** Product Owner documents feature requirements, and adds work item to backlog.
+3. **Design:** Developer picks up work item, and documents their implementation strategy.
+4. **Design validation:** Design document is reviewed and approved by Senior Developer.
+5. **Implementation:** Developer implements work item based on documented design.
 6. **Evaluation:** Feature branch is reviewed, tested and merged.
+
+Hopefully, this results in a great, cohesive team!
+
+![A team playing with tools together](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u8829wceqig2o6j0fxzo.png)
+
+---
+
+Hey, guys! Thank you for reading. I hope that you enjoyed this.
+
+Keep up to date with me:
+
+- DEV: https://dev.to/tao/
+- Twitter: https://twitter.com/LloydTao
+- GitHub: https://github.com/LloydTao
+- LinkedIn: https://www.linkedin.com/in/LloydTao/
