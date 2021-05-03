@@ -10,8 +10,11 @@
         </h2>
         <img
           :src="coverImage"
+          :alt="title"
           class="w-full object-cover mt-3"
           style="max-height: 320px"
+          width="560"
+          height="315"
         />
         <p class="text-gray-100 mt-5 overflow-hidden">
           {{ description }}
