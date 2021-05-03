@@ -3,9 +3,8 @@ slug: 'design-validation'
 title: 'Design Validation'
 series: 'Agile Software Development'
 description: 'How design documents can make junior team members more successful.'
-publishedAt: "2020-04-30T09:00:00.000Z"
+publishedAt: '2020-04-30T09:00:00.000Z'
 cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/873h17c79aaftk9wg3w3.png'
-thumbnail: '/~/assets/img/thumbnails/design-validation.png'
 tags: 'agile, leadership, devops'
 published: true
 ---
@@ -14,23 +13,23 @@ published: true
 
 Software teams have a broad range of skill levels.
 
-This could be due to familiarity with the tools, a push for mentorship from engineering managers, or just general software engineering experience.
+This can be due to familiarity with the tools, a push for mentorship from engineering managers, or just general software engineering .
 
-All in all, we shouldn't assume, nor expect, a level playing field across the team.
+In short, we shouldn't expect, nor assume, a level playing field across the team.
 
 ![A team constructing a web page design together](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4yxz8pmu3agrd3nws6vb.png)
 
-Autonomy is a great thing. However, in the journey to give team members independence, you may find running out-of-scope in implementation. 
+In the journey to give team members independence, you may find running out-of-scope in implementation. 
 
 This can lead to a range of issues, including undesired functionality and conflict with other work items. Product owners put a lot of effort into keeping the backlog well-defined, and we need to stick to what's required!  
 
-Further, these issues will almost always be identified at the resolution (pull request) level, where time and development costs have already been spent.
+Further, these issues will almost always be identified **after** implementation, when time and development costs have already been spent.
 
-Therefore, we need a way to keep our team members on the right path, while still promoting autonomy through asynchronous development practises.
+We need a way to keep our team members on the right path, while still promoting autonomy through asynchronous development practises.
 
 ### Enriching the Agile Lifecycle
 
-In my experience, I've found that the solution is a single, extra step in the agile process.
+I've found that a good solution is the inclusion of just a single, extra step in the agile process.
 
 You're probably familiar with the **design document**. Before implementation starts, the developer whips up an outline of how they intend for the work item to be to completed.
 
@@ -40,9 +39,9 @@ This is nicely expanded upon by [reqexperts.com](https://reqexperts.com/resource
 
 At this stage, a senior team member can approve of the documented strategy, *before* a week or two is spent on the implementation. 
 
-![Senior](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u91rtb1x2bls6nkszdr0.png)
-
 More often than not, a quick read will result in an all-clear. However, if there's an issue, then specific changes can be requested.
+
+![Senior developer looking through tasks](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u91rtb1x2bls6nkszdr0.png)
 
 Of course, your organisation may implement agile in a different way. 
 
