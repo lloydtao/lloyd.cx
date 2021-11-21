@@ -12,8 +12,16 @@
 export default {
   async asyncData({ $content, params }) {
     const posts = await $content('portfolio')
-      .only(['slug', 'title', 'description'])
-      .sortBy('createdAt', 'asc')
+      .only([
+        'slug',
+        'title',
+        'description',
+        'cover_image',
+        'series',
+        'publishedAt',
+        'published',
+      ])
+      .sortBy('publishedAt', 'desc')
       .fetch()
     return {
       posts,
