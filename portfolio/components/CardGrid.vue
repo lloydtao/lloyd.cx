@@ -9,7 +9,6 @@
       :title="post.title"
       :series="post.series"
       :description="post.description"
-      :cover-image="post.cover_image"
       :published-at="post.publishedAt"
     />
   </ul>

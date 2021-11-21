@@ -4,7 +4,6 @@ title: 'Design Validation'
 series: 'Agile Software Development'
 description: 'How design documents can make junior team members more successful.'
 publishedAt: '2020-04-30T09:00:00.000Z'
-cover_image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/873h17c79aaftk9wg3w3.png'
 tags: 'agile, leadership, devops'
 published: true
 ---
