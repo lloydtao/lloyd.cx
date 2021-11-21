@@ -9,8 +9,8 @@
           {{ formatDate(publishedAt) }} · {{ series }}
         </h2>
         <img
-          :src="coverImage"
-          :alt="title"
+          src="http://placekitten.com/560/315"
+          alt="Cover image placeholder"
           class="w-full object-cover mt-3"
           style="max-height: 320px"
           width="560"
@@ -32,7 +32,6 @@ export default {
     title: { type: String, default: 'Title' },
     series: { type: String, default: 'Series' },
     description: { type: String, default: 'Description' },
-    coverImage: { type: String, default: 'https://placekitten.com/560/315' },
     publishedAt: { type: String, default: '2000-01-01T00:00:00.000Z' },
   },
   methods: {

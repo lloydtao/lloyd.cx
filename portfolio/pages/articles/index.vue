@@ -18,7 +18,6 @@ export default {
         'slug',
         'title',
         'description',
-        'cover_image',
         'series',
         'publishedAt',
         'published',
