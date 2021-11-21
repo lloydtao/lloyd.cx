@@ -9,12 +9,11 @@
           {{ formatDate(publishedAt) }} · {{ series }}
         </h2>
         <img
-          src="http://placekitten.com/560/315"
+          src="~/assets/img/bg.svg"
           alt="Cover image placeholder"
           class="w-full object-cover mt-3"
-          style="max-height: 320px"
           width="560"
-          height="315"
+          height="140"
         />
         <p class="text-gray-100 mt-5 overflow-hidden">
           {{ description }}
