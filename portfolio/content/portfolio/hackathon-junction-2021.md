@@ -48,6 +48,6 @@ However, they managed to deploy their system to Google Cloud Platform, and provi
 
 Results aside, I would definitely call this weekend a success. We managed to effectively execute on an identical product scope to the challenge winners, which validates our project on both the technical and product level.
 
-![KeepChat team photo](![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lhsh40jrvog60wxtg5w4.png)
+![KeepChat team photo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lhsh40jrvog60wxtg5w4.png)
 
 Go KeepChat!
