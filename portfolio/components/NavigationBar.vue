@@ -6,9 +6,9 @@
           to="/"
           class="flex items-center space-x-3 text-gray-700 md:mr-5"
         >
-          <img
+          <NuxtImg
             class="w-8"
-            src="~/assets/img/logo.png?webp"
+            src="/images/logo.png"
             width="32"
             height="32"
             alt="Pink boxes logo"
