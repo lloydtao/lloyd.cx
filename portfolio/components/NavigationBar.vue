@@ -1,11 +1,8 @@
 <template>
-  <nav class="container mx-auto flex px-5 py-5">
+  <nav class="container mx-auto flex px-3 py-5">
     <ul class="flex flex-grow space-x-4">
       <li>
-        <NuxtLink
-          to="/"
-          class="flex items-center space-x-3 text-gray-700 md:mr-5"
-        >
+        <NuxtLink to="/" class="flex items-center space-x-3 md:mr-5">
           <NuxtImg
             class="w-8"
             src="/images/logo.png"
@@ -14,7 +11,7 @@
             alt="Pink boxes logo"
           />
           <span
-            class="py-1 text-2xl font-semibold text-gray-200 hover:text-gray-300"
+            class="py-1 text-2xl font-semibold text-gray-50 duration-100 hover:text-gray-400"
             >lloyd.cx</span
           >
         </NuxtLink>
@@ -24,22 +21,22 @@
       <li class="hidden sm:flex">
         <NuxtLink
           to="/"
-          class="text px-3 py-1 font-semibold text-gray-200 hover:text-gray-400"
+          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
           >Home</NuxtLink
         >
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
-          to="/portfolio/"
-          class="text px-3 py-1 font-semibold text-gray-200 hover:text-gray-400"
-          >Portfolio</NuxtLink
+          to="/travel/"
+          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          >Travel</NuxtLink
         >
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
-          to="/articles/"
-          class="text px-3 py-1 font-semibold text-gray-200 hover:text-gray-400"
-          >Articles</NuxtLink
+          to="/portfolio/"
+          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          >Portfolio</NuxtLink
         >
       </li>
     </ul>
@@ -85,32 +82,34 @@
           }"
         >
           <ul
-            class="flex w-full flex-col overflow-hidden rounded bg-gray-100 shadow-md"
+            class="flex w-full flex-col divide-y divide-slate-300 overflow-hidden rounded-lg bg-gray-100 shadow-md"
           >
             <li class="flex">
-              <h3 class="flex flex-1 px-5 py-4 font-semibold text-gray-600">
+              <h3
+                class="flex flex-1 bg-gray-200 px-8 py-3 font-semibold text-gray-900"
+              >
                 Navigation
               </h3>
             </li>
             <li class="flex border-t" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/"
-                class="flex flex-1 px-8 py-4 text-lg font-semibold text-gray-700 hover:bg-gray-200"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
                 >Home</NuxtLink
               >
             </li>
             <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
-                to="/portfolio/"
-                class="flex flex-1 px-8 py-4 text-lg font-semibold text-gray-700 hover:bg-gray-200"
-                >Portfolio</NuxtLink
+                to="/travel/"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
+                >Travel</NuxtLink
               >
             </li>
             <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
-                to="/articles/"
-                class="flex flex-1 px-8 py-4 text-lg font-semibold text-gray-700 hover:bg-gray-200"
-                >Articles</NuxtLink
+                to="/portfolio/"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
+                >Portfolio</NuxtLink
               >
             </li>
           </ul>
