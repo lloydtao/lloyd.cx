@@ -1,11 +1,10 @@
-name: portfolio ci
+name: portfolio cd
 
 on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+  push:
+    branches:
+      - main
+      - feat/nuxt-3-port
 
 defaults:
   run:
@@ -13,8 +12,8 @@ defaults:
     working-directory: portfolio/
 
 jobs:
-  ci:
-    name: Build and test portfolio
+  cd:
+    name: Build and deploy portfolio
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -39,8 +38,16 @@ jobs:
           cache: ${{ matrix.package-manager }}
           cache-dependency-path: ${{ matrix.lockfile }}
 
-      - name: Install npm dependencies
+      - name: Install dependencies
         run: npm install
 
       - name: Lint project
         run: npm run lint
+
+      - name: Generate project
+        run: npm run generate
+
+      - name: Deploy project to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          folder: portfolio/.output/public
