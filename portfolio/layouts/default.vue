@@ -22,5 +22,6 @@
 <style>
 body {
   @apply bg-gray-900;
+  overflow-y: scroll;
 }
 </style>
