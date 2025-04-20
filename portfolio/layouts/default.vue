@@ -3,7 +3,7 @@
     <div
       class="absolute h-full w-full bg-gradient-to-b from-gray-800 to-gray-900"
     >
-      <img
+      <NuxtImg
         class="top-0 mx-auto h-64 w-full"
         src="/images/bg.svg"
         width="1920"
