@@ -1,20 +1,20 @@
 <template>
   <div>
-    <!-- Background -->
-    <div class="absolute h-full bg-gradient-to-b from-gray-800 to-gray-900">
-      <img
-        class="h-full w-auto top-0 -mt-64 md:-mt-48 lg:-mt-16 xl:mt-0"
-        src="~/assets/img/bg.svg"
+    <div
+      class="absolute h-full w-full bg-gradient-to-b from-gray-800 to-gray-900"
+    >
+      <NuxtImg
+        class="top-0 mx-auto h-64 w-full"
+        src="/images/bg.svg"
         width="1920"
         height="1080"
         alt="Blue and purple background graphics"
       />
     </div>
-    <!-- Content -->
-    <div class="absolute h-full w-full top-0 md:px-2">
-      <Navbar />
-      <Nuxt />
-      <Footer />
+    <div class="absolute top-0 h-full w-full">
+      <NavigationBar />
+      <slot />
+      <NavigationFooter />
     </div>
   </div>
 </template>
@@ -22,5 +22,6 @@
 <style>
 body {
   @apply bg-gray-900;
+  overflow-y: scroll;
 }
 </style>
