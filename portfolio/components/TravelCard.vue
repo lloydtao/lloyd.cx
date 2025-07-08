@@ -22,7 +22,11 @@
               {{ title }}
             </h3>
             <p class="flex space-x-1 text-sm drop-shadow-sm">
-              <Twemoji v-for="(emoji, i) in emojis" :key="i" :emoji="emoji" />
+              <Twemoji
+                v-for="(emoji, i) in location.countries.map(getFlagEmoji)"
+                :key="i"
+                :emoji="emoji"
+              />
             </p>
           </div>
         </div>
@@ -46,5 +50,13 @@ const formatDate = (date: string) => {
     year: "numeric",
   };
   return new Date(date).toLocaleDateString("en", options);
+};
+
+const getFlagEmoji = (countryCode: string) => {
+  const OFFSET = 0x1f1e6 - "A".charCodeAt(0);
+
+  return Array.from(countryCode.toUpperCase())
+    .map((char) => String.fromCodePoint(OFFSET + char.charCodeAt(0)))
+    .join("");
 };
 </script>
