@@ -1,0 +1,19 @@
+{
+  "slug": "2022-10-norway",
+  "title": "Norway",
+  "description": "A trip to Norway.",
+  "startDate": "2022-10-06",
+  "endDate": "2022-10-10",
+  "location": {
+    "countries": ["NO"]
+  },
+  "type": "adventure",
+  "tags": ["hiking", "mountains", "friends"],
+  "coverPhoto": "/trips/2022-10-norway/photos/cover.jpg",
+  "owner": "lewis",
+  "contributors": ["lewis"],
+  "stats": {
+    "photos": 0,
+    "memories": 0
+  }
+}
