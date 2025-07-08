@@ -1,10 +1,10 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig, z } from "@nuxt/content";
 
 export default defineContentConfig({
   collections: {
     trips: defineCollection({
-      source: 'trips/**/index.json',
-      type: 'data',
+      source: "trips/**/index.json",
+      type: "data",
       schema: z.object({
         slug: z.string(),
         title: z.string(),
@@ -12,7 +12,7 @@ export default defineContentConfig({
         startDate: z.date(),
         endDate: z.date(),
         location: z.object({
-            countries: z.array(z.string()),
+          countries: z.array(z.string()),
         }),
         type: z.string(),
         tags: z.array(z.string()),
@@ -20,10 +20,10 @@ export default defineContentConfig({
         owner: z.string(),
         contributors: z.array(z.string()),
         stats: z.object({
-            photos: z.number(),
-            memories: z.number(),
+          photos: z.number(),
+          memories: z.number(),
         }),
-      })
-    })
-  }
-})
+      }),
+    }),
+  },
+});
