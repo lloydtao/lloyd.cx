@@ -10,68 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import type { TravelCardProps } from "~/types/travel-card-props";
-
-const travelCardGrid: TravelCardProps[] = [
-  {
-    imageUrl: "/images/travel/2024-svalbard/seed-vault.jpg",
-    title: "Svalbard",
-    emojis: ["🇸🇯"],
-    date: "2024-12-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2024-levant/jericho.jpg",
-    title: "The Levant",
-    emojis: ["🇮🇱", "🇯🇴", "🇵🇸"],
-    date: "2024-05-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2024-europe/aug.jpg",
-    title: "Central Europe",
-    emojis: ["🇭🇷", "🇸🇮", "🇭🇺", "🇨🇿"],
-    date: "2024-02-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2023-iceland/aurora.jpg",
-    title: "Iceland",
-    emojis: ["🇮🇸"],
-    date: "2023-11-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2023-luxembourg/tri-border.jpg",
-    title: "Luxembourg",
-    emojis: ["🇱🇺"],
-    date: "2023-08-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2023-lithuania/castle.jpg",
-    title: "Lithuania",
-    emojis: ["🇱🇹"],
-    date: "2023-06-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2023-morocco/camels.jpg",
-    title: "Morocco",
-    emojis: ["🇲🇦"],
-    date: "2023-01-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2022-poland/pierogies.jpg",
-    title: "Poland",
-    emojis: ["🇵🇱"],
-    date: "2022-11-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2022-norway/fjord.jpg",
-    title: "Norway",
-    emojis: ["🇳🇴"],
-    date: "2022-10-01T00:00:00",
-  },
-  {
-    imageUrl: "/images/travel/2022-portugal/pool.jpg",
-    title: "Portugal",
-    emojis: ["🇵🇹"],
-    date: "2021-10-01T00:00:00",
-  },
-] satisfies TravelCardProps[];
+const { data: travelCardGrid } = await useAsyncData("trips", () => {
+  return queryCollection("trips").order("startDate", "DESC").all();
+});
 </script>
