@@ -1,0 +1,19 @@
+{
+  "slug": "2023-01-morocco",
+  "title": "Morocco",
+  "description": "A trip to Morocco.",
+  "startDate": "2023-01-30",
+  "endDate": "2023-02-04",
+  "location": {
+    "countries": ["MA"]
+  },
+  "type": "adventure",
+  "tags": ["hiking", "mountains", "friends"],
+  "coverPhoto": "/trips/2023-01-morocco/photos/cover.jpg",
+  "owner": "lewis",
+  "contributors": ["lewis"],
+  "stats": {
+    "photos": 0,
+    "memories": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "2024-02-central-europe",
+  "title": "Central Europe",
+  "description": "A trip to Central Europe.",
+  "startDate": "2024-02-16",
+  "endDate": "2024-05-03",
+  "location": {
+    "countries": ["HR", "SI", "HU", "CZ"]
+  },
+  "type": "adventure",
+  "tags": ["hiking", "mountains", "friends"],
+  "coverPhoto": "/trips/2024-02-central-europe/photos/cover.jpg",
+  "owner": "lewis",
+  "contributors": ["lewis"],
+  "stats": {
+    "photos": 0,
+    "memories": 0
+  }
+}
