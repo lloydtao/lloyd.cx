@@ -10,7 +10,9 @@
 </template>
 
 <script setup lang="ts">
-const { data: travelCardGrid } = await useAsyncData("trips", () => {
+const route = useRoute();
+
+const { data: travelCardGrid } = await useAsyncData(route.path, () => {
   return queryCollection("trips").order("startDate", "DESC").all();
 });
 </script>
