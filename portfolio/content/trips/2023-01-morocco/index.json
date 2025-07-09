@@ -4,9 +4,7 @@
   "description": "A trip to Morocco.",
   "startDate": "2023-01-30",
   "endDate": "2023-02-04",
-  "location": {
-    "countries": ["MA"]
-  },
+  "countries": ["MA"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2023-01-morocco/photos/cover.jpg",

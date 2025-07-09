@@ -4,9 +4,7 @@
   "description": "A trip to Asia.",
   "startDate": "2025-04-27",
   "endDate": "2025-05-18",
-  "location": {
-    "countries": ["SG", "TW", "KR", "HK", "MO"]
-  },
+  "countries": ["SG", "TW", "KR", "HK", "MO"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2025-04-asia/photos/cover.jpg",

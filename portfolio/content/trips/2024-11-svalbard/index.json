@@ -4,9 +4,7 @@
   "description": "A trip to Svalbard.",
   "startDate": "2024-11-30",
   "endDate": "2024-12-06",
-  "location": {
-    "countries": ["SJ"]
-  },
+  "countries": ["SJ"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2024-11-svalbard/photos/cover.jpg",

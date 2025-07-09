@@ -4,9 +4,7 @@
   "description": "A trip to Portugal.",
   "startDate": "2021-10-18",
   "endDate": "2021-10-21",
-  "location": {
-    "countries": ["PT"]
-  },
+  "countries": ["PT"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2021-10-portugal/photos/cover.jpg",

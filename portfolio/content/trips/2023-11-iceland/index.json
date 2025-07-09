@@ -4,9 +4,7 @@
   "description": "A trip to Iceland.",
   "startDate": "2023-11-07",
   "endDate": "2023-11-15",
-  "location": {
-    "countries": ["IS"]
-  },
+  "countries": ["IS"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2023-11-iceland/photos/cover.jpg",

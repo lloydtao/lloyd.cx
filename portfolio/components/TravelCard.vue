@@ -23,7 +23,7 @@
             </h3>
             <p class="flex space-x-1 text-sm drop-shadow-sm">
               <Twemoji
-                v-for="(emoji, i) in location.countries.map(getFlagEmoji)"
+                v-for="(emoji, i) in countries.map(getFlagEmoji)"
                 :key="i"
                 :emoji="emoji"
               />

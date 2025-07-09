@@ -4,9 +4,7 @@
   "description": "A trip to Lithuania.",
   "startDate": "2023-06-17",
   "endDate": "2023-06-22",
-  "location": {
-    "countries": ["LT"]
-  },
+  "countries": ["LT"],
   "type": "adventure",
   "tags": ["hiking", "mountains", "friends"],
   "coverPhoto": "/trips/2023-06-lithuania/photos/cover.jpg",
