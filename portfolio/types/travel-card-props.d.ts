@@ -11,7 +11,6 @@ export interface TravelCardProps {
   startDate: string;
   endDate: string;
   countries: string[];
-  type: string;
   tags: string[];
   coverPhoto: string;
   owner: string;
