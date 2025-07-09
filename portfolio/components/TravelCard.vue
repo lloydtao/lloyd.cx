@@ -1,5 +1,5 @@
 <template>
-  <div id="travel-card">
+  <NuxtLink id="travel-card" :to="'/travel/trips/' + slug">
     <div
       class="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/30 shadow-lg"
     >
@@ -23,7 +23,7 @@
             </h3>
             <p class="flex space-x-1 text-sm drop-shadow-sm">
               <Twemoji
-                v-for="(emoji, i) in location.countries.map(getFlagEmoji)"
+                v-for="(emoji, i) in countries.map(getFlagEmoji)"
                 :key="i"
                 :emoji="emoji"
               />
@@ -35,7 +35,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">

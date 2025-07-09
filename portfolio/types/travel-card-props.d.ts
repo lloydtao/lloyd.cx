@@ -1,7 +1,3 @@
-export interface Location {
-  countries: string[];
-}
-
 export interface Stats {
   photos: number;
   memories: number;
@@ -14,8 +10,7 @@ export interface TravelCardProps {
   description: string;
   startDate: string;
   endDate: string;
-  location: Location;
-  type: string;
+  countries: string[];
   tags: string[];
   coverPhoto: string;
   owner: string;

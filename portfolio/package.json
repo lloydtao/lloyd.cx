@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.2.6",
     "nuxt": "^3.16.2",
-    "nuxt-twemoji": "^3.7.2",
+    "nuxt-twemoji": "^3.6.3",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3",

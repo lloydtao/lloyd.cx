@@ -4,11 +4,8 @@
   "description": "A trip to The Levant.",
   "startDate": "2024-05-11",
   "endDate": "2024-05-21",
-  "location": {
-    "countries": ["IL", "PS", "JO"]
-  },
-  "type": "adventure",
-  "tags": ["hiking", "mountains", "friends"],
+  "countries": ["IL", "PS", "JO"],
+  "tags": ["hiking", "history", "friends"],
   "coverPhoto": "/trips/2024-05-levant/photos/cover.jpg",
   "owner": "lewis",
   "contributors": ["lewis"],

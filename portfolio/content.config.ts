@@ -11,10 +11,7 @@ export default defineContentConfig({
         description: z.string(),
         startDate: z.date(),
         endDate: z.date(),
-        location: z.object({
-          countries: z.array(z.string()),
-        }),
-        type: z.string(),
+        countries: z.array(z.string()),
         tags: z.array(z.string()),
         coverPhoto: z.string(),
         owner: z.string(),

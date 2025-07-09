@@ -4,11 +4,8 @@
   "description": "A trip to Luxembourg.",
   "startDate": "2023-08-17",
   "endDate": "2023-08-21",
-  "location": {
-    "countries": ["LU"]
-  },
-  "type": "adventure",
-  "tags": ["hiking", "mountains", "friends"],
+  "countries": ["LU"],
+  "tags": ["hiking", "friends"],
   "coverPhoto": "/trips/2023-08-luxembourg/photos/cover.jpg",
   "owner": "lewis",
   "contributors": ["lewis"],
