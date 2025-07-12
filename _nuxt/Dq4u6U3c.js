@@ -1,0 +1,1 @@
+import{_ as e,c as s,a as t,o as a}from"./DZomB0ZR.js";const n={},c={class:"container mx-auto px-3 py-5"};function r(i,o){return a(),s("div",c,o[0]||(o[0]=[t("div",null,[t("h1",{class:"italic text-slate-400"},"Coming soon!")],-1)]))}const _=e(n,[["render",r]]);export{_ as default};
