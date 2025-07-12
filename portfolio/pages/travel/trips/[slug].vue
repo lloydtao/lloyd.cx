@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-4xl sm:py-5">
+  <div class="container mx-auto max-w-6xl sm:py-5">
     <div class="text-slate-50">
       <header
         class="relative h-64 bg-cover bg-center"
@@ -32,9 +32,9 @@
         </div>
       </header>
 
-      <main class="container mx-auto -mt-16 px-6 pb-12">
+      <main class="container mx-auto -mt-16 pb-12">
         <section
-          class="mb-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-[10px]"
+          class="mx-5 mb-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-[10px]"
         >
           <h2 class="mb-4 text-2xl font-semibold">About this trip</h2>
           <p class="mb-4">
