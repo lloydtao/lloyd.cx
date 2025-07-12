@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-4xl sm:py-5">
+  <div class="container mx-auto max-w-6xl sm:py-5">
     <div class="text-slate-50">
       <header
         class="relative h-64 bg-cover bg-center"
@@ -32,9 +32,9 @@
         </div>
       </header>
 
-      <main class="container mx-auto -mt-16 px-6 pb-12">
+      <main class="container mx-auto -mt-16 pb-12">
         <section
-          class="mb-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-[10px]"
+          class="mx-5 mb-8 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-[10px]"
         >
           <h2 class="mb-4 text-2xl font-semibold">About this trip</h2>
           <p class="mb-4">
@@ -50,7 +50,7 @@
           </div>
           <div class="flex space-x-8 text-center">
             <div>
-              <div class="text-3xl font-bold">{{ trip?.stats.photos }}</div>
+              <div class="text-3xl font-bold">{{ trip?.photos?.length }}</div>
               <div class="text-sm">Photos</div>
             </div>
             <div>
@@ -59,12 +59,26 @@
             </div>
           </div>
         </section>
+        <section class="mt-8">
+          <h2 class="mb-4 px-5 text-2xl font-semibold">Photos</h2>
+          <div
+            class="grid grid-cols-3 gap-1 border-4 border-slate-900 bg-slate-900 sm:gap-3 lg:grid-cols-4 xl:grid-cols-6"
+          >
+            <PhotoCard
+              v-for="photo in trip?.photos"
+              :key="photo.id"
+              v-bind="photo"
+            />
+          </div>
+        </section>
       </main>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import PhotoCard from "~/components/PhotoCard.vue";
+
 const route = useRoute();
 
 const { data: trip } = await useAsyncData(route.path, () => {

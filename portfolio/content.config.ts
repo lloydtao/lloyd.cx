@@ -6,6 +6,7 @@ export default defineContentConfig({
       source: "trips/**/index.json",
       type: "data",
       schema: z.object({
+        id: z.string(),
         slug: z.string(),
         title: z.string(),
         description: z.string(),
@@ -17,9 +18,18 @@ export default defineContentConfig({
         owner: z.string(),
         contributors: z.array(z.string()),
         stats: z.object({
-          photos: z.number(),
           memories: z.number(),
         }),
+        photos: z.array(
+          z.object({
+            id: z.string(),
+            slug: z.string(),
+            title: z.string(),
+            description: z.string(),
+            dateTaken: z.string(),
+            photoUrl: z.string(),
+          }),
+        ),
       }),
     }),
   },
