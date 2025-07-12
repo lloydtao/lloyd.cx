@@ -12,5 +12,6 @@
   "stats": {
     "photos": 0,
     "memories": 0
-  }
+  },
+  "photos": []
 }
