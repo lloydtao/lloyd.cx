@@ -12,5 +12,266 @@
   "stats": {
     "photos": 0,
     "memories": 0
-  }
+  },
+  "photos": [
+    {
+      "slug": "img-0054",
+      "title": "IMG_0054",
+      "description": "",
+      "dateTaken": "2023-11-07T14:52:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0054.jpeg"
+    },
+    {
+      "slug": "img-0039",
+      "title": "IMG_0039",
+      "description": "",
+      "dateTaken": "2023-11-07T17:41:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0039.jpeg"
+    },
+    {
+      "slug": "img-0070",
+      "title": "IMG_0070",
+      "description": "",
+      "dateTaken": "2023-11-07T19:30:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0070.jpeg"
+    },
+    {
+      "slug": "img-2734",
+      "title": "IMG_2734",
+      "description": "",
+      "dateTaken": "2023-11-07T19:44:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2734.jpeg"
+    },
+    {
+      "slug": "img-8103",
+      "title": "IMG_8103",
+      "description": "",
+      "dateTaken": "2023-11-08T14:13:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8103.jpeg"
+    },
+    {
+      "slug": "img-8105",
+      "title": "IMG_8105",
+      "description": "",
+      "dateTaken": "2023-11-08T14:44:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8105.jpeg"
+    },
+    {
+      "slug": "img-0166",
+      "title": "IMG_0166",
+      "description": "",
+      "dateTaken": "2023-11-08T14:56:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0166.jpeg"
+    },
+    {
+      "slug": "img-0094",
+      "title": "IMG_0094",
+      "description": "",
+      "dateTaken": "2023-11-08T15:01:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0094.jpeg"
+    },
+    {
+      "slug": "img-0246",
+      "title": "IMG_0246",
+      "description": "",
+      "dateTaken": "2023-11-08T15:52:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0246.jpeg"
+    },
+    {
+      "slug": "img-8211",
+      "title": "IMG-8211",
+      "description": "",
+      "dateTaken": "2023-11-08T20:48:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8211.jpeg"
+    },
+    {
+      "slug": "img-0527",
+      "title": "IMG_0527",
+      "description": "",
+      "dateTaken": "2023-11-09T10:45:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0527.jpeg"
+    },
+    {
+      "slug": "img-2402",
+      "title": "IMG_2402",
+      "description": "",
+      "dateTaken": "2023-11-09T14:58:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2402.jpeg"
+    },
+    {
+      "slug": "img-8445",
+      "title": "IMG_8445",
+      "description": "",
+      "dateTaken": "2023-11-09T20:04:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8445.jpeg"
+    },
+    {
+      "slug": "img-8448",
+      "title": "IMG_8448",
+      "description": "",
+      "dateTaken": "2023-11-09T20:04:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8448.jpeg"
+    },
+    {
+      "slug": "img-0873",
+      "title": "IMG_0873",
+      "description": "",
+      "dateTaken": "2023-11-10T10:34:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0873.jpeg"
+    },
+    {
+      "slug": "img-0951",
+      "title": "IMG_0951",
+      "description": "",
+      "dateTaken": "2023-11-10T12:29:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_0951.jpeg"
+    },
+    {
+      "slug": "img-1072",
+      "title": "IMG_1072",
+      "description": "",
+      "dateTaken": "2023-11-10T16:02:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1072.jpeg"
+    },
+    {
+      "slug": "img-1283",
+      "title": "IMG_1283",
+      "description": "",
+      "dateTaken": "2023-11-10T16:02:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1283.jpeg"
+    },
+    {
+      "slug": "img-8708",
+      "title": "IMG_8708",
+      "description": "",
+      "dateTaken": "2023-11-10T22:30:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_8708.jpeg"
+    },
+    {
+      "slug": "img-1505",
+      "title": "IMG_1505",
+      "description": "",
+      "dateTaken": "2023-11-11T12:25:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1505.jpeg"
+    },
+    {
+      "slug": "img-1537",
+      "title": "IMG_1537",
+      "description": "",
+      "dateTaken": "2023-11-11T13:50:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1537.jpeg"
+    },
+    {
+      "slug": "img-1719",
+      "title": "IMG_1719",
+      "description": "",
+      "dateTaken": "2023-11-12T15:25:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1719.jpeg"
+    },
+    {
+      "slug": "img-1698",
+      "title": "IMG_1698",
+      "description": "",
+      "dateTaken": "2023-11-12T16:01:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1698.jpeg"
+    },
+    {
+      "slug": "img-9002",
+      "title": "IMG_9002",
+      "description": "",
+      "dateTaken": "2023-11-12T22:03:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_9002.jpeg"
+    },
+    {
+      "slug": "img-1990",
+      "title": "IMG_1990",
+      "description": "",
+      "dateTaken": "2023-11-13T12:21:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1990.jpeg"
+    },
+    {
+      "slug": "img-1994",
+      "title": "IMG_1994",
+      "description": "",
+      "dateTaken": "2023-11-13T14:54:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1994.jpeg"
+    },
+    {
+      "slug": "img-2548",
+      "title": "IMG_2548",
+      "description": "",
+      "dateTaken": "2023-11-14T12:04:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2548.jpeg"
+    },
+    {
+      "slug": "img-2004",
+      "title": "IMG_2004",
+      "description": "",
+      "dateTaken": "2023-11-14T14:09:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2004.jpeg"
+    },
+    {
+      "slug": "img-1587",
+      "title": "IMG_1587",
+      "description": "",
+      "dateTaken": "2023-11-14T15:15:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1587.jpeg"
+    },
+    {
+      "slug": "img-2059",
+      "title": "IMG_2059",
+      "description": "",
+      "dateTaken": "2023-11-14T15:15:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2059.jpeg"
+    },
+    {
+      "slug": "img-9520",
+      "title": "IMG_9520",
+      "description": "",
+      "dateTaken": "2023-11-14T16:13:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_9520.jpeg"
+    },
+    {
+      "slug": "img-2302",
+      "title": "IMG_2302",
+      "description": "",
+      "dateTaken": "2023-11-14T17:22:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2302.jpeg"
+    },
+    {
+      "slug": "img-1801",
+      "title": "IMG_1801",
+      "description": "",
+      "dateTaken": "2023-11-14T18:21:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_1801.jpeg"
+    },
+    {
+      "slug": "img-3612",
+      "title": "IMG_3612",
+      "description": "",
+      "dateTaken": "2023-11-14T21:36:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_3612.jpeg"
+    },
+    {
+      "slug": "img-9706",
+      "title": "IMG_9706",
+      "description": "",
+      "dateTaken": "2023-11-14T23:56:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_9706.jpeg"
+    },
+    {
+      "slug": "img-2291",
+      "title": "IMG_2291",
+      "description": "",
+      "dateTaken": "2023-11-15T10:38:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_2291.jpeg"
+    },
+    {
+      "slug": "img-9814",
+      "title": "IMG_9814",
+      "description": "",
+      "dateTaken": "2023-11-15T19:02:00",
+      "photoUrl": "/trips/2023-11-iceland/photos/IMG_9814.jpeg"
+    }
+  ]
 }
