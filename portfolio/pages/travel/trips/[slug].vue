@@ -59,12 +59,26 @@
             </div>
           </div>
         </section>
+        <section class="mt-8">
+          <h2 class="mb-4 px-5 text-2xl font-semibold">Photos</h2>
+          <div
+            class="grid grid-cols-3 gap-1 border-4 border-slate-900 bg-slate-900 sm:gap-3 lg:grid-cols-4 xl:grid-cols-6"
+          >
+            <PhotoCard
+              v-for="photo in trip?.photos"
+              :key="photo.id"
+              v-bind="photo"
+            />
+          </div>
+        </section>
       </main>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import PhotoCard from "~/components/PhotoCard.vue";
+
 const route = useRoute();
 
 const { data: trip } = await useAsyncData(route.path, () => {
