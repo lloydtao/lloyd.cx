@@ -15,4 +15,13 @@ const route = useRoute();
 const { data: travelCardGrid } = await useAsyncData(route.path, () => {
   return queryCollection("trips").order("startDate", "DESC").all();
 });
+
+useSeoMeta({
+  title: "Travel • lloyd.cx",
+  ogTitle: "Travel",
+  description: "All of my trips and travels.",
+  ogDescription: "All of my trips and travels.",
+  ogImage: "/images/lloyd.jpg",
+  twitterCard: "summary_large_image",
+});
 </script>
