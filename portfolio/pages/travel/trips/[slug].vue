@@ -50,7 +50,7 @@
           </div>
           <div class="flex space-x-8 text-center">
             <div>
-              <div class="text-3xl font-bold">{{ trip?.stats.photos }}</div>
+              <div class="text-3xl font-bold">{{ trip?.photos?.length }}</div>
               <div class="text-sm">Photos</div>
             </div>
             <div>
