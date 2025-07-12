@@ -129,7 +129,7 @@ useSeoMeta({
     trip?.value?.title + " (" + formatEndDate(trip?.value?.startDate) + ")",
   description: trip?.value?.description,
   ogDescription: trip?.value?.description,
-  ogImage: trip?.value?.coverPhoto,
+  ogImage: "https://lloyd.cx/" + trip?.value?.coverPhoto,
   twitterCard: "summary_large_image",
 });
 </script>

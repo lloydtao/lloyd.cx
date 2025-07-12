@@ -14,7 +14,7 @@ useSeoMeta({
     "Specialising in full-stack, cloud-native web applications and real-time data streaming.",
   ogDescription:
     "Specialising in full-stack, cloud-native web applications and real-time data streaming.",
-  ogImage: "/images/lloyd.jpg",
+  ogImage: "https://lloyd.cx/images/lloyd.jpg",
   twitterCard: "summary_large_image",
 });
 </script>

@@ -21,7 +21,7 @@ useSeoMeta({
   ogTitle: "Travel",
   description: "All of my trips and travels.",
   ogDescription: "All of my trips and travels.",
-  ogImage: "/images/lloyd.jpg",
+  ogImage: "https://lloyd.cx/images/lloyd.jpg",
   twitterCard: "summary_large_image",
 });
 </script>

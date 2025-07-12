@@ -12,7 +12,7 @@ useSeoMeta({
   ogTitle: "Portfolio",
   description: "Software Engineer II, Production Platforms at Deliveroo",
   ogDescription: "Software Engineer II, Production Platforms at Deliveroo",
-  ogImage: "/images/lloyd.jpg",
+  ogImage: "https://lloyd.cx/images/lloyd.jpg",
   twitterCard: "summary_large_image",
 });
 </script>
