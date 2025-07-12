@@ -118,4 +118,18 @@ const getFlagEmoji = (countryCode: string) => {
     .map((char) => String.fromCodePoint(OFFSET + char.charCodeAt(0)))
     .join("");
 };
+
+useSeoMeta({
+  title:
+    trip?.value?.title +
+    " (" +
+    formatEndDate(trip?.value?.startDate) +
+    ") • lloyd.cx",
+  ogTitle:
+    trip?.value?.title + " (" + formatEndDate(trip?.value?.startDate) + ")",
+  description: trip?.value?.description,
+  ogDescription: trip?.value?.description,
+  ogImage: "https://lloyd.cx/" + trip?.value?.coverPhoto,
+  twitterCard: "summary_large_image",
+});
 </script>
