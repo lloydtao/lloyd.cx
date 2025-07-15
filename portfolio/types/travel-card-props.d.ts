@@ -4,7 +4,6 @@ export interface Stats {
 }
 
 export interface TravelCardProps {
-  id: string;
   slug: string;
   title: string;
   description: string;
