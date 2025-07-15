@@ -6,6 +6,7 @@
       <NuxtImg
         :src="photoUrl"
         :alt="title"
+        :modifiers="{ rotate: null }"
         class="absolute inset-0 h-full w-full bg-slate-700 object-cover"
         height="600"
         width="480"
