@@ -6,18 +6,26 @@
       <NuxtImg
         :src="photoUrl"
         :alt="title"
+        :modifiers="{ rotate: null }"
         class="absolute inset-0 h-full w-full bg-slate-700 object-cover"
         height="600"
         width="480"
       />
       <div
-        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/70 px-2 py-2 sm:px-5 sm:py-3"
+        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/70 px-2 py-1 sm:px-3 sm:py-2"
       >
         <div class="flex items-center space-x-2">
           <div class="flex w-full items-center justify-between">
-            <h3 class="text-xs text-slate-50 drop-shadow-sm sm:text-sm">
+            <div
+              class="font-mono text-xs text-slate-200 drop-shadow-sm sm:text-sm"
+            >
               {{ formatPhotoDate(dateTaken) }}
-            </h3>
+            </div>
+            <div
+              class="font-mono text-xs text-slate-200 drop-shadow-sm sm:text-sm"
+            >
+              {{ formatPhotoTime(dateTaken) }}
+            </div>
           </div>
         </div>
       </div>
@@ -35,8 +43,16 @@ const formatPhotoDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
     day: "numeric",
     month: "short",
-    year: "numeric",
   };
   return new Date(date).toLocaleDateString("en", options);
+};
+
+const formatPhotoTime = (date: string) => {
+  const options: Intl.DateTimeFormatOptions = {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  };
+  return new Date(date).toLocaleTimeString("en", options);
 };
 </script>

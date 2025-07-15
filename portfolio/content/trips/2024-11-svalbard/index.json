@@ -6,12 +6,160 @@
   "endDate": "2024-12-06",
   "countries": ["SJ"],
   "tags": ["arctic", "hiking", "solo"],
-  "coverPhoto": "/trips/2024-11-svalbard/photos/cover.jpg",
+  "coverPhoto": "/trips/2024-11-svalbard/photos/IMG_0718.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-0562",
+      "title": "IMG_0562",
+      "description": "",
+      "dateTaken": "2024-12-01T11:40:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0562.jpeg"
+    },
+    {
+      "slug": "img-0602",
+      "title": "IMG_0602",
+      "description": "",
+      "dateTaken": "2024-12-01T16:22:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0602.jpeg"
+    },
+    {
+      "slug": "img-0615",
+      "title": "IMG_0615",
+      "description": "",
+      "dateTaken": "2024-12-01T17:53:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0615.jpeg"
+    },
+    {
+      "slug": "img-0654",
+      "title": "IMG_0654",
+      "description": "",
+      "dateTaken": "2024-12-02T18:21:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0654.jpeg"
+    },
+    {
+      "slug": "img-0718",
+      "title": "IMG_0718",
+      "description": "",
+      "dateTaken": "2024-12-03T12:23:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0718.jpeg"
+    },
+    {
+      "slug": "img-0727",
+      "title": "IMG_0727",
+      "description": "",
+      "dateTaken": "2024-12-03T20:02:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0727.jpeg"
+    },
+    {
+      "slug": "img-0729",
+      "title": "IMG_0729",
+      "description": "",
+      "dateTaken": "2024-12-03T20:04:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0729.jpeg"
+    },
+    {
+      "slug": "img-0745",
+      "title": "IMG_0745",
+      "description": "",
+      "dateTaken": "2024-12-04T10:35:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0745.jpeg"
+    },
+    {
+      "slug": "img-0758",
+      "title": "IMG_0758",
+      "description": "",
+      "dateTaken": "2024-12-04T11:22:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0758.jpeg"
+    },
+    {
+      "slug": "img-0759",
+      "title": "IMG_0759",
+      "description": "",
+      "dateTaken": "2024-12-04T11:25:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0759.jpeg"
+    },
+    {
+      "slug": "img-0788",
+      "title": "IMG_0788",
+      "description": "",
+      "dateTaken": "2024-12-04T18:50:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0788.jpeg"
+    },
+    {
+      "slug": "img-0807",
+      "title": "IMG_0807",
+      "description": "",
+      "dateTaken": "2024-12-04T19:43:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0807.jpeg"
+    },
+    {
+      "slug": "img-0838",
+      "title": "IMG_0838",
+      "description": "",
+      "dateTaken": "2024-12-04T22:04:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0838.jpeg"
+    },
+    {
+      "slug": "img-0846",
+      "title": "IMG_0846",
+      "description": "",
+      "dateTaken": "2024-12-04T22:28:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0846.jpeg"
+    },
+    {
+      "slug": "img-0877",
+      "title": "IMG_0877",
+      "description": "",
+      "dateTaken": "2024-12-05T08:27:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0877.jpeg"
+    },
+    {
+      "slug": "img-0886",
+      "title": "IMG_0886",
+      "description": "",
+      "dateTaken": "2024-12-05T08:45:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0886.jpeg"
+    },
+    {
+      "slug": "img-0890",
+      "title": "IMG_0890",
+      "description": "",
+      "dateTaken": "2024-12-05T09:39:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0890.jpeg"
+    },
+    {
+      "slug": "img-0894",
+      "title": "IMG_0894",
+      "description": "",
+      "dateTaken": "2024-12-05T11:01:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0894.jpeg"
+    },
+    {
+      "slug": "img-0899",
+      "title": "IMG_0899",
+      "description": "",
+      "dateTaken": "2024-12-05T11:03:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0899.jpeg"
+    },
+    {
+      "slug": "img-0922",
+      "title": "IMG_0922",
+      "description": "",
+      "dateTaken": "2024-12-05T22:14:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0922.jpeg"
+    },
+    {
+      "slug": "img-0943",
+      "title": "IMG_0943",
+      "description": "",
+      "dateTaken": "2024-12-06T14:12:00",
+      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0943.jpeg"
+    }
+  ]
 }

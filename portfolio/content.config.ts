@@ -6,7 +6,6 @@ export default defineContentConfig({
       source: "trips/**/index.json",
       type: "data",
       schema: z.object({
-        id: z.string(),
         slug: z.string(),
         title: z.string(),
         description: z.string(),
@@ -22,7 +21,6 @@ export default defineContentConfig({
         }),
         photos: z.array(
           z.object({
-            id: z.string(),
             slug: z.string(),
             title: z.string(),
             description: z.string(),
