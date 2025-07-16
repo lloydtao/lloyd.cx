@@ -6,12 +6,83 @@
   "endDate": "2025-05-18",
   "countries": ["SG", "TW", "KR", "HK", "MO"],
   "tags": ["hiking", "history", "friends"],
-  "coverPhoto": "/trips/2025-04-asia/photos/cover.jpg",
+  "coverPhoto": "/trips/2025-04-asia/photos/IMG_2292.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-2292",
+      "title": "IMG_2292",
+      "description": "",
+      "dateTaken": "2025-04-30T15:28:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_2292.jpeg"
+    },
+    {
+      "slug": "img-3086",
+      "title": "IMG_3086",
+      "description": "",
+      "dateTaken": "2025-05-03T18:33:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3086.jpeg"
+    },
+    {
+      "slug": "img-9961",
+      "title": "IMG_9961",
+      "description": "",
+      "dateTaken": "2025-05-07T20:43:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_9961.jpeg"
+    },
+    {
+      "slug": "img-3440",
+      "title": "IMG_3440",
+      "description": "",
+      "dateTaken": "2025-05-10T22:40:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3440.jpeg"
+    },
+    {
+      "slug": "img-3443",
+      "title": "IMG_3443",
+      "description": "",
+      "dateTaken": "2025-05-11T12:14:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3443.jpeg"
+    },
+    {
+      "slug": "img-3566",
+      "title": "IMG_3566",
+      "description": "",
+      "dateTaken": "2025-05-11T19:37:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3566.jpeg"
+    },
+    {
+      "slug": "img-3597",
+      "title": "IMG_3597",
+      "description": "",
+      "dateTaken": "2025-05-12T00:22:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3597.jpeg"
+    },
+    {
+      "slug": "img-3612",
+      "title": "IMG_3612",
+      "description": "",
+      "dateTaken": "2025-05-12T14:08:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3612.jpeg"
+    },
+    {
+      "slug": "img-3902",
+      "title": "IMG_3902",
+      "description": "",
+      "dateTaken": "2025-05-14T18:37:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3902.jpeg"
+    },
+    {
+      "slug": "img-3958",
+      "title": "IMG_3958",
+      "description": "",
+      "dateTaken": "2025-05-15T11:23:00",
+      "photoUrl": "/trips/2025-04-asia/photos/IMG_3958.jpeg"
+    }
+  ]
 }
