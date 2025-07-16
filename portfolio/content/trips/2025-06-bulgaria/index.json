@@ -6,12 +6,111 @@
   "endDate": "2025-06-29",
   "countries": ["BG"],
   "tags": ["hiking", "beaches", "friends"],
-  "coverPhoto": "/trips/2025-06-bulgaria/photos/cover.jpg",
+  "coverPhoto": "/trips/2025-06-bulgaria/photos/IMG_5197.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-4493",
+      "title": "IMG_4493",
+      "description": "",
+      "dateTaken": "2025-06-21T15:59:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4493.jpeg"
+    },
+    {
+      "slug": "img-4508",
+      "title": "IMG_4508",
+      "description": "",
+      "dateTaken": "2025-06-21T18:53:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4508.jpeg"
+    },
+    {
+      "slug": "img-4550",
+      "title": "IMG_4550",
+      "description": "",
+      "dateTaken": "2025-06-22T15:00:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4550.jpeg"
+    },
+    {
+      "slug": "img-4560",
+      "title": "IMG_4560",
+      "description": "",
+      "dateTaken": "2025-06-22T15:08:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4560.jpeg"
+    },
+    {
+      "slug": "img-4603",
+      "title": "IMG_4603",
+      "description": "",
+      "dateTaken": "2025-06-22T15:44:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4603.jpeg"
+    },
+    {
+      "slug": "img-4727",
+      "title": "IMG_4727",
+      "description": "",
+      "dateTaken": "2025-06-23T14:49:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4727.jpeg"
+    },
+    {
+      "slug": "img-4744",
+      "title": "IMG_4744",
+      "description": "",
+      "dateTaken": "2025-06-23T14:54:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4744.jpeg"
+    },
+    {
+      "slug": "img-4782",
+      "title": "IMG_4782",
+      "description": "",
+      "dateTaken": "2025-06-23T15:54:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4782.jpeg"
+    },
+    {
+      "slug": "img-4865",
+      "title": "IMG_4865",
+      "description": "",
+      "dateTaken": "2025-06-24T13:56:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4865.jpeg"
+    },
+    {
+      "slug": "img-4951",
+      "title": "IMG_4951",
+      "description": "",
+      "dateTaken": "2025-06-24T16:29:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_4951.jpeg"
+    },
+    {
+      "slug": "img-5001",
+      "title": "IMG_5001",
+      "description": "",
+      "dateTaken": "2025-06-24T18:02:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_5001.jpeg"
+    },
+    {
+      "slug": "img-5019",
+      "title": "IMG_5019",
+      "description": "",
+      "dateTaken": "2025-06-24T19:03:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_5019.jpeg"
+    },
+    {
+      "slug": "img-5056",
+      "title": "IMG_5056",
+      "description": "",
+      "dateTaken": "2025-06-24T21:17:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_5056.jpeg"
+    },
+    {
+      "slug": "img-5197",
+      "title": "IMG_5197",
+      "description": "",
+      "dateTaken": "2025-06-29T14:10:00",
+      "photoUrl": "/trips/2025-06-bulgaria/photos/IMG_5197.jpeg"
+    }
+  ]
 }
