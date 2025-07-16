@@ -3,6 +3,14 @@ export interface Stats {
   memories: number;
 }
 
+export interface Photo {
+  slug: string;
+  title: string;
+  description: string;
+  dateTaken: string;
+  photoUrl: string;
+}
+
 export interface TravelCardProps {
   slug: string;
   title: string;
@@ -15,4 +23,5 @@ export interface TravelCardProps {
   owner: string;
   contributors: string[];
   stats: Stats;
+  photos: Photo[];
 }
