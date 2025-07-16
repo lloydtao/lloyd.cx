@@ -1,7 +1,7 @@
 <template>
   <NuxtLink id="travel-card" :to="'/travel/trips/' + slug">
     <div
-      class="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/30 shadow-lg"
+      class="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-slate-50/30 shadow-lg"
     >
       <NuxtImg
         :src="coverPhoto"
@@ -11,26 +11,34 @@
         width="400"
       />
       <div
-        class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-white/10 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
+        class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-slate-900/10 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
       ></div>
       <div
-        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-white/20 px-5 py-3 backdrop-blur-md"
+        class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
+      >
+        <p
+          class="flex justify-end space-x-1 text-sm drop-shadow-sm md:text-base"
+        >
+          <Twemoji
+            v-for="(emoji, i) in countries.map(getFlagEmoji)"
+            :key="i"
+            :emoji="emoji"
+          />
+        </p>
+      </div>
+      <div
+        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <div class="flex items-center space-x-2">
           <div class="flex w-full items-center justify-between">
-            <h3 class="font-semibold text-slate-50 drop-shadow-sm">
+            <h3
+              class="text-sm font-semibold text-slate-50 drop-shadow-sm md:text-base"
+            >
               {{ title }}
             </h3>
-            <p class="flex space-x-1 text-sm drop-shadow-sm">
-              <Twemoji
-                v-for="(emoji, i) in countries.map(getFlagEmoji)"
-                :key="i"
-                :emoji="emoji"
-              />
-            </p>
           </div>
         </div>
-        <p class="mt-1 text-sm text-slate-50/90 drop-shadow-sm">
+        <p class="mt-1 text-xs text-slate-50/90 drop-shadow-sm md:text-sm">
           {{ formatDate(startDate) }}
         </p>
       </div>
