@@ -6,12 +6,258 @@
   "endDate": "2024-05-03",
   "countries": ["HR", "SI", "HU", "CZ"],
   "tags": ["cities", "guns", "friends"],
-  "coverPhoto": "/trips/2024-02-central-europe/photos/cover.jpg",
+  "coverPhoto": "/trips/2024-02-central-europe/photos/IMG_0917.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-1161",
+      "title": "IMG_1161",
+      "description": "",
+      "dateTaken": "2024-02-21T16:32:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1161.jpeg"
+    },
+    {
+      "slug": "img-1173",
+      "title": "IMG_1173",
+      "description": "",
+      "dateTaken": "2024-02-21T16:51:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1173.jpeg"
+    },
+    {
+      "slug": "img-1183",
+      "title": "IMG_1183",
+      "description": "",
+      "dateTaken": "2024-02-21T18:41:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1183.jpeg"
+    },
+    {
+      "slug": "img-1195",
+      "title": "IMG_1195",
+      "description": "",
+      "dateTaken": "2024-02-22T08:11:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1195.jpeg"
+    },
+    {
+      "slug": "img-1220",
+      "title": "IMG_1220",
+      "description": "",
+      "dateTaken": "2024-02-22T12:05:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1220.jpeg"
+    },
+    {
+      "slug": "img-1222",
+      "title": "IMG_1222",
+      "description": "",
+      "dateTaken": "2024-02-22T12:07:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1222.jpeg"
+    },
+    {
+      "slug": "img-1230",
+      "title": "IMG_1230",
+      "description": "",
+      "dateTaken": "2024-02-22T12:53:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1230.jpeg"
+    },
+    {
+      "slug": "img-1249",
+      "title": "IMG_1249",
+      "description": "",
+      "dateTaken": "2024-02-22T14:59:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1249.jpeg"
+    },
+    {
+      "slug": "img-1275",
+      "title": "IMG_1275",
+      "description": "",
+      "dateTaken": "2024-02-22T15:36:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1275.jpeg"
+    },
+    {
+      "slug": "img-1314",
+      "title": "IMG_1314",
+      "description": "",
+      "dateTaken": "2024-02-22T16:53:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1314.jpeg"
+    },
+    {
+      "slug": "img-1374",
+      "title": "IMG_1374",
+      "description": "",
+      "dateTaken": "2024-02-23T09:52:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1374.jpeg"
+    },
+    {
+      "slug": "img-1389",
+      "title": "IMG_1389",
+      "description": "",
+      "dateTaken": "2024-02-23T10:07:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1389.jpeg"
+    },
+    {
+      "slug": "img-1426",
+      "title": "IMG_1426",
+      "description": "",
+      "dateTaken": "2024-02-23T11:34:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1426.jpeg"
+    },
+    {
+      "slug": "img-1467",
+      "title": "IMG_1467",
+      "description": "",
+      "dateTaken": "2024-02-23T13:24:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1467.jpeg"
+    },
+    {
+      "slug": "img-1557",
+      "title": "IMG_1557",
+      "description": "",
+      "dateTaken": "2024-02-25T14:43:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1557.jpeg"
+    },
+    {
+      "slug": "img-1575",
+      "title": "IMG_1575",
+      "description": "",
+      "dateTaken": "2024-02-25T14:50:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1575.jpeg"
+    },
+    {
+      "slug": "img-1606",
+      "title": "IMG_1606",
+      "description": "",
+      "dateTaken": "2024-02-25T16:32:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1606.jpeg"
+    },
+    {
+      "slug": "img-1682",
+      "title": "IMG_1682",
+      "description": "",
+      "dateTaken": "2024-02-25T19:40:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1682.jpeg"
+    },
+    {
+      "slug": "img-0183",
+      "title": "IMG_0183",
+      "description": "",
+      "dateTaken": "2024-02-26T11:47:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0183.jpeg"
+    },
+    {
+      "slug": "img-0768",
+      "title": "IMG_0768",
+      "description": "",
+      "dateTaken": "2024-02-27T12:13:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0768.jpeg"
+    },
+    {
+      "slug": "img-0663",
+      "title": "IMG_0663",
+      "description": "",
+      "dateTaken": "2024-02-27T12:14:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0663.jpeg"
+    },
+    {
+      "slug": "img-3816",
+      "title": "IMG_3816",
+      "description": "",
+      "dateTaken": "2024-02-27T12:42:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_3816.jpeg"
+    },
+    {
+      "slug": "img-0726",
+      "title": "IMG_0726",
+      "description": "",
+      "dateTaken": "2024-02-27T12:47:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0726.jpeg"
+    },
+    {
+      "slug": "img-0917",
+      "title": "IMG_0917",
+      "description": "",
+      "dateTaken": "2024-02-27T12:57:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0917.jpeg"
+    },
+    {
+      "slug": "img-0751",
+      "title": "IMG_0751",
+      "description": "",
+      "dateTaken": "2024-02-27T13:01:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_0751.jpeg"
+    },
+    {
+      "slug": "img-1255",
+      "title": "IMG_1255",
+      "description": "",
+      "dateTaken": "2024-02-28T15:56:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1255.jpeg"
+    },
+    {
+      "slug": "img-1310",
+      "title": "IMG_1310",
+      "description": "",
+      "dateTaken": "2024-02-29T14:16:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1310.jpeg"
+    },
+    {
+      "slug": "img-1309",
+      "title": "IMG_1309",
+      "description": "",
+      "dateTaken": "2024-02-29T14:41:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1309.jpeg"
+    },
+    {
+      "slug": "img-1103",
+      "title": "IMG_1103",
+      "description": "",
+      "dateTaken": "2024-02-29T14:42:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1103.jpeg"
+    },
+    {
+      "slug": "img-1133",
+      "title": "IMG_1133",
+      "description": "",
+      "dateTaken": "2024-02-29T14:45:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1133.jpeg"
+    },
+    {
+      "slug": "img-1349",
+      "title": "IMG_1349",
+      "description": "",
+      "dateTaken": "2024-03-01T13:23:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1349.jpeg"
+    },
+    {
+      "slug": "img-1354",
+      "title": "IMG_1354",
+      "description": "",
+      "dateTaken": "2024-03-01T13:36:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1354.jpeg"
+    },
+    {
+      "slug": "img-1364",
+      "title": "IMG_1364",
+      "description": "",
+      "dateTaken": "2024-03-01T14:02:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1364.jpeg"
+    },
+    {
+      "slug": "img-1397",
+      "title": "IMG_1397",
+      "description": "",
+      "dateTaken": "2024-03-01T15:04:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1397.jpeg"
+    },
+    {
+      "slug": "img-1436",
+      "title": "IMG_1436",
+      "description": "",
+      "dateTaken": "2024-03-02T15:48:00",
+      "photoUrl": "/trips/2024-02-central-europe/photos/IMG_1436.jpeg"
+    }
+  ]
 }
