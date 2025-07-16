@@ -5,13 +5,140 @@
   "startDate": "2023-08-17",
   "endDate": "2023-08-21",
   "countries": ["LU"],
-  "tags": ["hiking", "friends"],
-  "coverPhoto": "/trips/2023-08-luxembourg/photos/cover.jpg",
+  "tags": ["cities", "hiking", "friends"],
+  "coverPhoto": "/trips/2023-08-luxembourg/photos/IMG_7119.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-6797",
+      "title": "IMG_6797",
+      "description": "",
+      "dateTaken": "2023-08-17T20:38:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6797.jpeg"
+    },
+    {
+      "slug": "img-6807",
+      "title": "IMG_6807",
+      "description": "",
+      "dateTaken": "2023-08-18T12:13:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6807.jpeg"
+    },
+    {
+      "slug": "img-6826",
+      "title": "IMG_6826",
+      "description": "",
+      "dateTaken": "2023-08-18T14:45:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6826.jpeg"
+    },
+    {
+      "slug": "img-6877",
+      "title": "IMG_6877",
+      "description": "",
+      "dateTaken": "2023-08-18T15:23:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6877.jpeg"
+    },
+    {
+      "slug": "img-6944",
+      "title": "IMG_6944",
+      "description": "",
+      "dateTaken": "2023-08-18T16:10:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6944.jpeg"
+    },
+    {
+      "slug": "img-6952",
+      "title": "IMG_6952",
+      "description": "",
+      "dateTaken": "2023-08-18T18:41:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6952.jpeg"
+    },
+    {
+      "slug": "img-6961",
+      "title": "IMG_6961",
+      "description": "",
+      "dateTaken": "2023-08-19T12:25:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6961.jpeg"
+    },
+    {
+      "slug": "img-6971",
+      "title": "IMG_6971",
+      "description": "",
+      "dateTaken": "2023-08-19T13:37:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6971.jpeg"
+    },
+    {
+      "slug": "img-6973",
+      "title": "IMG_6973",
+      "description": "",
+      "dateTaken": "2023-08-19T14:11:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6973.jpeg"
+    },
+    {
+      "slug": "img-6983",
+      "title": "IMG_6983",
+      "description": "",
+      "dateTaken": "2023-08-19T14:40:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_6983.jpeg"
+    },
+    {
+      "slug": "img-7034",
+      "title": "IMG_7034",
+      "description": "",
+      "dateTaken": "2023-08-20T16:57:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7034.jpeg"
+    },
+    {
+      "slug": "img-7050",
+      "title": "IMG_7050",
+      "description": "",
+      "dateTaken": "2023-08-21T12:03:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7050.jpeg"
+    },
+    {
+      "slug": "img-7062",
+      "title": "IMG_7062",
+      "description": "",
+      "dateTaken": "2023-08-21T13:20:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7062.jpeg"
+    },
+    {
+      "slug": "img-7067",
+      "title": "IMG_7067",
+      "description": "",
+      "dateTaken": "2023-08-21T13:48:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7067.jpeg"
+    },
+    {
+      "slug": "img-7073",
+      "title": "IMG_7073",
+      "description": "",
+      "dateTaken": "2023-08-21T13:52:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7073.jpeg"
+    },
+    {
+      "slug": "img-7108",
+      "title": "IMG_7108",
+      "description": "",
+      "dateTaken": "2023-08-21T15:32:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7108.jpeg"
+    },
+    {
+      "slug": "img-7092",
+      "title": "IMG_7092",
+      "description": "",
+      "dateTaken": "2023-08-21T15:49:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7092.jpeg"
+    },
+    {
+      "slug": "img-7119",
+      "title": "IMG_7119",
+      "description": "",
+      "dateTaken": "2023-08-21T17:06:00",
+      "photoUrl": "/trips/2023-08-luxembourg/photos/IMG_7119.jpeg"
+    }
+  ]
 }
