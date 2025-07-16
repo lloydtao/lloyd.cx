@@ -6,12 +6,342 @@
   "endDate": "2024-05-21",
   "countries": ["IL", "PS", "JO"],
   "tags": ["hiking", "history", "friends"],
-  "coverPhoto": "/trips/2024-05-levant/photos/cover.jpg",
+  "coverPhoto": "/trips/2024-05-levant/photos/IMG_4335.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-3463",
+      "title": "IMG_3463",
+      "description": "",
+      "dateTaken": "2024-05-12T07:28:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3463.jpeg"
+    },
+    {
+      "slug": "img-3483",
+      "title": "IMG_3483",
+      "description": "",
+      "dateTaken": "2024-05-12T09:47:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3483.jpeg"
+    },
+    {
+      "slug": "img-3506",
+      "title": "IMG_3506",
+      "description": "",
+      "dateTaken": "2024-05-12T09:52:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3506.jpeg"
+    },
+    {
+      "slug": "img-3528",
+      "title": "IMG_3528",
+      "description": "",
+      "dateTaken": "2024-05-12T11:27:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3528.jpeg"
+    },
+    {
+      "slug": "img-3535",
+      "title": "IMG_3535",
+      "description": "",
+      "dateTaken": "2024-05-12T11:31:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3535.jpeg"
+    },
+    {
+      "slug": "img-3599",
+      "title": "IMG_3599",
+      "description": "",
+      "dateTaken": "2024-05-12T14:08:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3599.jpeg"
+    },
+    {
+      "slug": "img-3613",
+      "title": "IMG_3613",
+      "description": "",
+      "dateTaken": "2024-05-12T14:13:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3613.jpeg"
+    },
+    {
+      "slug": "img-3641",
+      "title": "IMG_3641",
+      "description": "",
+      "dateTaken": "2024-05-12T14:46:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3641.jpeg"
+    },
+    {
+      "slug": "img-3652",
+      "title": "IMG_3652",
+      "description": "",
+      "dateTaken": "2024-05-12T19:31:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3652.jpeg"
+    },
+    {
+      "slug": "img-3746",
+      "title": "IMG_3746",
+      "description": "",
+      "dateTaken": "2024-05-14T19:08:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3746.jpeg"
+    },
+    {
+      "slug": "img-3753",
+      "title": "IMG_3753",
+      "description": "",
+      "dateTaken": "2024-05-14T20:31:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3753.jpeg"
+    },
+    {
+      "slug": "img-3762",
+      "title": "IMG_3762",
+      "description": "",
+      "dateTaken": "2024-05-14T20:53:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3762.jpeg"
+    },
+    {
+      "slug": "img-3771",
+      "title": "IMG_3771",
+      "description": "",
+      "dateTaken": "2024-05-15T07:27:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3771.jpeg"
+    },
+    {
+      "slug": "img-3777",
+      "title": "IMG_3777",
+      "description": "",
+      "dateTaken": "2024-05-15T11:29:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3777.jpeg"
+    },
+    {
+      "slug": "img-3781",
+      "title": "IMG_3781",
+      "description": "",
+      "dateTaken": "2024-05-15T13:09:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3781.jpeg"
+    },
+    {
+      "slug": "img-3785",
+      "title": "IMG_3785",
+      "description": "",
+      "dateTaken": "2024-05-15T14:37:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3785.jpeg"
+    },
+    {
+      "slug": "img-3893",
+      "title": "IMG_3893",
+      "description": "",
+      "dateTaken": "2024-05-15T15:13:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3893.jpeg"
+    },
+    {
+      "slug": "img-3937",
+      "title": "IMG_3937",
+      "description": "",
+      "dateTaken": "2024-05-15T16:16:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3937.jpeg"
+    },
+    {
+      "slug": "img-3986",
+      "title": "IMG_3986",
+      "description": "",
+      "dateTaken": "2024-05-15T16:44:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3986.jpeg"
+    },
+    {
+      "slug": "img-3995",
+      "title": "IMG_3995",
+      "description": "",
+      "dateTaken": "2024-05-15T17:13:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_3995.jpeg"
+    },
+    {
+      "slug": "img-4008",
+      "title": "IMG_4008",
+      "description": "",
+      "dateTaken": "2024-05-15T17:17:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4008.jpeg"
+    },
+    {
+      "slug": "img-4041",
+      "title": "IMG_4041",
+      "description": "",
+      "dateTaken": "2024-05-15T18:41:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4041.jpeg"
+    },
+    {
+      "slug": "img-4082",
+      "title": "IMG_4082",
+      "description": "",
+      "dateTaken": "2024-05-16T11:24:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4082.jpeg"
+    },
+    {
+      "slug": "img-4091",
+      "title": "IMG_4091",
+      "description": "",
+      "dateTaken": "2024-05-16T13:26:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4091.jpeg"
+    },
+    {
+      "slug": "img-4104",
+      "title": "IMG_4104",
+      "description": "",
+      "dateTaken": "2024-05-16T13:55:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4104.jpeg"
+    },
+    {
+      "slug": "img-4128",
+      "title": "IMG_4128",
+      "description": "",
+      "dateTaken": "2024-05-17T17:30:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4128.jpeg"
+    },
+    {
+      "slug": "img-4131",
+      "title": "IMG_4131",
+      "description": "",
+      "dateTaken": "2024-05-18T12:51:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4131.jpeg"
+    },
+    {
+      "slug": "img-4154",
+      "title": "IMG_4154",
+      "description": "",
+      "dateTaken": "2024-05-18T13:29:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4154.jpeg"
+    },
+    {
+      "slug": "img-4165",
+      "title": "IMG_4165",
+      "description": "",
+      "dateTaken": "2024-05-18T15:11:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4165.jpeg"
+    },
+    {
+      "slug": "img-4195",
+      "title": "IMG_4195",
+      "description": "",
+      "dateTaken": "2024-05-19T17:07:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4195.jpeg"
+    },
+    {
+      "slug": "img-4204",
+      "title": "IMG_4204",
+      "description": "",
+      "dateTaken": "2024-05-19T17:15:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4204.jpeg"
+    },
+    {
+      "slug": "img-4210",
+      "title": "IMG_4210",
+      "description": "",
+      "dateTaken": "2024-05-19T17:37:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4210.jpeg"
+    },
+    {
+      "slug": "img-4212",
+      "title": "IMG_4212",
+      "description": "",
+      "dateTaken": "2024-05-19T17:37:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4212.jpeg"
+    },
+    {
+      "slug": "img-4219",
+      "title": "IMG_4219",
+      "description": "",
+      "dateTaken": "2024-05-19T17:52:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4219.jpeg"
+    },
+    {
+      "slug": "img-4238",
+      "title": "IMG_4238",
+      "description": "",
+      "dateTaken": "2024-05-20T08:53:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4238.jpeg"
+    },
+    {
+      "slug": "img-4242",
+      "title": "IMG_4242",
+      "description": "",
+      "dateTaken": "2024-05-20T08:53:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4242.jpeg"
+    },
+    {
+      "slug": "img-4249",
+      "title": "IMG_4249",
+      "description": "",
+      "dateTaken": "2024-05-20T08:59:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4249.jpeg"
+    },
+    {
+      "slug": "img-4263",
+      "title": "IMG_4263",
+      "description": "",
+      "dateTaken": "2024-05-20T10:03:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4263.jpeg"
+    },
+    {
+      "slug": "img-4267",
+      "title": "IMG_4267",
+      "description": "",
+      "dateTaken": "2024-05-20T10:15:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4267.jpeg"
+    },
+    {
+      "slug": "img-4280",
+      "title": "IMG_4280",
+      "description": "",
+      "dateTaken": "2024-05-20T10:20:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4280.jpeg"
+    },
+    {
+      "slug": "img-4287",
+      "title": "IMG_4287",
+      "description": "",
+      "dateTaken": "2024-05-20T10:23:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4287.jpeg"
+    },
+    {
+      "slug": "img-4302",
+      "title": "IMG_4302",
+      "description": "",
+      "dateTaken": "2024-05-20T11:52:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4302.jpeg"
+    },
+    {
+      "slug": "img-4328",
+      "title": "IMG_4328",
+      "description": "",
+      "dateTaken": "2024-05-20T12:25:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4328.jpeg"
+    },
+    {
+      "slug": "img-4335",
+      "title": "IMG_4335",
+      "description": "",
+      "dateTaken": "2024-05-20T12:31:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4335.jpeg"
+    },
+    {
+      "slug": "img-4339",
+      "title": "IMG_4339",
+      "description": "",
+      "dateTaken": "2024-05-20T12:48:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4339.jpeg"
+    },
+    {
+      "slug": "img-4350",
+      "title": "IMG_4350",
+      "description": "",
+      "dateTaken": "2024-05-20T14:08:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4350.jpeg"
+    },
+    {
+      "slug": "img-4367",
+      "title": "IMG_4367",
+      "description": "",
+      "dateTaken": "2024-05-20T20:22:00",
+      "photoUrl": "/trips/2024-05-levant/photos/IMG_4367.jpeg"
+    }
+  ]
 }
