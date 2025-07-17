@@ -22,25 +22,11 @@
       "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0562.jpeg"
     },
     {
-      "slug": "img-0602",
-      "title": "IMG_0602",
-      "description": "",
-      "dateTaken": "2024-12-01T16:22:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0602.jpeg"
-    },
-    {
       "slug": "img-0615",
       "title": "IMG_0615",
       "description": "",
       "dateTaken": "2024-12-01T17:53:00",
       "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0615.jpeg"
-    },
-    {
-      "slug": "img-0654",
-      "title": "IMG_0654",
-      "description": "",
-      "dateTaken": "2024-12-02T18:21:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0654.jpeg"
     },
     {
       "slug": "img-0718",
@@ -55,13 +41,6 @@
       "description": "",
       "dateTaken": "2024-12-03T20:02:00",
       "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0727.jpeg"
-    },
-    {
-      "slug": "img-0729",
-      "title": "IMG_0729",
-      "description": "",
-      "dateTaken": "2024-12-03T20:04:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0729.jpeg"
     },
     {
       "slug": "img-0745",
@@ -83,20 +62,6 @@
       "description": "",
       "dateTaken": "2024-12-04T11:25:00",
       "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0759.jpeg"
-    },
-    {
-      "slug": "img-0788",
-      "title": "IMG_0788",
-      "description": "",
-      "dateTaken": "2024-12-04T18:50:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0788.jpeg"
-    },
-    {
-      "slug": "img-0807",
-      "title": "IMG_0807",
-      "description": "",
-      "dateTaken": "2024-12-04T19:43:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0807.jpeg"
     },
     {
       "slug": "img-0838",
@@ -146,13 +111,6 @@
       "description": "",
       "dateTaken": "2024-12-05T11:03:00",
       "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0899.jpeg"
-    },
-    {
-      "slug": "img-0922",
-      "title": "IMG_0922",
-      "description": "",
-      "dateTaken": "2024-12-05T22:14:00",
-      "photoUrl": "/trips/2024-11-svalbard/photos/IMG_0922.jpeg"
     },
     {
       "slug": "img-0943",

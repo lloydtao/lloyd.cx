@@ -6,12 +6,167 @@
   "endDate": "2023-02-04",
   "countries": ["MA"],
   "tags": ["camels", "trekking", "friends"],
-  "coverPhoto": "/trips/2023-01-morocco/photos/cover.jpg",
+  "coverPhoto": "/trips/2023-01-morocco/photos/IMG_3029.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-2324",
+      "title": "IMG_2324",
+      "description": "",
+      "dateTaken": "2023-01-31T12:09:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2324.jpeg"
+    },
+    {
+      "slug": "img-0450",
+      "title": "IMG_0450",
+      "description": "",
+      "dateTaken": "2023-01-31T12:16:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_0450.jpeg"
+    },
+    {
+      "slug": "img-2193",
+      "title": "IMG_2193",
+      "description": "",
+      "dateTaken": "2023-01-31T12:53:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2193.jpeg"
+    },
+    {
+      "slug": "img-2367",
+      "title": "IMG_2367",
+      "description": "",
+      "dateTaken": "2023-01-31T13:10:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2367.jpeg"
+    },
+    {
+      "slug": "img-2473",
+      "title": "IMG_2473",
+      "description": "",
+      "dateTaken": "2023-01-31T16:01:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2473.jpeg"
+    },
+    {
+      "slug": "img-2471",
+      "title": "IMG_2471",
+      "description": "",
+      "dateTaken": "2023-01-31T17:31:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2471.jpeg"
+    },
+    {
+      "slug": "img-2514",
+      "title": "IMG_2514",
+      "description": "",
+      "dateTaken": "2023-01-31T17:36:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2514.jpeg"
+    },
+    {
+      "slug": "img-0627",
+      "title": "IMG_0627",
+      "description": "",
+      "dateTaken": "2023-01-31T17:49:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_0627.jpeg"
+    },
+    {
+      "slug": "img-2724",
+      "title": "IMG_2724",
+      "description": "",
+      "dateTaken": "2023-02-01T11:05:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2724.jpeg"
+    },
+    {
+      "slug": "img-2570",
+      "title": "IMG_2570",
+      "description": "",
+      "dateTaken": "2023-02-01T13:57:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2570.jpeg"
+    },
+    {
+      "slug": "img-2838",
+      "title": "IMG_2838",
+      "description": "",
+      "dateTaken": "2023-02-02T08:25:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2838.jpeg"
+    },
+    {
+      "slug": "img-2704",
+      "title": "IMG_2704",
+      "description": "",
+      "dateTaken": "2023-02-02T17:21:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2704.jpeg"
+    },
+    {
+      "slug": "img-0988",
+      "title": "IMG_0988",
+      "description": "",
+      "dateTaken": "2023-02-02T17:41:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_0988.jpeg"
+    },
+    {
+      "slug": "img-0997",
+      "title": "IMG_0997",
+      "description": "",
+      "dateTaken": "2023-02-02T17:44:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_0997.jpeg"
+    },
+    {
+      "slug": "img-2887",
+      "title": "IMG_2887",
+      "description": "",
+      "dateTaken": "2023-02-02T18:27:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2887.jpeg"
+    },
+    {
+      "slug": "img-2894",
+      "title": "IMG_2894",
+      "description": "",
+      "dateTaken": "2023-02-02T18:29:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2894.jpeg"
+    },
+    {
+      "slug": "img-2909",
+      "title": "IMG_2909",
+      "description": "",
+      "dateTaken": "2023-02-02T18:42:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2909.jpeg"
+    },
+    {
+      "slug": "img-2911",
+      "title": "IMG_2911",
+      "description": "",
+      "dateTaken": "2023-02-02T18:42:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_2911.jpeg"
+    },
+    {
+      "slug": "img-3029",
+      "title": "IMG_3029",
+      "description": "",
+      "dateTaken": "2023-02-02T19:10:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_3029.jpeg"
+    },
+    {
+      "slug": "img-3035",
+      "title": "IMG_3035",
+      "description": "",
+      "dateTaken": "2023-02-02T19:23:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_3035.jpeg"
+    },
+    {
+      "slug": "img-3128",
+      "title": "IMG_3128",
+      "description": "",
+      "dateTaken": "2023-02-03T16:21:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_3128.jpeg"
+    },
+    {
+      "slug": "img-3176",
+      "title": "IMG_3176",
+      "description": "",
+      "dateTaken": "2023-02-03T19:24:00",
+      "photoUrl": "/trips/2023-01-morocco/photos/IMG_3176.jpeg"
+    }
+  ]
 }
