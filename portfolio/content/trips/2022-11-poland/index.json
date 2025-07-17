@@ -6,12 +6,104 @@
   "endDate": "2022-12-02",
   "countries": ["PL"],
   "tags": ["guns", "bars", "friends"],
-  "coverPhoto": "/trips/2022-11-poland/photos/cover.jpg",
+  "coverPhoto": "/trips/2022-11-poland/photos/IMG_1713.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-1641",
+      "title": "IMG_1641",
+      "description": "",
+      "dateTaken": "2022-11-28T10:54:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1641.jpeg"
+    },
+    {
+      "slug": "img-1674",
+      "title": "IMG_1674",
+      "description": "",
+      "dateTaken": "2022-11-28T18:44:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1674.jpeg"
+    },
+    {
+      "slug": "img-5334",
+      "title": "IMG_5334",
+      "description": "",
+      "dateTaken": "2022-11-28T18:51:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_5334.jpeg"
+    },
+    {
+      "slug": "img-1693",
+      "title": "IMG_1693",
+      "description": "",
+      "dateTaken": "2022-11-28T21:16:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1693.jpeg"
+    },
+    {
+      "slug": "img-1698",
+      "title": "IMG_1698",
+      "description": "",
+      "dateTaken": "2022-11-28T23:18:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1698.jpeg"
+    },
+    {
+      "slug": "img-1705",
+      "title": "IMG_1705",
+      "description": "",
+      "dateTaken": "2022-11-28T23:47:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1705.jpeg"
+    },
+    {
+      "slug": "img-1713",
+      "title": "IMG_1713",
+      "description": "",
+      "dateTaken": "2022-11-29T13:40:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1713.jpeg"
+    },
+    {
+      "slug": "img-1714",
+      "title": "IMG_1714",
+      "description": "",
+      "dateTaken": "2022-11-29T15:01:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1714.jpeg"
+    },
+    {
+      "slug": "img-1723",
+      "title": "IMG_1723",
+      "description": "",
+      "dateTaken": "2022-11-29T23:26:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1723.jpeg"
+    },
+    {
+      "slug": "img-1740",
+      "title": "IMG_1740",
+      "description": "",
+      "dateTaken": "2022-11-30T13:07:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1740.jpeg"
+    },
+    {
+      "slug": "img-1824",
+      "title": "IMG_1824",
+      "description": "",
+      "dateTaken": "2022-12-02T11:09:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1824.jpeg"
+    },
+    {
+      "slug": "img-1830",
+      "title": "IMG_1830",
+      "description": "",
+      "dateTaken": "2022-12-02T12:54:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1830.jpeg"
+    },
+    {
+      "slug": "img-1846",
+      "title": "IMG_1846",
+      "description": "",
+      "dateTaken": "2022-12-02T13:14:00",
+      "photoUrl": "/trips/2022-11-poland/photos/IMG_1846.jpeg"
+    }
+  ]
 }
