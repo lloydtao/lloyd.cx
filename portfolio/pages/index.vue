@@ -5,7 +5,7 @@
     </div>
     <div class="container mx-auto mt-3 px-3 py-5">
       <div class="mb-4 flex items-center justify-between">
-        <h1 class="text-xl font-semibold text-slate-50 md:text-2xl">
+        <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
           Recent trips
         </h1>
         <NuxtLink
