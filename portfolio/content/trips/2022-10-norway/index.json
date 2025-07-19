@@ -6,12 +6,181 @@
   "endDate": "2022-10-10",
   "countries": ["NO"],
   "tags": ["roadtrip", "waterfalls", "friends"],
-  "coverPhoto": "/trips/2022-10-norway/photos/cover.jpg",
+  "coverPhoto": "/trips/2022-10-norway/photos/IMG_0450.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-0399",
+      "title": "IMG_0399",
+      "description": "",
+      "dateTaken": "2022-10-05T16:50:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0399.jpeg"
+    },
+    {
+      "slug": "img-0470",
+      "title": "IMG_0470",
+      "description": "",
+      "dateTaken": "2022-10-06T13:25:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0470.jpeg"
+    },
+    {
+      "slug": "img-0483",
+      "title": "IMG_0483",
+      "description": "",
+      "dateTaken": "2022-10-06T13:38:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0483.jpeg"
+    },
+    {
+      "slug": "img-0172",
+      "title": "IMG_0172",
+      "description": "",
+      "dateTaken": "2022-10-06T13:52:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0172.jpeg"
+    },
+    {
+      "slug": "img-0184",
+      "title": "IMG_0184",
+      "description": "",
+      "dateTaken": "2022-10-06T13:54:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0184.jpeg"
+    },
+    {
+      "slug": "img-0535",
+      "title": "IMG_0535",
+      "description": "",
+      "dateTaken": "2022-10-06T16:43:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0535.jpeg"
+    },
+    {
+      "slug": "img-0202",
+      "title": "IMG_0202",
+      "description": "",
+      "dateTaken": "2022-10-06T18:16:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0202.jpeg"
+    },
+    {
+      "slug": "img-0562",
+      "title": "IMG_0562",
+      "description": "",
+      "dateTaken": "2022-10-06T19:21:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0562.jpeg"
+    },
+    {
+      "slug": "img-0647",
+      "title": "IMG_0647",
+      "description": "",
+      "dateTaken": "2022-10-08T09:31:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0647.jpeg"
+    },
+    {
+      "slug": "68691143319--E89FCFB4-C9A3-4AE5-B147-D4B1FCA4F6C2",
+      "title": "68691143319__E89FCFB4-C9A3-4AE5-B147-D4B1FCA4F6C2",
+      "description": "",
+      "dateTaken": "2022-10-08T10:43:00",
+      "photoUrl": "/trips/2022-10-norway/photos/68691143319__E89FCFB4-C9A3-4AE5-B147-D4B1FCA4F6C2.jpeg"
+    },
+    {
+      "slug": "img-0293",
+      "title": "IMG_0293",
+      "description": "",
+      "dateTaken": "2022-10-08T12:51:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0293.jpeg"
+    },
+    {
+      "slug": "img-0790",
+      "title": "IMG_0790",
+      "description": "",
+      "dateTaken": "2022-10-08T14:14:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0790.jpeg"
+    },
+    {
+      "slug": "img-0326",
+      "title": "IMG_0326",
+      "description": "",
+      "dateTaken": "2022-10-08T14:58:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0326.jpeg"
+    },
+    {
+      "slug": "img-0865",
+      "title": "IMG_0865",
+      "description": "",
+      "dateTaken": "2022-10-08T15:48:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0865.jpeg"
+    },
+    {
+      "slug": "img-0878",
+      "title": "IMG_0878",
+      "description": "",
+      "dateTaken": "2022-10-08T15:51:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0878.jpeg"
+    },
+    {
+      "slug": "img-0450",
+      "title": "IMG_0450",
+      "description": "",
+      "dateTaken": "2022-10-08T15:52:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0450.jpeg"
+    },
+    {
+      "slug": "img-0903",
+      "title": "IMG_0903",
+      "description": "",
+      "dateTaken": "2022-10-08T15:57:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0903.jpeg"
+    },
+    {
+      "slug": "img-0914",
+      "title": "IMG_0914",
+      "description": "",
+      "dateTaken": "2022-10-08T16:03:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0914.jpeg"
+    },
+    {
+      "slug": "img-0997",
+      "title": "IMG_0997",
+      "description": "",
+      "dateTaken": "2022-10-09T15:04:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0997.jpeg"
+    },
+    {
+      "slug": "img-1009",
+      "title": "IMG_1009",
+      "description": "",
+      "dateTaken": "2022-10-09T15:08:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_1009.jpeg"
+    },
+    {
+      "slug": "img-0479",
+      "title": "IMG_0479",
+      "description": "",
+      "dateTaken": "2022-10-09T15:24:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_0479.jpeg"
+    },
+    {
+      "slug": "img-1053",
+      "title": "IMG_1053",
+      "description": "",
+      "dateTaken": "2022-10-09T15:37:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_1053.jpeg"
+    },
+    {
+      "slug": "img-1074",
+      "title": "IMG_1074",
+      "description": "",
+      "dateTaken": "2022-10-09T16:12:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_1074.jpeg"
+    },
+    {
+      "slug": "img-1200",
+      "title": "IMG_1200",
+      "description": "",
+      "dateTaken": "2022-10-09T21:49:00",
+      "photoUrl": "/trips/2022-10-norway/photos/IMG_1200.jpeg"
+    }
+  ]
 }
