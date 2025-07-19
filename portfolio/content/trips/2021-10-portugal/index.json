@@ -6,12 +6,111 @@
   "endDate": "2021-10-21",
   "countries": ["PT"],
   "tags": ["hiking", "kayaking", "friends"],
-  "coverPhoto": "/trips/2021-10-portugal/photos/cover.jpg",
+  "coverPhoto": "/trips/2021-10-portugal/photos/IMG_0043.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
   "stats": {
     "photos": 0,
     "memories": 0
   },
-  "photos": []
+  "photos": [
+    {
+      "slug": "img-4727",
+      "title": "IMG_4727",
+      "description": "",
+      "dateTaken": "2021-10-18T16:30:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4727.jpeg"
+    },
+    {
+      "slug": "img-4209",
+      "title": "IMG_4209",
+      "description": "",
+      "dateTaken": "2021-10-18T18:18:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4209.jpeg"
+    },
+    {
+      "slug": "img-0043",
+      "title": "IMG_0043",
+      "description": "",
+      "dateTaken": "2021-10-18T22:55:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_0043.jpeg"
+    },
+    {
+      "slug": "img-4732",
+      "title": "IMG_4732",
+      "description": "",
+      "dateTaken": "2021-10-19T10:00:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4732.jpeg"
+    },
+    {
+      "slug": "img-4588",
+      "title": "IMG_4588",
+      "description": "",
+      "dateTaken": "2021-10-19T11:12:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4588.jpeg"
+    },
+    {
+      "slug": "img-4592",
+      "title": "IMG_4592",
+      "description": "",
+      "dateTaken": "2021-10-19T11:26:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4592.jpeg"
+    },
+    {
+      "slug": "img-4607",
+      "title": "IMG_4607",
+      "description": "",
+      "dateTaken": "2021-10-19T14:09:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4607.jpeg"
+    },
+    {
+      "slug": "img-4610",
+      "title": "IMG_4610",
+      "description": "",
+      "dateTaken": "2021-10-19T14:49:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4610.jpeg"
+    },
+    {
+      "slug": "img-0208",
+      "title": "IMG_0208",
+      "description": "",
+      "dateTaken": "2021-10-19T18:05:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_0208.jpeg"
+    },
+    {
+      "slug": "img-4613",
+      "title": "IMG_4613",
+      "description": "",
+      "dateTaken": "2021-10-19T18:25:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4613.jpeg"
+    },
+    {
+      "slug": "img-0223",
+      "title": "IMG_0223",
+      "description": "",
+      "dateTaken": "2021-10-19T18:35:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_0223.jpeg"
+    },
+    {
+      "slug": "img-4620",
+      "title": "IMG_4620",
+      "description": "",
+      "dateTaken": "2021-10-20T11:18:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4620.jpeg"
+    },
+    {
+      "slug": "img-4627",
+      "title": "IMG_4627",
+      "description": "",
+      "dateTaken": "2021-10-20T11:57:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4627.jpeg"
+    },
+    {
+      "slug": "img-4633",
+      "title": "IMG_4633",
+      "description": "",
+      "dateTaken": "2021-10-20T12:44:00",
+      "photoUrl": "/trips/2021-10-portugal/photos/IMG_4633.jpeg"
+    }
+  ]
 }
