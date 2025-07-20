@@ -4,19 +4,11 @@
       <HomeHero />
     </div>
     <div class="container mx-auto mt-3 px-3 py-5">
-      <div class="mb-4 flex items-center justify-between">
-        <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
-          Recent trips
-        </h1>
-        <NuxtLink
-          to="/travel/"
-          class="relative rounded-2xl border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium text-slate-200 shadow-lg backdrop-blur-lg transition duration-200 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-400 md:px-5 md:text-base"
-        >
-          View all
-        </NuxtLink>
-      </div>
+      <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
+        Recent trips
+      </h1>
       <div id="travel-grid-card">
-        <TravelCardGrid :cards="travelCardGrid" />
+        <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
       </div>
     </div>
   </div>
@@ -26,7 +18,7 @@
 const route = useRoute();
 
 const { data: travelCardGrid } = await useAsyncData(route.path, () => {
-  return queryCollection("trips").order("startDate", "DESC").limit(6).all();
+  return queryCollection("trips").order("startDate", "DESC").limit(5).all();
 });
 
 useSeoMeta({
