@@ -1,7 +1,10 @@
 <template>
   <div class="container mx-auto px-3 py-5">
     <div>
-      <h1 class="text-2xl font-semibold text-slate-50">Trips</h1>
+      <h1 class="text-2xl font-semibold text-slate-50">Travel</h1>
+    </div>
+    <div class="mt-5">
+      <h1 class="text-xl font-semibold text-slate-100">Trips</h1>
     </div>
     <div id="travel-grid-card">
       <TravelCardGrid :cards="travelCardGrid" />
