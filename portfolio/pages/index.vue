@@ -7,7 +7,7 @@
       <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
         Recent trips
       </h1>
-      <div id="travel-grid-card">
+      <div id="travel-grid-card" class="mt-5">
         <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
       </div>
     </div>

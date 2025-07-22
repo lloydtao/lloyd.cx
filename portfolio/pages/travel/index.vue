@@ -6,7 +6,7 @@
     <div class="mt-5">
       <h1 class="text-xl font-semibold text-slate-100">Trips</h1>
     </div>
-    <div id="travel-grid-card">
+    <div id="travel-grid-card" class="mt-5">
       <TravelCardGrid :cards="travelCardGrid" />
     </div>
   </div>
