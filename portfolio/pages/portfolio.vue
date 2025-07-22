@@ -7,7 +7,7 @@
       <div class="mt-5">
         <h1 class="text-xl font-semibold text-slate-100">Experience</h1>
       </div>
-      <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2 lg:gap-5">
+      <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2">
         <div>
           <div
             class="flex items-center overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-lg transition hover:bg-white/20"
@@ -136,7 +136,7 @@
       <div class="mt-5">
         <h1 class="text-xl font-semibold text-slate-100">Projects</h1>
       </div>
-      <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2 lg:gap-5">
+      <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2">
         <div>
           <div
             class="flex items-center overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-lg transition hover:bg-white/20"
