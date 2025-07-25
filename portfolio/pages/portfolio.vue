@@ -146,7 +146,7 @@
                 class="w-32"
                 height="512"
                 width="512"
-                src="/portfolio/projects/duflist/logo.jpg"
+                src="/portfolio/projects/duflist/logo-hexagon.png"
               />
             </div>
             <div class="w-full max-w-lg space-y-4">
