@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-3 py-5">
+  <div class="container mx-auto px-3 py-3">
     <div>
       <HomeHero />
     </div>
