@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2025-06-bulgaria/photos/IMG_5197.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": false,
   "stats": {
     "photos": 0,
     "memories": 0

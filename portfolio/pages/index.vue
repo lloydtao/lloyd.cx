@@ -1,13 +1,15 @@
 <template>
-  <div class="container mx-auto px-3 py-5">
+  <div class="container mx-auto px-3">
     <div>
       <HomeHero />
     </div>
-    <div class="container mx-auto mt-3 px-3 py-5">
-      <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
-        Recent trips
+    <div class="container mx-auto mt-8">
+      <h1
+        class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
+      >
+        Travel
       </h1>
-      <div id="travel-grid-card" class="mt-5">
+      <div id="travel-grid-card" class="mt-3">
         <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
       </div>
     </div>
@@ -18,7 +20,10 @@
 const route = useRoute();
 
 const { data: travelCardGrid } = await useAsyncData(route.path, () => {
-  return queryCollection("trips").order("startDate", "DESC").limit(5).all();
+  return queryCollection("trips")
+    .where("favourite", "=", true)
+    .order("startDate", "DESC")
+    .all();
 });
 
 useSeoMeta({

@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2023-06-lithuania/photos/IMG_5760.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": false,
   "stats": {
     "photos": 0,
     "memories": 0

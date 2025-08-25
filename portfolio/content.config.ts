@@ -16,6 +16,7 @@ export default defineContentConfig({
         coverPhoto: z.string(),
         owner: z.string(),
         contributors: z.array(z.string()),
+        favourite: z.boolean(),
         stats: z.object({
           memories: z.number(),
         }),

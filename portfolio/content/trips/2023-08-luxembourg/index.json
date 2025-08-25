@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2023-08-luxembourg/photos/IMG_7119.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": false,
   "stats": {
     "photos": 0,
     "memories": 0
