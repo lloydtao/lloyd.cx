@@ -18,7 +18,10 @@
 const route = useRoute();
 
 const { data: travelCardGrid } = await useAsyncData(route.path, () => {
-  return queryCollection("trips").order("startDate", "DESC").limit(5).all();
+  return queryCollection("trips")
+    .where("favourite", "=", true)
+    .order("startDate", "DESC")
+    .all();
 });
 
 useSeoMeta({
