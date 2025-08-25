@@ -2,16 +2,16 @@
   <nav class="container mx-auto flex px-5 py-5 md:px-3">
     <ul class="flex flex-grow space-x-4">
       <li>
-        <NuxtLink to="/" class="flex items-center space-x-3 md:mr-5">
+        <NuxtLink to="/" class="flex items-center space-x-3">
           <NuxtImg
-            class="w-8"
-            src="/images/logo.png"
-            width="32"
-            height="32"
+            class="w-7"
+            src="/logo/cat-lloyd-cropped-112x112.png"
+            width="112"
+            height="112"
             alt="Pink boxes logo"
           />
           <span
-            class="py-1 text-2xl font-semibold text-gray-50 duration-100 hover:text-gray-400"
+            class="py-1 text-xl font-semibold text-slate-50 duration-100 hover:text-white"
             >lloyd.cx</span
           >
         </NuxtLink>
