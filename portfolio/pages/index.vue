@@ -3,10 +3,19 @@
     <div>
       <HomeHero />
     </div>
-    <div class="container mx-auto mt-3 px-3 py-5">
-      <h1 class="text-xl font-semibold text-slate-100 md:text-2xl">
-        Recent trips
+    <div class="container mx-auto mt-8">
+      <h1
+        class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
+      >
+        Travel
       </h1>
+      <p class="mt-2 text-lg leading-snug text-slate-200/90">
+        <span
+          class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+        >
+          Trips to the lesser-known.
+        </span>
+      </p>
       <div id="travel-grid-card" class="mt-5">
         <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
       </div>

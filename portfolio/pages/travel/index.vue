@@ -5,6 +5,13 @@
     </div>
     <div class="mt-5">
       <h1 class="text-xl font-semibold text-slate-100">Trips</h1>
+      <p class="mt-5 text-lg leading-snug text-slate-200/90 sm:text-xl">
+        <span
+          class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+        >
+          I tend to seek the lesser-known.
+        </span>
+      </p>
     </div>
     <div id="travel-grid-card" class="mt-5">
       <TravelCardGrid :cards="travelCardGrid" />
