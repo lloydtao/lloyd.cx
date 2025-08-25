@@ -21,21 +21,21 @@
       <li class="hidden sm:flex">
         <NuxtLink
           to="/"
-          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          class="text px-3 py-1 font-semibold text-slate-200 duration-100 hover:text-white"
           >Home</NuxtLink
         >
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
           to="/travel/"
-          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          class="text px-3 py-1 font-semibold text-slate-200 duration-100 hover:text-white"
           >Travel</NuxtLink
         >
       </li>
       <li class="hidden sm:flex">
         <NuxtLink
           to="/portfolio/"
-          class="text px-3 py-1 font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          class="text px-3 py-1 font-semibold text-slate-200 duration-100 hover:text-white"
           >Portfolio</NuxtLink
         >
       </li>
@@ -47,7 +47,7 @@
           class="absolute right-0 z-30 flex-none px-5 md:px-3"
           @click="showMenu = !showMenu"
           ><p
-            class="rounded bg-gray-900 bg-opacity-10 px-2 py-2 font-semibold tracking-wide text-gray-200 hover:bg-opacity-30"
+            class="rounded bg-slate-900 bg-opacity-10 px-2 py-2 font-semibold tracking-wide text-slate-200 hover:bg-opacity-30"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,11 +82,11 @@
           }"
         >
           <ul
-            class="flex w-full flex-col divide-y divide-slate-300 overflow-hidden rounded-lg bg-gray-100 shadow-md"
+            class="flex w-full flex-col divide-y divide-slate-300 overflow-hidden rounded-lg bg-slate-100 shadow-md"
           >
             <li class="flex">
               <h3
-                class="flex flex-1 bg-gray-200 px-8 py-3 font-semibold text-gray-900"
+                class="flex flex-1 bg-slate-200 px-8 py-3 font-semibold text-slate-900"
               >
                 Navigation
               </h3>
@@ -94,21 +94,21 @@
             <li class="flex border-t" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/"
-                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-slate-800 duration-100 hover:bg-slate-300"
                 >Home</NuxtLink
               >
             </li>
             <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/travel/"
-                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-slate-800 duration-100 hover:bg-slate-300"
                 >Travel</NuxtLink
               >
             </li>
             <li class="flex" @click="showMenu = !showMenu">
               <NuxtLink
                 to="/portfolio/"
-                class="flex flex-1 px-8 py-5 text-lg font-semibold text-gray-800 duration-100 hover:bg-gray-300"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-slate-800 duration-100 hover:bg-slate-300"
                 >Portfolio</NuxtLink
               >
             </li>
