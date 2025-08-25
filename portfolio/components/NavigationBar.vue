@@ -4,10 +4,10 @@
       <li>
         <NuxtLink to="/" class="flex items-center space-x-3">
           <NuxtImg
-            class="w-7"
-            src="/logo/cat-lloyd-cropped-112x112.png"
-            width="112"
-            height="112"
+            class="w-8"
+            src="/logo/lloyd-cat-3-128.png"
+            width="128"
+            height="128"
             alt="Pink boxes logo"
           />
           <span
