@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2025-04-asia/photos/IMG_2292.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": true,
   "stats": {
     "photos": 0,
     "memories": 0

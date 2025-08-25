@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2023-01-morocco/photos/IMG_3029.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": true,
   "stats": {
     "photos": 0,
     "memories": 0

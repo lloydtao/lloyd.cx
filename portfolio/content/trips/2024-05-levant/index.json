@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2024-05-levant/photos/IMG_4335.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": true,
   "stats": {
     "photos": 0,
     "memories": 0

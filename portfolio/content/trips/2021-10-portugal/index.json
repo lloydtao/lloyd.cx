@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2021-10-portugal/photos/IMG_0043.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": false,
   "stats": {
     "photos": 0,
     "memories": 0

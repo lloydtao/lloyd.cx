@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2022-11-poland/photos/IMG_1713.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": false,
   "stats": {
     "photos": 0,
     "memories": 0

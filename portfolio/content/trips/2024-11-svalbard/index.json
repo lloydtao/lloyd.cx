@@ -9,6 +9,7 @@
   "coverPhoto": "/trips/2024-11-svalbard/photos/IMG_0718.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
+  "favourite": true,
   "stats": {
     "photos": 0,
     "memories": 0
