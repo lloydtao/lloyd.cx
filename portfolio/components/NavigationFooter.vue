@@ -12,11 +12,11 @@
     <ul class="mx-auto mt-3 flex flex-none space-x-5">
       <li>
         <NuxtLink
-          href="https://www.linkedin.com/in/LloydTao/"
+          href="https://github.com/lloydtao"
           class="text-sm font-semibold text-gray-50 duration-100 hover:text-gray-400"
           external
         >
-          LinkedIn
+          GitHub
         </NuxtLink>
       </li>
       <li>
@@ -26,6 +26,15 @@
           external
         >
           Instagram
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          href="https://www.linkedin.com/in/lloydtao/"
+          class="text-sm font-semibold text-gray-50 duration-100 hover:text-gray-400"
+          external
+        >
+          LinkedIn
         </NuxtLink>
       </li>
     </ul>
