@@ -54,7 +54,6 @@
               <div class="text-sm">Photos</div>
             </div>
             <div>
-              <div class="text-3xl font-bold">{{ trip?.stats.memories }}</div>
               <div class="text-sm">Memories</div>
             </div>
           </div>

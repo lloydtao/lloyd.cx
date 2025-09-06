@@ -17,9 +17,6 @@ export default defineContentConfig({
         owner: z.string(),
         contributors: z.array(z.string()),
         favourite: z.boolean(),
-        stats: z.object({
-          memories: z.number(),
-        }),
         photos: z.array(
           z.object({
             slug: z.string(),
