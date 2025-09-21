@@ -1,8 +1,3 @@
-export interface Stats {
-  photos: number;
-  memories: number;
-}
-
 export interface Photo {
   slug: string;
   title: string;
@@ -23,6 +18,5 @@ export interface TravelCardProps {
   owner: string;
   contributors: string[];
   favourite: boolean;
-  stats: Stats;
   photos: Photo[];
 }
