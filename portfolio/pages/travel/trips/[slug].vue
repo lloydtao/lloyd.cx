@@ -53,9 +53,6 @@
               <div class="text-3xl font-bold">{{ trip?.photos?.length }}</div>
               <div class="text-sm">Photos</div>
             </div>
-            <div>
-              <div class="text-sm">Memories</div>
-            </div>
           </div>
         </section>
         <section class="mt-8">
