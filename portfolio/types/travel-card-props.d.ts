@@ -18,5 +18,6 @@ export interface TravelCardProps {
   owner: string;
   contributors: string[];
   favourite: boolean;
+  red: boolean;
   photos: Photo[];
 }
