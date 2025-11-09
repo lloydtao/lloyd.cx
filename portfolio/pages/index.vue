@@ -22,6 +22,7 @@ const route = useRoute();
 const { data: travelCardGrid } = await useAsyncData(route.path, () => {
   return queryCollection("trips")
     .where("favourite", "=", true)
+    .where("red", "<>", true)
     .order("startDate", "DESC")
     .all();
 });

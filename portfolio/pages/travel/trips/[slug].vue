@@ -81,6 +81,7 @@ const { data: trip } = await useAsyncData(route.path, () => {
   return queryCollection("trips")
     .order("startDate", "DESC")
     .where("slug", "=", route.params.slug)
+    .where("red", "<>", true)
     .first();
 });
 

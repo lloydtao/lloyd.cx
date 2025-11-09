@@ -9,7 +9,8 @@
   "coverPhoto": "/trips/2022-10-norway/photos/IMG_0450.jpeg",
   "owner": "lewis",
   "contributors": ["lewis"],
-  "favourite": false,
+  "favourite": true,
+  "red": false,
   "photos": [
     {
       "slug": "img-0399",

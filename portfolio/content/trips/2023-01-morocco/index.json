@@ -10,6 +10,7 @@
   "owner": "lewis",
   "contributors": ["lewis"],
   "favourite": true,
+  "red": false,
   "photos": [
     {
       "slug": "img-2324",
