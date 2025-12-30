@@ -39,6 +39,13 @@
           >Portfolio</NuxtLink
         >
       </li>
+      <li class="hidden sm:flex">
+        <NuxtLink
+          to="/editor/"
+          class="text px-3 py-1 font-semibold text-slate-200 duration-100 hover:text-white"
+          >Editor</NuxtLink
+        >
+      </li>
     </ul>
     <ul class="flex sm:hidden">
       <li>
@@ -110,6 +117,13 @@
                 to="/portfolio/"
                 class="flex flex-1 px-8 py-5 text-lg font-semibold text-slate-800 duration-100 hover:bg-slate-300"
                 >Portfolio</NuxtLink
+              >
+            </li>
+            <li class="flex" @click="showMenu = !showMenu">
+              <NuxtLink
+                to="/editor/"
+                class="flex flex-1 px-8 py-5 text-lg font-semibold text-slate-800 duration-100 hover:bg-slate-300"
+                >Editor</NuxtLink
               >
             </li>
           </ul>
