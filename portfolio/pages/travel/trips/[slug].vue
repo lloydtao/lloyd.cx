@@ -50,21 +50,29 @@
           </div>
           <div class="flex space-x-8 text-center">
             <div>
-              <div class="text-3xl font-bold">{{ trip?.photos?.length }}</div>
-              <div class="text-sm">Photos</div>
+              <div class="text-3xl font-bold">{{ trip?.posts?.length }}</div>
+              <div class="text-sm">Posts</div>
             </div>
           </div>
         </section>
         <section class="mt-8">
-          <h2 class="mb-4 px-5 text-2xl font-semibold">Photos</h2>
-          <div
-            class="grid grid-cols-3 gap-1 border-4 border-transparent bg-transparent sm:gap-3 lg:grid-cols-4 xl:grid-cols-6"
-          >
-            <PhotoCard
-              v-for="photo in trip?.photos"
-              :key="photo.id"
-              v-bind="photo"
-            />
+          <h2 class="mb-3 px-5 text-2xl font-semibold">Posts</h2>
+          <div v-for="post in trip?.posts" :key="post.slug" v-bind="post">
+            <div
+              class="mx-5 mb-8 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-[10px]"
+            >
+              <h3 class="mb-2 text-xl">{{ post?.title }}</h3>
+              <h3 class="mb-1">{{ post?.description }}</h3>
+              <div
+                class="mt-5 grid grid-cols-3 gap-1 bg-transparent sm:gap-3 lg:grid-cols-4 xl:grid-cols-6"
+              >
+                <PhotoCard
+                  v-for="photo in post.photos"
+                  :key="photo.slug"
+                  v-bind="photo"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </main>
