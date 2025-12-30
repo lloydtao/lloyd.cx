@@ -6,6 +6,14 @@ export interface Photo {
   photoUrl: string;
 }
 
+export interface Posts {
+  slug: string;
+  title: string;
+  description: string;
+  datePosted: string;
+  photos: Photo[];
+}
+
 export interface TravelCardProps {
   slug: string;
   title: string;
@@ -19,5 +27,5 @@ export interface TravelCardProps {
   contributors: string[];
   favourite: boolean;
   red: boolean;
-  photos: Photo[];
+  posts: Post[];
 }

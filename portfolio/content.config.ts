@@ -18,13 +18,20 @@ export default defineContentConfig({
         contributors: z.array(z.string()),
         favourite: z.boolean(),
         red: z.boolean(),
-        photos: z.array(
+        posts: z.array(
           z.object({
             slug: z.string(),
             title: z.string(),
             description: z.string(),
-            dateTaken: z.string(),
-            photoUrl: z.string(),
+            photos: z.array(
+              z.object({
+                slug: z.string(),
+                title: z.string(),
+                description: z.string(),
+                dateTaken: z.string(),
+                photoUrl: z.string(),
+              }),
+            ),
           }),
         ),
       }),
