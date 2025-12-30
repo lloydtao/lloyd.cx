@@ -14,9 +14,11 @@
   "posts": [
     {
       "slug": "po_019b6fc3-fb56-7795-bab2-6fc869fb7176",
-      "title": "Bulgaria",
-      "description": "A trip to Bulgaria.",
-      "datePosted": "2025-06-29",
+      "title": "Israel, Part 1",
+      "description": "Arrival in Tel Aviv, and a trip to Masada, Ein Gedi, and the Dead Sea.",
+      "datePosted": "2024-05-21",
+      "startDate": "2024-05-11",
+      "endDate": "2024-05-21",
       "photos": [
         {
           "slug": "img-3463",
@@ -59,7 +61,17 @@
           "description": "",
           "dateTaken": "2024-05-12T19:31:00",
           "photoUrl": "/trips/2024-05-levant/photos/IMG_3652.jpeg"
-        },
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc3-fb56-7795-bab2-6fc869fb7176",
+      "title": "Jordan",
+      "description": "Arrival in Aqaba, and a trip to Petra.",
+      "datePosted": "2024-05-16",
+      "startDate": "2024-05-14",
+      "endDate": "2024-05-16",
+      "photos": [
         {
           "slug": "img-3746",
           "title": "IMG_3746",
@@ -164,63 +176,17 @@
           "description": "",
           "dateTaken": "2024-05-16T13:55:00",
           "photoUrl": "/trips/2024-05-levant/photos/IMG_4104.jpeg"
-        },
-        {
-          "slug": "img-4128",
-          "title": "IMG_4128",
-          "description": "",
-          "dateTaken": "2024-05-17T17:30:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4128.jpeg"
-        },
-        {
-          "slug": "img-4131",
-          "title": "IMG_4131",
-          "description": "",
-          "dateTaken": "2024-05-18T12:51:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4131.jpeg"
-        },
-        {
-          "slug": "img-4154",
-          "title": "IMG_4154",
-          "description": "",
-          "dateTaken": "2024-05-18T13:29:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4154.jpeg"
-        },
-        {
-          "slug": "img-4165",
-          "title": "IMG_4165",
-          "description": "",
-          "dateTaken": "2024-05-18T15:11:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4165.jpeg"
-        },
-        {
-          "slug": "img-4195",
-          "title": "IMG_4195",
-          "description": "",
-          "dateTaken": "2024-05-19T17:07:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4195.jpeg"
-        },
-        {
-          "slug": "img-4204",
-          "title": "IMG_4204",
-          "description": "",
-          "dateTaken": "2024-05-19T17:15:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4204.jpeg"
-        },
-        {
-          "slug": "img-4210",
-          "title": "IMG_4210",
-          "description": "",
-          "dateTaken": "2024-05-19T17:37:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4210.jpeg"
-        },
-        {
-          "slug": "img-4219",
-          "title": "IMG_4219",
-          "description": "",
-          "dateTaken": "2024-05-19T17:52:00",
-          "photoUrl": "/trips/2024-05-levant/photos/IMG_4219.jpeg"
-        },
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc3-fb56-7795-bab2-6fc869fb7176",
+      "title": "Palestine",
+      "description": "A tour of the West Bank, including Bethlehem, Qasr al-Yahud, Jericho and the Mount of Temptation.",
+      "datePosted": "2024-05-20",
+      "startDate": "2024-05-20",
+      "endDate": "2024-05-20",
+      "photos": [
         {
           "slug": "img-4238",
           "title": "IMG_4238",
@@ -304,6 +270,72 @@
           "description": "",
           "dateTaken": "2024-05-20T14:08:00",
           "photoUrl": "/trips/2024-05-levant/photos/IMG_4350.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc3-fb56-7795-bab2-6fc869fb7176",
+      "title": "Israel, Part 2",
+      "description": "Jerusalem and the Golan Heights.",
+      "datePosted": "2024-05-20",
+      "startDate": "2024-05-20",
+      "endDate": "2024-05-20",
+      "photos": [
+        {
+          "slug": "img-4128",
+          "title": "IMG_4128",
+          "description": "",
+          "dateTaken": "2024-05-17T17:30:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4128.jpeg"
+        },
+        {
+          "slug": "img-4131",
+          "title": "IMG_4131",
+          "description": "",
+          "dateTaken": "2024-05-18T12:51:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4131.jpeg"
+        },
+        {
+          "slug": "img-4154",
+          "title": "IMG_4154",
+          "description": "",
+          "dateTaken": "2024-05-18T13:29:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4154.jpeg"
+        },
+        {
+          "slug": "img-4165",
+          "title": "IMG_4165",
+          "description": "",
+          "dateTaken": "2024-05-18T15:11:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4165.jpeg"
+        },
+        {
+          "slug": "img-4195",
+          "title": "IMG_4195",
+          "description": "",
+          "dateTaken": "2024-05-19T17:07:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4195.jpeg"
+        },
+        {
+          "slug": "img-4204",
+          "title": "IMG_4204",
+          "description": "",
+          "dateTaken": "2024-05-19T17:15:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4204.jpeg"
+        },
+        {
+          "slug": "img-4210",
+          "title": "IMG_4210",
+          "description": "",
+          "dateTaken": "2024-05-19T17:37:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4210.jpeg"
+        },
+        {
+          "slug": "img-4219",
+          "title": "IMG_4219",
+          "description": "",
+          "dateTaken": "2024-05-19T17:52:00",
+          "photoUrl": "/trips/2024-05-levant/photos/IMG_4219.jpeg"
         },
         {
           "slug": "img-4367",
