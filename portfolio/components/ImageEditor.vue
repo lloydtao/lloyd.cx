@@ -481,7 +481,6 @@ function fmtCoords(lat: number, lon: number) {
 
 async function readExifFromFile(file: File): Promise<ExifPick | null> {
   try {
-    // @ts-expect-error - runtime import
     const exifr = await import(
       /* @vite-ignore */ "https://cdn.skypack.dev/exifr"
     );
@@ -1184,7 +1183,6 @@ async function loadBitmap(url: string): Promise<ImageBitmap> {
       im.onerror = reject;
       im.src = url;
     });
-    // @ts-expect-error
     return await createImageBitmap(el);
   }
 }
