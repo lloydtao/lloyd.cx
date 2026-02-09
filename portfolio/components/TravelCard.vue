@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink id="travel-card" :to="'/travel/trips/' + slug">
+  <NuxtLink id="travel-card" :to="`/travel/trips/${slug}/`">
     <div
       class="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-slate-50/30 shadow-lg"
     >
