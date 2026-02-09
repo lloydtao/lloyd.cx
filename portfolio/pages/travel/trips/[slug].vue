@@ -154,7 +154,7 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref } from "vue";
+import { computed, onBeforeUnmount, onMounted, ref } from "vue";
 
 const route = useRoute();
 
@@ -224,17 +224,34 @@ const getFlagEmoji = (countryCode: string) => {
     .join("");
 };
 
+const fallbackTitle = computed(() => {
+  if (typeof route.params.slug === "string" && route.params.slug.length > 0) {
+    return route.params.slug.replace(/-/g, " ");
+  }
+  return "Trip";
+});
+
+const tripTitle = computed(() => trip.value?.title ?? fallbackTitle.value);
+
+const seoTitle = computed(() => {
+  return `${tripTitle.value} (${formatDate(trip.value?.startDate, true)}) - lloyd.cx`;
+});
+
+const seoOgTitle = computed(() => {
+  return `${tripTitle.value} (${formatDate(trip.value?.startDate, true)})`;
+});
+
+const seoDescription = computed(() => trip.value?.description ?? "");
+const seoImage = computed(() =>
+  trip.value?.coverPhoto ? `https://lloyd.cx/${trip.value.coverPhoto}` : "",
+);
+
 useSeoMeta({
-  title:
-    trip?.value?.title +
-    " (" +
-    formatDate(trip?.value?.startDate, true) +
-    ") - lloyd.cx",
-  ogTitle:
-    trip?.value?.title + " (" + formatDate(trip?.value?.startDate, true) + ")",
-  description: trip?.value?.description,
-  ogDescription: trip?.value?.description,
-  ogImage: "https://lloyd.cx/" + trip?.value?.coverPhoto,
+  title: seoTitle,
+  ogTitle: seoOgTitle,
+  description: seoDescription,
+  ogDescription: seoDescription,
+  ogImage: seoImage,
   twitterCard: "summary_large_image",
 });
 
