@@ -14,19 +14,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^3.6.3",
-    "@nuxt/eslint": "^1.3.0",
-    "@nuxt/image": "^1.10.0",
-    "@nuxtjs/tailwindcss": "^6.13.2",
-    "eslint": "^9.25.0",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
-    "nuxt": "^3.16.2",
-    "nuxt-twemoji": "^3.6.3",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "typescript": "^5.8.3",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "@nuxt/content": "^3.11.2",
+    "@nuxt/eslint": "^1.14.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "nuxt": "^3.21.1",
+    "nuxt-twemoji": "^3.8.2",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
   }
 }
