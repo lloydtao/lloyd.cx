@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen text-slate-50">
-    <div class="mx-auto max-w-lg space-y-4 px-0 py-4 sm:px-4">
+    <div class="mx-auto w-full space-y-4 px-0 py-4 sm:px-4">
       <section
-        class="relative mx-4 overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:mx-0"
+        class="relative mx-auto max-w-2xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
       >
         <NuxtImg
           v-if="trip?.coverPhoto"
@@ -43,7 +43,7 @@
         </div>
       </section>
 
-      <section class="space-y-4">
+      <section class="mx-auto w-full max-w-xl space-y-4">
         <div
           v-if="!trip?.posts?.length"
           class="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
@@ -94,7 +94,7 @@
               <div
                 v-for="photo in post?.photos"
                 :key="photo.slug"
-                class="relative aspect-[4/5] w-[28.5%] shrink-0 overflow-hidden rounded-lg sm:w-40 md:w-44 lg:w-48"
+                class="relative aspect-[4/5] w-[28.5%] shrink-0 overflow-hidden rounded-lg sm:w-[26%] md:w-[23.5%] lg:w-[21%]"
               >
                 <button
                   type="button"
