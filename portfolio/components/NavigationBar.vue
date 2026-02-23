@@ -8,7 +8,7 @@
             src="/logo/lloyd-cat-3-128.png"
             width="128"
             height="128"
-            alt="Pink boxes logo"
+            alt="Pixel cat logo"
           />
           <span
             class="py-1 text-xl font-semibold text-slate-50 duration-100 hover:text-white"
