@@ -51,7 +51,7 @@
       <li>
         <a
           href="#"
-          class="absolute right-0 z-30 flex-none px-5 md:px-3"
+          class="absolute right-0 z-30 flex-none md:px-3 px-2"
           @click="showMenu = !showMenu"
           ><p
             class="rounded bg-slate-900 bg-opacity-10 px-2 py-2 font-semibold tracking-wide text-slate-200 hover:bg-opacity-30"
