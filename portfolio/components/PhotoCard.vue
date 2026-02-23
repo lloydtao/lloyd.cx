@@ -1,15 +1,15 @@
 <template>
   <NuxtLink id="travel-card" :to="photoUrl" external>
     <div
-      class="group relative aspect-[4/5] overflow-hidden border border-white/30 shadow-lg"
+      class="group relative aspect-[3/4] overflow-hidden border border-white/30 shadow-lg"
     >
       <NuxtImg
         :src="photoUrl"
         :alt="title"
         :modifiers="{ rotate: null }"
         class="absolute inset-0 h-full w-full bg-slate-700 object-cover"
-        height="600"
-        width="480"
+        height="400"
+        width="300"
       />
       <div
         class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/50 px-3 py-1"

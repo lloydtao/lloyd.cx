@@ -97,7 +97,7 @@
               <div
                 v-for="photo in post?.photos"
                 :key="photo.slug"
-                class="relative aspect-[4/5] h-52 shrink-0 overflow-hidden overflow-hidden rounded-2xl border border-slate-200/30 shadow-lg"
+                class="relative aspect-[3/4] h-52 shrink-0 overflow-hidden overflow-hidden rounded-2xl border border-slate-200/30 shadow-lg"
               >
                 <button
                   type="button"
