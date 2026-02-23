@@ -1,8 +1,9 @@
 <template>
   <div class="min-h-screen text-slate-50">
-    <div class="mx-auto w-full space-y-4 px-0 py-4 sm:px-4">
+    <div class="mx-auto w-full space-y-4">
+      <div class="px-2 md:px-3">
       <section
-        class="relative mx-auto max-w-2xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
+        class="relative mx-auto max-w-xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl mt-3"
       >
         <NuxtImg
           v-if="trip?.coverPhoto"
@@ -16,7 +17,7 @@
           class="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/70"
         />
 
-        <div class="relative p-4 sm:p-5">
+        <div class="relative px-5 py-4">
           <div class="flex flex-wrap items-center gap-1.5 text-xs">
             <span
               class="rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
@@ -42,11 +43,13 @@
           </p>
         </div>
       </section>
+      </div>
+      <div class="px-0 md:px-3">
 
-      <section class="mx-auto w-full max-w-xl space-y-4">
+      <section class="mx-auto w-full md:max-w-3xl space-y-4">
         <div
           v-if="!trip?.posts?.length"
-          class="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
+          class="rounded-2xl border-t border-b border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
         >
           No posts yet.
         </div>
@@ -55,7 +58,7 @@
           v-for="post in trip.posts"
           v-else
           :key="post.slug"
-          class="overflow-hidden border border-white/10 bg-white/5 shadow-none backdrop-blur-xl sm:rounded-2xl sm:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+          class="overflow-hidden border-t border-b border-white/10 bg-white/5 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
         >
           <header class="flex items-center gap-2 p-3">
             <div
@@ -119,12 +122,13 @@
 
           <div
             v-if="post?.description"
-            class="border-t border-white/10 px-3 py-2 text-sm text-white/65"
+            class="border-t border-white/10 px-2 md:px-3 py-2 text-sm text-white/65"
           >
             {{ post.description }}
           </div>
         </article>
       </section>
+      </div>
     </div>
 
     <Teleport to="body">
