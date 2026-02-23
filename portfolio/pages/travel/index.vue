@@ -5,14 +5,14 @@
     >
       Travel
     </h1>
-    <h2 class="mt-2 text-lg leading-snug text-slate-200/90">
+    <h2 class="mt-3 text-lg leading-snug text-slate-200/90">
       <span
         class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
       >
         Trips
       </span>
     </h2>
-    <div id="travel-grid-card" class="mt-5">
+    <div id="travel-grid-card" class="mt-3">
       <TravelCardGrid :cards="travelCardGrid" />
     </div>
   </div>
