@@ -14,7 +14,7 @@
         class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-slate-900/10 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
       ></div>
       <div
-        class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
+        class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-2 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <p
           class="flex justify-end space-x-1 text-sm drop-shadow-sm md:text-base"
@@ -27,7 +27,7 @@
         </p>
       </div>
       <div
-        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
+        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/10 px-2 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <div class="flex items-center space-x-2">
           <div class="flex w-full items-center justify-between">

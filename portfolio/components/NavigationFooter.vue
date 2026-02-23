@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="container mx-auto flex flex-col items-center px-3 py-8 sm:flex-row"
+    class="container mx-auto flex flex-col items-center px-2 md:px-3 py-8 sm:flex-row"
   >
     <ul class="mx-auto mt-5 flex flex-grow">
       <li>

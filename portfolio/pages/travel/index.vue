@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-3 py-5">
+  <div class="container mx-auto px-2 md:px-3">
     <h1
       class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
     >
