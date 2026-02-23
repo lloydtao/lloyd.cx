@@ -73,7 +73,7 @@ const props = defineProps<TravelCardProps>();
 
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
-    month: "long",
+    month: "short",
     year: "numeric",
   };
   return new Date(date).toLocaleDateString("en", options);
