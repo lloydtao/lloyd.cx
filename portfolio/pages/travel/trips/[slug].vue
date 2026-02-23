@@ -1,130 +1,133 @@
 <template>
   <div class="min-h-screen text-slate-50">
-    <div class="mx-auto w-full space-y-4 px-0 py-4 sm:px-4">
-      <section
-        class="relative mx-auto max-w-2xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
-      >
-        <NuxtImg
-          v-if="trip?.coverPhoto"
-          :src="trip.coverPhoto"
-          :alt="trip?.title"
-          class="absolute inset-0 h-full w-full object-cover opacity-40"
-          height="600"
-          width="1200"
-        />
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/70"
-        />
-
-        <div class="relative p-4 sm:p-5">
-          <div class="flex flex-wrap items-center gap-1.5 text-xs">
-            <span
-              class="rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
-            >
-              {{ formatDateRange(trip?.startDate, trip?.endDate) }}
-            </span>
-            <span
-              class="flex items-center gap-1 rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
-            >
-              <Twemoji
-                v-for="(emoji, i) in trip?.countries.map(getFlagEmoji)"
-                :key="i"
-                :emoji="emoji"
-              />
-            </span>
-          </div>
-
-          <h1 class="mt-2 text-3xl font-semibold tracking-tight text-white">
-            {{ trip?.title }}
-          </h1>
-          <p class="mt-1.5 max-w-prose text-sm text-white/70">
-            {{ trip?.description }}
-          </p>
-        </div>
-      </section>
-
-      <section class="mx-auto w-full max-w-xl space-y-4">
-        <div
-          v-if="!trip?.posts?.length"
-          class="rounded-2xl border border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
+    <div class="mx-auto w-full space-y-4">
+      <div class="px-2 md:px-3">
+        <section
+          class="relative mx-auto mt-3 max-w-xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
         >
-          No posts yet.
-        </div>
-
-        <article
-          v-for="post in trip.posts"
-          v-else
-          :key="post.slug"
-          class="overflow-hidden border border-white/10 bg-white/5 shadow-none backdrop-blur-xl sm:rounded-2xl sm:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
-        >
-          <header class="flex items-center gap-2 p-3">
-            <div
-              class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
-            >
-              <NuxtImg
-                src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
-                :alt="post?.title"
-                class="h-full w-full object-cover"
-                height="80"
-                width="80"
-              />
-            </div>
-
-            <div class="min-w-0 flex-1">
-              <p class="truncate text-sm font-semibold text-white">
-                {{ post?.title }}
-              </p>
-              <p class="truncate text-xs text-white/60">
-                {{ formatPostDate(post?.datePosted) }}
-              </p>
-            </div>
-
-            <div
-              class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
-            >
-              {{ post?.photos?.length ?? 0 }} photos
-            </div>
-          </header>
-
-          <div class="relative">
-            <div
-              data-carousel="true"
-              class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1.5 overflow-x-scroll bg-white/5 px-2 py-2 active:cursor-grabbing"
-            >
-              <div
-                v-for="photo in post?.photos"
-                :key="photo.slug"
-                class="relative aspect-[4/5] w-[28.5%] shrink-0 overflow-hidden rounded-lg sm:w-[26%] md:w-[23.5%] lg:w-[21%]"
-              >
-                <button
-                  type="button"
-                  class="block h-full w-full"
-                  @click="onPhotoClick(photo, $event)"
-                >
-                  <NuxtImg
-                    :src="photo.photoUrl"
-                    :alt="photo.title"
-                    class="h-full w-full object-cover"
-                    height="400"
-                    width="400"
-                  />
-                </button>
-              </div>
-            </div>
-
-            <div
-              class="pointer-events-none absolute bottom-3 right-0 top-0 z-10 w-6 bg-gradient-to-l from-slate-950/80 via-slate-950/40 to-transparent transition-opacity"
-            />
-          </div>
-
+          <NuxtImg
+            v-if="trip?.coverPhoto"
+            :src="trip.coverPhoto"
+            :alt="trip?.title"
+            class="absolute inset-0 h-full w-full object-cover opacity-40"
+            height="600"
+            width="1200"
+          />
           <div
-            v-if="post?.description"
-            class="border-t border-white/10 px-3 py-2 text-sm text-white/65"
-          >
-            {{ post.description }}
+            class="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/70"
+          />
+
+          <div class="relative px-5 py-4">
+            <div class="flex flex-wrap items-center gap-1.5 text-xs">
+              <span
+                class="rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
+              >
+                {{ formatDateRange(trip?.startDate, trip?.endDate) }}
+              </span>
+              <span
+                class="flex items-center gap-1 rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
+              >
+                <Twemoji
+                  v-for="(emoji, i) in trip?.countries.map(getFlagEmoji)"
+                  :key="i"
+                  :emoji="emoji"
+                />
+              </span>
+            </div>
+
+            <h1 class="mt-2 text-3xl font-semibold tracking-tight text-white">
+              {{ trip?.title }}
+            </h1>
+            <p class="mt-1.5 max-w-prose text-sm text-white/70">
+              {{ trip?.description }}
+            </p>
           </div>
-        </article>
-      </section>
+        </section>
+      </div>
+      <div class="px-0 md:px-3">
+        <section class="mx-auto w-full space-y-4 md:max-w-3xl">
+          <div
+            v-if="!trip?.posts?.length"
+            class="rounded-2xl border-b border-t border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
+          >
+            No posts yet.
+          </div>
+
+          <article
+            v-for="post in trip.posts"
+            v-else
+            :key="post.slug"
+            class="overflow-hidden border-b border-t border-white/10 bg-white/5 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+          >
+            <header class="flex items-center gap-2 px-2 py-2 md:px-3 md:py-3">
+              <div
+                class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
+              >
+                <NuxtImg
+                  src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
+                  :alt="post?.title"
+                  class="h-full w-full object-cover"
+                  height="80"
+                  width="80"
+                />
+              </div>
+
+              <div class="min-w-0 flex-1">
+                <p class="truncate text-sm font-semibold text-white">
+                  {{ post?.title }}
+                </p>
+                <p class="truncate text-xs text-white/60">
+                  {{ formatPostDate(post?.datePosted) }}
+                </p>
+              </div>
+
+              <div
+                class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
+              >
+                {{ post?.photos?.length ?? 0 }} photos
+              </div>
+            </header>
+
+            <div class="relative">
+              <div
+                data-carousel="true"
+                class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1.5 overflow-x-scroll bg-white/5 px-2 py-2 active:cursor-grabbing md:px-3 md:py-3"
+              >
+                <div
+                  v-for="photo in post?.photos"
+                  :key="photo.slug"
+                  class="relative aspect-[3/4] h-52 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+                >
+                  <button
+                    type="button"
+                    class="block h-full w-full"
+                    @click="onPhotoClick(photo, $event)"
+                  >
+                    <NuxtImg
+                      :src="photo.photoUrl"
+                      :alt="photo.title"
+                      class="h-full w-full object-cover"
+                      height="400"
+                      width="300"
+                    />
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="pointer-events-none absolute bottom-3 right-0 top-0 z-10 w-6 bg-gradient-to-l from-slate-950/80 via-slate-950/40 to-transparent transition-opacity"
+              />
+            </div>
+
+            <div
+              v-if="post?.description"
+              class="border-t border-white/10 px-2 py-2 text-sm text-white/65 md:px-3 md:py-3"
+            >
+              {{ post.description }}
+            </div>
+          </article>
+        </section>
+      </div>
     </div>
 
     <Teleport to="body">

@@ -1,20 +1,20 @@
 <template>
   <NuxtLink id="travel-card" :to="`/travel/trips/${slug}/`">
     <div
-      class="group relative aspect-[4/5] overflow-hidden rounded-2xl border border-slate-50/30 shadow-lg"
+      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
     >
       <NuxtImg
         :src="coverPhoto"
         :alt="title"
         class="absolute inset-0 h-full w-full object-cover"
-        height="500"
-        width="400"
+        height="400"
+        width="300"
       />
       <div
         class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-slate-900/10 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
       ></div>
       <div
-        class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
+        class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-2 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <p
           class="flex justify-end space-x-1 text-sm drop-shadow-sm md:text-base"
@@ -27,12 +27,12 @@
         </p>
       </div>
       <div
-        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/10 px-3 py-2 backdrop-blur-sm md:px-5 md:py-3"
+        class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/10 px-2 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <div class="flex items-center space-x-2">
           <div class="flex w-full items-center justify-between">
             <h3
-              class="text-sm font-semibold text-slate-50 drop-shadow-sm md:text-base"
+              class="truncate text-xs font-semibold text-slate-50 drop-shadow-sm md:text-base"
             >
               {{ title }}
             </h3>
@@ -73,7 +73,7 @@ const props = defineProps<TravelCardProps>();
 
 const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
-    month: "long",
+    month: "short",
     year: "numeric",
   };
   return new Date(date).toLocaleDateString("en", options);

@@ -1,5 +1,5 @@
 <template>
-  <nav class="container mx-auto flex px-5 py-5 md:px-3">
+  <nav class="container mx-auto flex px-2 py-5 md:px-3">
     <ul class="flex flex-grow space-x-4">
       <li>
         <NuxtLink to="/" class="flex items-center space-x-3">
@@ -8,7 +8,7 @@
             src="/logo/lloyd-cat-3-128.png"
             width="128"
             height="128"
-            alt="Pink boxes logo"
+            alt="Pixel cat logo"
           />
           <span
             class="py-1 text-xl font-semibold text-slate-50 duration-100 hover:text-white"
