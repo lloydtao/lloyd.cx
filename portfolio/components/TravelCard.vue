@@ -32,7 +32,7 @@
         <div class="flex items-center space-x-2">
           <div class="flex w-full items-center justify-between">
             <h3
-              class="text-xs font-semibold text-slate-50 drop-shadow-sm md:text-base truncate"
+              class="truncate text-xs font-semibold text-slate-50 drop-shadow-sm md:text-base"
             >
               {{ title }}
             </h3>
