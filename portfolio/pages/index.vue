@@ -10,6 +10,13 @@
         >
           Travel
         </h1>
+        <h2 class="mt-3 text-lg leading-snug text-slate-200/90">
+          <span
+            class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+          >
+            Highlights
+          </span>
+        </h2>
       </div>
       <div id="travel-grid-card" class="mt-3 px-1 md:px-2">
         <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
