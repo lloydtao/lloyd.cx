@@ -1,13 +1,15 @@
 <template>
-  <div class="container mx-auto px-2 md:px-3">
+  <div class="container mx-auto">
     <div>
-      <div>
-        <h1 class="text-2xl font-semibold text-slate-50">Portfolio</h1>
+      <div class="px-3 md:px-5">
+        <div>
+          <h1 class="text-2xl font-semibold text-slate-50">Portfolio</h1>
+        </div>
+        <div class="mt-5">
+          <h1 class="text-xl font-semibold text-slate-100">Experience</h1>
+        </div>
       </div>
-      <div class="mt-5">
-        <h1 class="text-xl font-semibold text-slate-100">Experience</h1>
-      </div>
-      <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2">
+      <div class="mb-8 mt-5 grid gap-3 px-1 md:px-2 lg:grid-cols-2">
         <div>
           <div
             class="flex items-center overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-lg transition hover:bg-white/20"
@@ -133,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-5">
+      <div class="mt-5 px-3 md:px-5">
         <h1 class="text-xl font-semibold text-slate-100">Projects</h1>
       </div>
       <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2">

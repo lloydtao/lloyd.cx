@@ -1,15 +1,17 @@
 <template>
-  <div class="container mx-auto px-2 md:px-3">
-    <div>
+  <div class="container mx-auto">
+    <div class="px-3 md:px-5">
       <HomeHero />
     </div>
     <div class="container mx-auto mt-8">
-      <h1
-        class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
-      >
-        Travel
-      </h1>
-      <div id="travel-grid-card" class="mt-3">
+      <div class="px-3 md:px-5">
+        <h1
+          class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
+        >
+          Travel
+        </h1>
+      </div>
+      <div id="travel-grid-card" class="mt-3 px-1 md:px-2">
         <TravelCardGrid :cards="travelCardGrid" :display-view-all="true" />
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen text-slate-50">
     <div class="mx-auto w-full space-y-4">
-      <div class="px-2 md:px-3">
+      <div class="px-3 md:px-5">
         <section
           class="relative mx-auto mt-3 max-w-xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
         >
