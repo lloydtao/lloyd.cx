@@ -137,7 +137,7 @@
         @click.self="closeLightbox"
       >
         <div class="relative max-h-[90vh] max-w-[90vw]">
-          <NuxtImg
+          <img
             :src="lightboxPhoto.photoUrl"
             :alt="lightboxPhoto.title"
             class="h-auto max-h-[90vh] w-auto max-w-[90vw] rounded-2xl object-contain"
