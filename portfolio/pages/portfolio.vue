@@ -2,12 +2,18 @@
   <div class="container mx-auto">
     <div>
       <div class="px-3 md:px-5">
-        <div>
-          <h1 class="text-2xl font-semibold text-slate-50">Portfolio</h1>
-        </div>
-        <div class="mt-5">
-          <h1 class="text-xl font-semibold text-slate-100">Experience</h1>
-        </div>
+        <h1
+          class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
+        >
+          Portfolio
+        </h1>
+        <h2 class="mt-3 text-lg leading-snug text-slate-200/90">
+          <span
+            class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+          >
+            Experience
+          </span>
+        </h2>
       </div>
       <div class="mb-8 mt-5 grid gap-3 px-1 md:px-2 lg:grid-cols-2">
         <div>
@@ -136,7 +142,13 @@
         </div>
       </div>
       <div class="mt-5 px-3 md:px-5">
-        <h1 class="text-xl font-semibold text-slate-100">Projects</h1>
+        <h2 class="mt-3 text-lg leading-snug text-slate-200/90">
+          <span
+            class="bg-gradient-to-b from-white to-slate-300 bg-clip-text text-transparent"
+          >
+            Projects
+          </span>
+        </h2>
       </div>
       <div class="mb-8 mt-5 grid gap-3 lg:grid-cols-2">
         <div>
