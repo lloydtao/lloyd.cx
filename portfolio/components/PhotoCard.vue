@@ -8,8 +8,8 @@
         :alt="title"
         :modifiers="{ rotate: null }"
         class="absolute inset-0 h-full w-full bg-slate-700 object-cover"
-        height="400"
-        width="300"
+        height="800"
+        width="600"
       />
       <div
         class="absolute bottom-0 left-0 z-10 flex w-full flex-col bg-slate-900/50 px-3 py-1"

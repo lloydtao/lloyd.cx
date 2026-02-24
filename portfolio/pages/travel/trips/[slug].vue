@@ -107,8 +107,8 @@
                       :src="photo.photoUrl"
                       :alt="photo.title"
                       class="h-full w-full object-cover"
-                      height="400"
-                      width="300"
+                      height="800"
+                      width="600"
                     />
                   </button>
                 </div>

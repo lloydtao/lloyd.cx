@@ -7,8 +7,8 @@
         :src="coverPhoto"
         :alt="title"
         class="absolute inset-0 h-full w-full object-cover"
-        height="400"
-        width="300"
+        height="800"
+        width="600"
       />
       <div
         class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-slate-900/10 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
