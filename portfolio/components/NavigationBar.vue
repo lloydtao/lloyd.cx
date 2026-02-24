@@ -1,5 +1,5 @@
 <template>
-  <nav class="container mx-auto flex px-2 py-5 md:px-3">
+  <nav class="container mx-auto flex px-3 py-5 md:px-5">
     <ul class="flex flex-grow space-x-4">
       <li>
         <NuxtLink to="/" class="flex items-center space-x-3">
@@ -51,7 +51,7 @@
       <li>
         <a
           href="#"
-          class="absolute right-0 z-30 flex-none px-5 md:px-3"
+          class="absolute right-0 z-30 flex-none px-3 md:px-5"
           @click="showMenu = !showMenu"
           ><p
             class="rounded bg-slate-900 bg-opacity-10 px-2 py-2 font-semibold tracking-wide text-slate-200 hover:bg-opacity-30"

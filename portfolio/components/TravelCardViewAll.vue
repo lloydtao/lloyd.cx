@@ -1,7 +1,7 @@
 <template>
   <NuxtLink id="travel-card" to="/travel/">
     <div
-      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/30 bg-gradient-to-br from-slate-500/70 via-slate-500/30 to-slate-900/50 shadow-lg"
+      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/10 bg-gradient-to-br from-slate-500/70 via-slate-500/30 to-slate-900/50 shadow-lg"
     >
       <div
         class="pointer-events-none absolute inset-0 z-0 rounded-2xl bg-slate-900/20 opacity-0 transition duration-100 group-hover:opacity-100 group-hover:shadow-[0_0_25px_4px_rgba(255,255,255,0.6)]"
