@@ -1,7 +1,7 @@
 <template>
   <NuxtLink id="travel-card" :to="`/travel/trips/${slug}/`">
     <div
-      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/20 shadow-lg"
     >
       <NuxtImg
         :src="coverPhoto"
