@@ -1,7 +1,7 @@
 <template>
   <NuxtLink id="travel-card" :to="`/travel/trips/${slug}/`">
     <div
-      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+      class="group relative aspect-[3/4] overflow-hidden rounded-2xl border border-slate-50/20 shadow-lg"
     >
       <NuxtImg
         :src="coverPhoto"
@@ -17,7 +17,7 @@
         class="absolute left-0 top-0 z-10 flex w-full flex-col bg-slate-900/10 px-2 py-2 backdrop-blur-sm md:px-5 md:py-3"
       >
         <p
-          class="flex justify-end space-x-1 text-sm drop-shadow-sm md:text-base"
+          class="space-x-0.5 text-right text-sm text-slate-50 drop-shadow-sm md:text-base"
         >
           <Twemoji
             v-for="(emoji, i) in countries.map(getFlagEmoji)"

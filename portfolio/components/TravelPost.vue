@@ -1,0 +1,138 @@
+<template>
+  <article
+    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+  >
+    <header class="flex items-center gap-2 px-3 py-2">
+      <div
+        class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
+      >
+        <NuxtImg
+          src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
+          :alt="post?.title"
+          class="h-full w-full object-cover"
+          height="80"
+          width="80"
+        />
+      </div>
+
+      <div class="min-w-0 flex-1">
+        <p class="truncate text-sm font-semibold text-white">
+          {{ post?.title }}
+        </p>
+        <p class="truncate text-xs text-white/60">
+          {{ formatPostDate(post?.datePosted) }}
+        </p>
+      </div>
+
+      <div
+        class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
+      >
+        {{ post?.photos?.length ?? 0 }} photos
+      </div>
+    </header>
+
+    <div v-if="post?.description" class="px-3 text-sm text-slate-50">
+      <details class="group min-w-0 flex-1 text-xs leading-4 text-slate-50/90">
+        <summary
+          class="mt-1 block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
+        >
+          <span class="relative block group-open:hidden">
+            <p class="line-clamp-2">
+              {{ post.description }}
+            </p>
+            <p
+              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+            >
+              See more
+            </p>
+          </span>
+
+          <span class="hidden whitespace-pre-line pr-1 group-open:inline">
+            {{ post.description }}
+          </span>
+          <span
+            class="hidden font-medium text-slate-200/80 transition hover:text-slate-50 group-open:inline"
+          >
+            <p
+              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+            >
+              See less
+            </p>
+          </span>
+        </summary>
+      </details>
+    </div>
+
+    <div class="relative">
+      <div
+        data-carousel="true"
+        class="carousel-scrollbar relative z-0 mt-2 flex cursor-grab select-none gap-1.5 overflow-x-scroll px-3 py-1 active:cursor-grabbing"
+      >
+        <div
+          v-for="photo in post?.photos"
+          :key="photo.slug"
+          class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+        >
+          <button
+            type="button"
+            class="block h-full w-full"
+            @click="emit('photo-click', photo)"
+          >
+            <NuxtImg
+              :src="photo.photoUrl"
+              :alt="photo.title"
+              class="h-full w-full object-cover"
+              height="800"
+              width="600"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script setup lang="ts">
+type TripPhoto = {
+  slug: string;
+  photoUrl: string;
+  title?: string;
+};
+
+type TripPost = {
+  title?: string;
+  datePosted?: string;
+  description?: string;
+  photos?: TripPhoto[];
+};
+
+defineProps<{
+  post: TripPost;
+  formatPostDate: (date: string | undefined) => string;
+}>();
+
+const emit = defineEmits<{
+  "photo-click": [photo: TripPhoto];
+}>();
+</script>
+
+<style scoped>
+.carousel-scrollbar {
+  scrollbar-color: #334155 #0f172a;
+  scrollbar-width: thin;
+}
+
+.carousel-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 999px;
+}
+
+.carousel-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(51, 65, 85, 0.9);
+  border-radius: 999px;
+}
+</style>
