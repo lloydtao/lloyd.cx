@@ -32,28 +32,34 @@
     </header>
 
     <div v-if="post?.description" class="px-3 text-sm text-slate-50">
-      <details
-        class="group flex min-w-0 flex-1 flex-col text-xs leading-4 text-slate-50/90"
-      >
+      <details class="group min-w-0 flex-1 text-xs leading-4 text-slate-50/90">
         <summary
-          class="order-last block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
+          class="mt-1 block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
         >
-          <div class="group-open:hidden">
-            <p class="max-h-8 overflow-hidden whitespace-pre-line pr-1">
+          <span class="relative block group-open:hidden">
+            <p class="line-clamp-2">
               {{ post.description }}
             </p>
-          </div>
-          <div
-            class="mt-1 font-medium text-slate-200/80 transition hover:text-slate-50"
-          >
-            <span class="group-open:hidden">See more</span>
-            <span class="hidden group-open:inline">See less</span>
-          </div>
-        </summary>
+            <p
+              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+            >
+              See more
+            </p>
+          </span>
 
-        <p class="hidden whitespace-pre-line pr-1 group-open:block">
-          {{ post.description }}
-        </p>
+          <span class="hidden whitespace-pre-line pr-1 group-open:inline">
+            {{ post.description }}
+          </span>
+          <span
+            class="hidden font-medium text-slate-200/80 transition hover:text-slate-50 group-open:inline"
+          >
+            <p
+              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+            >
+              See less
+            </p>
+          </span>
+        </summary>
       </details>
     </div>
 
