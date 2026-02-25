@@ -1,8 +1,8 @@
 <template>
   <article
-    class="overflow-hidden border-b border-t border-white/10 bg-white/5 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
-    <header class="flex items-center gap-2 px-2 py-2 md:px-3 md:py-3">
+    <header class="flex items-center gap-2 px-3 py-2">
       <div
         class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
       >
@@ -31,7 +31,7 @@
       </div>
     </header>
 
-    <div v-if="post?.description" class="mt-1 px-3 text-sm text-slate-50">
+    <div v-if="post?.description" class="px-3 text-sm text-slate-50">
       <div class="min-w-0 flex-1 text-slate-50/90">
         <p class="whitespace-pre-line text-xs">
           {{ post.description }}
@@ -42,7 +42,7 @@
     <div class="relative">
       <div
         data-carousel="true"
-        class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1.5 overflow-x-scroll bg-white/5 px-2 py-2 active:cursor-grabbing md:px-3 md:py-3"
+        class="carousel-scrollbar relative z-0 mt-2 flex cursor-grab select-none gap-1.5 overflow-x-scroll px-3 py-1 active:cursor-grabbing"
       >
         <div
           v-for="photo in post?.photos"
