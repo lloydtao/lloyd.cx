@@ -32,11 +32,29 @@
     </header>
 
     <div v-if="post?.description" class="px-3 text-sm text-slate-50">
-      <div class="min-w-0 flex-1 text-slate-50/90">
-        <p class="whitespace-pre-line text-xs">
+      <details
+        class="group flex min-w-0 flex-1 flex-col text-xs leading-4 text-slate-50/90"
+      >
+        <summary
+          class="order-last block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
+        >
+          <div class="group-open:hidden">
+            <p class="max-h-8 overflow-hidden whitespace-pre-line pr-1">
+              {{ post.description }}
+            </p>
+          </div>
+          <div
+            class="mt-1 font-medium text-slate-200/80 transition hover:text-slate-50"
+          >
+            <span class="group-open:hidden">See more</span>
+            <span class="hidden group-open:inline">See less</span>
+          </div>
+        </summary>
+
+        <p class="hidden whitespace-pre-line pr-1 group-open:block">
           {{ post.description }}
         </p>
-      </div>
+      </details>
     </div>
 
     <div class="relative">
