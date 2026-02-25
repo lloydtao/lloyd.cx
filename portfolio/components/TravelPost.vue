@@ -64,10 +64,6 @@
           </button>
         </div>
       </div>
-
-      <div
-        class="pointer-events-none absolute bottom-3 right-0 top-0 z-10 w-6 bg-gradient-to-l from-slate-950/80 via-slate-950/40 to-transparent transition-opacity"
-      />
     </div>
   </article>
 </template>
