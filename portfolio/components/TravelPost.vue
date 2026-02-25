@@ -31,6 +31,14 @@
       </div>
     </header>
 
+    <div v-if="post?.description" class="mt-1 px-3 text-sm text-slate-50">
+      <div class="min-w-0 flex-1 text-slate-50/90">
+        <p class="whitespace-pre-line text-xs">
+          {{ post.description }}
+        </p>
+      </div>
+    </div>
+
     <div class="relative">
       <div
         data-carousel="true"
@@ -60,13 +68,6 @@
       <div
         class="pointer-events-none absolute bottom-3 right-0 top-0 z-10 w-6 bg-gradient-to-l from-slate-950/80 via-slate-950/40 to-transparent transition-opacity"
       />
-    </div>
-
-    <div
-      v-if="post?.description"
-      class="border-t border-white/10 px-2 py-2 text-sm text-white/65 md:px-3 md:py-3"
-    >
-      {{ post.description }}
     </div>
   </article>
 </template>
