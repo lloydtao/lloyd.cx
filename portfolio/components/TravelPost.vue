@@ -2,7 +2,7 @@
   <article
     class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
-    <div class="pointer-events-none absolute inset-0 -z-10">
+    <div class="pointer-events-none absolute inset-0 -z-[5]">
       <NuxtImg
         class="mx-auto h-64 w-full object-cover opacity-55"
         src="/images/bg-travel.svg"
@@ -11,6 +11,9 @@
         alt="Teal and indigo background glow graphics"
       />
     </div>
+    <div
+      class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-gray-800/90 to-gray-900/90"
+    />
 
     <div>
       <header class="flex items-center gap-2 px-3 py-3 md:px-5">
