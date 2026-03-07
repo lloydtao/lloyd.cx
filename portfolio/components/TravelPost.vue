@@ -1,8 +1,8 @@
 <template>
   <article
-    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
-    <header class="flex items-center gap-2 px-3 py-2">
+    <header class="flex items-center gap-2 px-3 py-3">
       <div
         class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
       >
@@ -16,9 +16,7 @@
       </div>
 
       <div class="min-w-0 flex-1">
-        <p class="truncate text-sm font-semibold text-white">
-          {{ post?.title }}
-        </p>
+        <p class="truncate text-sm font-semibold text-white">Lewis Lloyd</p>
         <p class="truncate text-xs text-white/60">
           {{ formatPostDate(post?.datePosted) }}
         </p>
@@ -31,42 +29,10 @@
       </div>
     </header>
 
-    <div v-if="post?.description" class="px-3 text-sm text-slate-50">
-      <details class="group min-w-0 flex-1 text-xs leading-4 text-slate-50/90">
-        <summary
-          class="mt-1 block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
-        >
-          <span class="relative block group-open:hidden">
-            <p class="line-clamp-2">
-              {{ post.description }}
-            </p>
-            <p
-              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
-            >
-              See more
-            </p>
-          </span>
-
-          <span class="hidden whitespace-pre-line pr-1 group-open:inline">
-            {{ post.description }}
-          </span>
-          <span
-            class="hidden font-medium text-slate-200/80 transition hover:text-slate-50 group-open:inline"
-          >
-            <p
-              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
-            >
-              See less
-            </p>
-          </span>
-        </summary>
-      </details>
-    </div>
-
     <div class="relative">
       <div
         data-carousel="true"
-        class="carousel-scrollbar relative z-0 mt-2 flex cursor-grab select-none gap-1.5 overflow-x-scroll px-3 py-1 active:cursor-grabbing"
+        class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-1 active:cursor-grabbing"
       >
         <div
           v-for="photo in post?.photos"
@@ -89,10 +55,53 @@
         </div>
       </div>
     </div>
+
+    <div v-if="post?.description" class="mt-3 px-3 text-sm text-slate-50">
+      <div class="min-w-0 flex-1">
+        <p class="truncate text-sm font-semibold text-white">
+          {{ post?.title }}
+        </p>
+        <p class="truncate text-xs text-white/60">
+          {{ formatPostDate(post?.datePosted) }}
+        </p>
+      </div>
+      <div class="mt-2">
+        <p
+          v-if="!expandedDescription"
+          class="text-sm leading-4 text-slate-50/90"
+        >
+          <span>{{ collapsedDescription }}</span
+          ><span v-if="isTruncated">&hellip;&nbsp;</span>
+          <button
+            v-if="isTruncated"
+            type="button"
+            class="inline font-medium text-slate-200/80 transition hover:text-slate-50"
+            @click="expandedDescription = true"
+          >
+            See more
+          </button>
+        </p>
+
+        <div v-else>
+          <p class="whitespace-pre-line text-sm leading-4 text-slate-50/90">
+            {{ post.description }}
+          </p>
+          <button
+            type="button"
+            class="mt-1 block w-full text-right text-sm font-medium text-slate-200/80 transition hover:text-slate-50"
+            @click="expandedDescription = false"
+          >
+            See less
+          </button>
+        </div>
+      </div>
+    </div>
   </article>
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from "vue";
+
 type TripPhoto = {
   slug: string;
   photoUrl: string;
@@ -106,7 +115,7 @@ type TripPost = {
   photos?: TripPhoto[];
 };
 
-defineProps<{
+const { post, formatPostDate } = defineProps<{
   post: TripPost;
   formatPostDate: (date: string | undefined) => string;
 }>();
@@ -114,6 +123,32 @@ defineProps<{
 const emit = defineEmits<{
   "photo-click": [photo: TripPhoto];
 }>();
+
+const expandedDescription = ref(false);
+const DESCRIPTION_PREVIEW_LENGTH = 120;
+
+const normalizedDescription = computed(() =>
+  (post?.description ?? "").replace(/\s+/g, " ").trim(),
+);
+
+const isTruncated = computed(
+  () => normalizedDescription.value.length > DESCRIPTION_PREVIEW_LENGTH,
+);
+
+const collapsedDescription = computed(() => {
+  if (!isTruncated.value) {
+    return normalizedDescription.value;
+  }
+
+  const preview = normalizedDescription.value.slice(
+    0,
+    DESCRIPTION_PREVIEW_LENGTH,
+  );
+  const lastSpaceIndex = preview.lastIndexOf(" ");
+  return (
+    lastSpaceIndex > 0 ? preview.slice(0, lastSpaceIndex) : preview
+  ).trim();
+});
 </script>
 
 <style scoped>
