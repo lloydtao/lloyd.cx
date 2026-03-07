@@ -1,98 +1,113 @@
 <template>
   <article
-    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
-    <header class="flex items-center gap-2 px-3 py-3">
-      <div
-        class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
-      >
-        <NuxtImg
-          src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
-          :alt="post?.title"
-          class="h-full w-full object-cover"
-          height="80"
-          width="80"
-        />
-      </div>
-
-      <div class="min-w-0 flex-1">
-        <p class="truncate text-sm font-semibold text-white">Lewis Lloyd</p>
-        <p class="truncate text-xs text-white/60">
-          {{ formatPostDate(post?.datePosted) }}
-        </p>
-      </div>
-
-      <div
-        class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
-      >
-        {{ post?.photos?.length ?? 0 }} photos
-      </div>
-    </header>
-
-    <div class="relative">
-      <div
-        data-carousel="true"
-        class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-1 active:cursor-grabbing"
-      >
-        <div
-          v-for="photo in post?.photos"
-          :key="photo.slug"
-          class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
-        >
-          <button
-            type="button"
-            class="block h-full w-full"
-            @click="emit('photo-click', photo)"
-          >
-            <NuxtImg
-              :src="photo.photoUrl"
-              :alt="photo.title"
-              class="h-full w-full object-cover"
-              height="800"
-              width="600"
-            />
-          </button>
-        </div>
-      </div>
+    <div class="pointer-events-none absolute inset-0 -z-10">
+      <NuxtImg
+        class="mx-auto h-64 w-full object-cover opacity-55"
+        src="/images/bg-travel.svg"
+        width="1920"
+        height="1080"
+        alt="Teal and indigo background glow graphics"
+      />
     </div>
 
-    <div v-if="post?.description" class="mt-3 px-3 text-sm text-slate-50">
-      <div class="min-w-0 flex-1">
-        <p class="truncate text-sm font-semibold text-white">
-          {{ post?.title }}
-        </p>
-        <p class="truncate text-xs text-white/60">
-          {{ formatPostDate(post?.datePosted) }}
-        </p>
-      </div>
-      <div class="mt-2">
-        <p
-          v-if="!expandedDescription"
-          class="text-sm leading-4 text-slate-50/90"
+    <div>
+      <header class="flex items-center gap-2 px-3 py-3 md:px-5">
+        <div
+          class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
         >
-          <span>{{ collapsedDescription }}</span
-          ><span v-if="isTruncated">&hellip;&nbsp;</span>
-          <button
-            v-if="isTruncated"
-            type="button"
-            class="inline font-medium text-slate-200/80 transition hover:text-slate-50"
-            @click="expandedDescription = true"
-          >
-            See more
-          </button>
-        </p>
+          <NuxtImg
+            src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
+            :alt="post?.title"
+            class="h-full w-full object-cover"
+            height="80"
+            width="80"
+          />
+        </div>
 
-        <div v-else>
-          <p class="whitespace-pre-line text-sm leading-4 text-slate-50/90">
-            {{ post.description }}
+        <div class="min-w-0 flex-1">
+          <p class="truncate text-sm font-semibold text-white">Lewis Lloyd</p>
+          <p class="truncate text-xs text-white/60">
+            {{ formatPostDate(post?.datePosted) }}
           </p>
-          <button
-            type="button"
-            class="mt-1 block w-full text-right text-sm font-medium text-slate-200/80 transition hover:text-slate-50"
-            @click="expandedDescription = false"
+        </div>
+
+        <div
+          class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
+        >
+          {{ post?.photos?.length ?? 0 }} photos
+        </div>
+      </header>
+
+      <div class="relative">
+        <div
+          data-carousel="true"
+          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-1 active:cursor-grabbing md:px-2"
+        >
+          <div
+            v-for="photo in post?.photos"
+            :key="photo.slug"
+            class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
           >
-            See less
-          </button>
+            <button
+              type="button"
+              class="block h-full w-full"
+              @click="emit('photo-click', photo)"
+            >
+              <NuxtImg
+                :src="photo.photoUrl"
+                :alt="photo.title"
+                class="h-full w-full object-cover"
+                height="800"
+                width="600"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-if="post?.description"
+        class="mt-3 px-3 text-sm text-slate-50 md:px-5"
+      >
+        <div class="min-w-0 flex-1">
+          <p class="truncate text-sm font-semibold text-white">
+            {{ post?.title }}
+          </p>
+          <p class="truncate text-xs text-white/60">
+            {{ formatPostDate(post?.datePosted) }}
+          </p>
+        </div>
+        <div class="mt-2">
+          <p
+            v-if="!expandedDescription"
+            class="text-sm leading-4 text-slate-50/90"
+          >
+            <span>{{ collapsedDescription }}</span
+            ><span v-if="isTruncated">&hellip;&nbsp;</span>
+            <button
+              v-if="isTruncated"
+              type="button"
+              class="inline font-medium text-slate-200/80 transition hover:text-slate-50"
+              @click="expandedDescription = true"
+            >
+              See more
+            </button>
+          </p>
+
+          <div v-else>
+            <p class="whitespace-pre-line text-sm leading-4 text-slate-50/90">
+              {{ post.description }}
+            </p>
+            <button
+              type="button"
+              class="mt-1 block w-full text-right text-sm font-medium text-slate-200/80 transition hover:text-slate-50"
+              @click="expandedDescription = false"
+            >
+              See less
+            </button>
+          </div>
         </div>
       </div>
     </div>
