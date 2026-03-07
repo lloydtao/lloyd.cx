@@ -1,0 +1,383 @@
+{
+  "slug": "2025-11-levant-ii",
+  "title": "The Levant II",
+  "description": "Another trip to The Levant.",
+  "startDate": "2025-11-29",
+  "endDate": "2025-12-14",
+  "countries": ["LB", "SY", "IQ"],
+  "tags": ["history", "nature", "solo"],
+  "coverPhoto": "/trips/2025-11-levant-ii/photos/IMG_1478.jpeg",
+  "owner": "lewis",
+  "contributors": ["lewis"],
+  "favourite": true,
+  "red": false,
+  "posts": [
+    {
+      "slug": "po_22cdded5-2c5f-47e7-8b4e-16e2c155712a",
+      "title": "Lebanon",
+      "description": "A trip to Lebanon.",
+      "datePosted": "2025-12-14",
+      "photos": [
+        {
+          "slug": "img-0761",
+          "title": "IMG_0761",
+          "description": "",
+          "dateTaken": "2025-11-30T13:21:13",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0761.jpeg"
+        },
+        {
+          "slug": "img-0812",
+          "title": "IMG_0812",
+          "description": "",
+          "dateTaken": "2025-12-01T10:06:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0812.jpeg"
+        },
+        {
+          "slug": "img-0919",
+          "title": "IMG_0919",
+          "description": "",
+          "dateTaken": "2025-12-01T12:56:40",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0919.jpeg"
+        },
+        {
+          "slug": "img-0958",
+          "title": "IMG_0958",
+          "description": "",
+          "dateTaken": "2025-12-01T13:26:34",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0958.jpeg"
+        },
+        {
+          "slug": "img-1031",
+          "title": "IMG_1031",
+          "description": "",
+          "dateTaken": "2025-12-02T10:39:14",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1031.jpeg"
+        },
+        {
+          "slug": "img-1131",
+          "title": "IMG_1131",
+          "description": "",
+          "dateTaken": "2025-12-03T10:05:17",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1131.jpeg"
+        },
+        {
+          "slug": "img-1150",
+          "title": "IMG_1150",
+          "description": "",
+          "dateTaken": "2025-12-03T10:15:55",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1150.jpeg"
+        },
+        {
+          "slug": "img-1197",
+          "title": "IMG_1197",
+          "description": "",
+          "dateTaken": "2025-12-03T11:19:10",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1197.jpeg"
+        },
+        {
+          "slug": "img-1212",
+          "title": "IMG_1212",
+          "description": "",
+          "dateTaken": "2025-12-03T12:44:43",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1212.jpeg"
+        },
+        {
+          "slug": "img-1222",
+          "title": "IMG_1222",
+          "description": "",
+          "dateTaken": "2025-12-03T12:51:16",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1222.jpeg"
+        },
+        {
+          "slug": "img-1265",
+          "title": "IMG_1265",
+          "description": "",
+          "dateTaken": "2025-12-03T21:14:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1265.jpeg"
+        },
+        {
+          "slug": "img-2054",
+          "title": "IMG_2054",
+          "description": "",
+          "dateTaken": "2025-12-07T10:07:53",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2054.jpeg"
+        },
+        {
+          "slug": "img-2130",
+          "title": "IMG_2130",
+          "description": "",
+          "dateTaken": "2025-12-07T12:08:33",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2130.jpeg"
+        },
+        {
+          "slug": "img-2185",
+          "title": "IMG_2185",
+          "description": "",
+          "dateTaken": "2025-12-07T14:03:38",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2185.jpeg"
+        },
+        {
+          "slug": "img-2221",
+          "title": "IMG_2221",
+          "description": "",
+          "dateTaken": "2025-12-07T14:22:10",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2221.jpeg"
+        },
+        {
+          "slug": "img-2227",
+          "title": "IMG_2227",
+          "description": "",
+          "dateTaken": "2025-12-07T14:26:55",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2227.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "po_a51bbd04-8d22-48dc-8b51-91830f0745b1",
+      "title": "Syria",
+      "description": "A trip to Syria.",
+      "datePosted": "2025-12-15",
+      "photos": [
+        {
+          "slug": "img-1333",
+          "title": "IMG_1333",
+          "description": "",
+          "dateTaken": "2025-12-04T13:42:16",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1333.jpeg"
+        },
+        {
+          "slug": "img-1351",
+          "title": "IMG_1351",
+          "description": "",
+          "dateTaken": "2025-12-04T14:01:11",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1351.jpeg"
+        },
+        {
+          "slug": "img-1387",
+          "title": "IMG_1387",
+          "description": "",
+          "dateTaken": "2025-12-04T14:37:51",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1387.jpeg"
+        },
+        {
+          "slug": "img-1453",
+          "title": "IMG_1453",
+          "description": "",
+          "dateTaken": "2025-12-04T16:59:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1453.jpeg"
+        },
+        {
+          "slug": "img-1463",
+          "title": "IMG_1463",
+          "description": "",
+          "dateTaken": "2025-12-04T17:03:59",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1463.jpeg"
+        },
+        {
+          "slug": "img-1478",
+          "title": "IMG_1478",
+          "description": "",
+          "dateTaken": "2025-12-04T17:21:59",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1478.jpeg"
+        },
+        {
+          "slug": "img-1486",
+          "title": "IMG_1486",
+          "description": "",
+          "dateTaken": "2025-12-04T17:30:22",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1486.jpeg"
+        },
+        {
+          "slug": "img-1544",
+          "title": "IMG_1544",
+          "description": "",
+          "dateTaken": "2025-12-05T10:46:32",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1544.jpeg"
+        },
+        {
+          "slug": "img-1593",
+          "title": "IMG_1593",
+          "description": "",
+          "dateTaken": "2025-12-05T12:11:45",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1593.jpeg"
+        },
+        {
+          "slug": "img-1664",
+          "title": "IMG_1664",
+          "description": "",
+          "dateTaken": "2025-12-05T13:27:05",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1664.jpeg"
+        },
+        {
+          "slug": "img-1678",
+          "title": "IMG_1678",
+          "description": "",
+          "dateTaken": "2025-12-05T13:32:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1678.jpeg"
+        },
+        {
+          "slug": "img-1736",
+          "title": "IMG_1736",
+          "description": "",
+          "dateTaken": "2025-12-05T13:54:10",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1736.jpeg"
+        },
+        {
+          "slug": "img-1756",
+          "title": "IMG_1756",
+          "description": "",
+          "dateTaken": "2025-12-05T14:03:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1756.jpeg"
+        },
+        {
+          "slug": "img-1793",
+          "title": "IMG_1793",
+          "description": "",
+          "dateTaken": "2025-12-05T14:29:34",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1793.jpeg"
+        },
+        {
+          "slug": "img-1815",
+          "title": "IMG_1815",
+          "description": "",
+          "dateTaken": "2025-12-05T14:43:18",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1815.jpeg"
+        },
+        {
+          "slug": "img-1842",
+          "title": "IMG_1842",
+          "description": "",
+          "dateTaken": "2025-12-05T15:00:02",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1842.jpeg"
+        },
+        {
+          "slug": "img-1862",
+          "title": "IMG_1862",
+          "description": "",
+          "dateTaken": "2025-12-05T15:15:44",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1862.jpeg"
+        },
+        {
+          "slug": "img-1929",
+          "title": "IMG_1929",
+          "description": "",
+          "dateTaken": "2025-12-05T17:00:49",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1929.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "po_da864cf6-2de9-46f0-86d2-7c148c4a1ad8",
+      "title": "Iraqi Kurdistan",
+      "description": "A trip to Iraqi Kurdistan.",
+      "datePosted": "2025-12-16",
+      "photos": [
+        {
+          "slug": "img-2412",
+          "title": "IMG_2412",
+          "description": "",
+          "dateTaken": "2025-12-09T20:30:54",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2412.jpeg"
+        },
+        {
+          "slug": "img-2443",
+          "title": "IMG_2443",
+          "description": "",
+          "dateTaken": "2025-12-09T21:33:56",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2443.jpeg"
+        },
+        {
+          "slug": "img-2485",
+          "title": "IMG_2485",
+          "description": "",
+          "dateTaken": "2025-12-10T12:14:16",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2485.jpeg"
+        },
+        {
+          "slug": "img-2521",
+          "title": "IMG_2521",
+          "description": "",
+          "dateTaken": "2025-12-10T12:54:08",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2521.jpeg"
+        },
+        {
+          "slug": "img-2545",
+          "title": "IMG_2545",
+          "description": "",
+          "dateTaken": "2025-12-10T14:35:12",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2545.jpeg"
+        },
+        {
+          "slug": "img-2573",
+          "title": "IMG_2573",
+          "description": "",
+          "dateTaken": "2025-12-10T19:20:43",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2573.jpeg"
+        },
+        {
+          "slug": "img-2594",
+          "title": "IMG_2594",
+          "description": "",
+          "dateTaken": "2025-12-11T10:41:34",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2594.jpeg"
+        },
+        {
+          "slug": "img-2611",
+          "title": "IMG_2611",
+          "description": "",
+          "dateTaken": "2025-12-11T10:54:32",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2611.jpeg"
+        },
+        {
+          "slug": "img-2613",
+          "title": "IMG_2613",
+          "description": "",
+          "dateTaken": "2025-12-11T10:57:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2613.jpeg"
+        },
+        {
+          "slug": "img-2621",
+          "title": "IMG_2621",
+          "description": "",
+          "dateTaken": "2025-12-11T11:14:09",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2621.jpeg"
+        },
+        {
+          "slug": "img-2628",
+          "title": "IMG_2628",
+          "description": "",
+          "dateTaken": "2025-12-11T11:40:01",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2628.jpeg"
+        },
+        {
+          "slug": "img-2634",
+          "title": "IMG_2634",
+          "description": "",
+          "dateTaken": "2025-12-11T13:18:52",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2634.jpeg"
+        },
+        {
+          "slug": "img-2681",
+          "title": "IMG_2681",
+          "description": "",
+          "dateTaken": "2025-12-11T16:27:30",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2681.jpeg"
+        },
+        {
+          "slug": "img-2745",
+          "title": "IMG_2745",
+          "description": "",
+          "dateTaken": "2025-12-13T14:04:54",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2745.jpeg"
+        },
+        {
+          "slug": "img-2797",
+          "title": "IMG_2797",
+          "description": "",
+          "dateTaken": "2025-12-13T23:22:27",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_2797.jpeg"
+        }
+      ]
+    }
+  ]
+}
