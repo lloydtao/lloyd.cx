@@ -45,7 +45,7 @@
         </section>
       </div>
       <div class="px-0 md:px-3">
-        <section class="mx-auto w-full space-y-3 md:max-w-xl md:space-y-5">
+        <section class="mx-auto w-full md:max-w-xl md:space-y-5">
           <div
             v-if="!trip?.posts?.length"
             class="rounded-2xl border-b border-t border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
