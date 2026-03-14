@@ -1,6 +1,6 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
     <div class="pointer-events-none absolute inset-0 -z-[5]">
       <NuxtImg
@@ -83,7 +83,7 @@
         <div class="mt-1">
           <p
             v-if="!expandedDescription"
-            class="text-sm leading-4 text-slate-200/90"
+            class="whitespace-pre-line text-sm leading-4 text-slate-200/90"
           >
             <span>{{ collapsedDescription }}</span
             ><span v-if="isTruncated">&hellip;&nbsp;</span>
@@ -98,16 +98,9 @@
           </p>
 
           <div v-else>
-            <p class="whitespace-pre-line text-sm leading-4 text-slate-50/90">
+            <p class="whitespace-pre-line text-sm leading-4 text-slate-200/90">
               {{ post.description }}
             </p>
-            <button
-              type="button"
-              class="mt-1 block w-full text-right text-sm font-medium text-slate-200/80 transition hover:text-slate-50"
-              @click="expandedDescription = false"
-            >
-              See less
-            </button>
           </div>
         </div>
         <div class="mt-1">
