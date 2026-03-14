@@ -1,6 +1,6 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-4 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
     <div class="pointer-events-none absolute inset-0 -z-[5]">
       <NuxtImg
@@ -46,12 +46,12 @@
       <div class="relative">
         <div
           data-carousel="true"
-          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-1 active:cursor-grabbing md:px-2"
+          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-2 overflow-x-scroll px-3 active:cursor-grabbing"
         >
           <div
             v-for="photo in post?.photos"
             :key="photo.slug"
-            class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
           >
             <button
               type="button"
@@ -64,6 +64,7 @@
                 class="h-full w-full object-cover"
                 height="800"
                 width="600"
+                :modifiers="{ rotate: null }"
               />
             </button>
           </div>
@@ -75,17 +76,14 @@
         class="mt-3 px-3 text-sm text-slate-50 md:px-5"
       >
         <div class="min-w-0 flex-1">
-          <p class="truncate text-sm font-semibold text-white">
+          <p class="truncate text-sm font-semibold text-slate-50/90">
             {{ post?.title }}
           </p>
-          <p class="truncate text-xs text-white/60">
-            {{ formatPostDate(post?.datePosted) }}
-          </p>
         </div>
-        <div class="mt-2">
+        <div class="mt-1">
           <p
             v-if="!expandedDescription"
-            class="text-sm leading-4 text-slate-50/90"
+            class="text-sm leading-4 text-slate-200/90"
           >
             <span>{{ collapsedDescription }}</span
             ><span v-if="isTruncated">&hellip;&nbsp;</span>
