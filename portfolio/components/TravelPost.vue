@@ -1,6 +1,6 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
     <div class="pointer-events-none absolute inset-0 -z-[5]">
       <NuxtImg
@@ -51,7 +51,7 @@
           <div
             v-for="photo in post?.photos"
             :key="photo.slug"
-            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg md:h-52"
           >
             <button
               type="button"
@@ -103,26 +103,26 @@
             </p>
           </div>
         </div>
-        <div class="mt-1">
-          <div
-            class="flex items-center space-x-1"
-          >
-            <button class="mx-auto text-slate-500 duration-100 hover:text-slate-50 px-3 py-2 rounded-full hover:bg-slate-50/10">
+        <div class="mt-2">
+          <div class="flex items-center space-x-1">
+            <button
+              class="mx-auto rounded-full px-2 py-1 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
+            >
               <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                fill="currentColor"
-                class="size-4"
-              >
-                <path
-                  d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
-                />
-                <path
-                  d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
-                />
-              </svg>
-              <p>Share</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
+                  />
+                  <path
+                    d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
+                  />
+                </svg>
+                <p>Share</p>
               </div>
             </button>
           </div>
