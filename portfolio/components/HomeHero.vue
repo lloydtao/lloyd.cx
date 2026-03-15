@@ -6,7 +6,7 @@
     <div class="relative z-10 mx-auto flex flex-col items-center text-center">
       <NuxtImg
         class="h-48 w-48 overflow-hidden rounded-full bg-slate-200/10 shadow-xl ring-2 ring-white/15 sm:h-64 sm:w-64"
-        src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
+        src="/images/lloyd-sg.jpg"
         width="512"
         height="512"
         alt="Merlion Park, Singapore"

@@ -1,91 +1,136 @@
 <template>
   <article
-    class="overflow-hidden border-b border-t border-white/10 bg-white/5 pb-2 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
   >
-    <header class="flex items-center gap-2 px-3 py-2">
-      <div
-        class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
-      >
-        <NuxtImg
-          src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
-          :alt="post?.title"
-          class="h-full w-full object-cover"
-          height="80"
-          width="80"
-        />
-      </div>
+    <div class="pointer-events-none absolute inset-0 -z-[5]">
+      <NuxtImg
+        class="mx-auto h-64 w-full object-cover opacity-55"
+        src="/images/bg-travel.svg"
+        width="1920"
+        height="1080"
+        alt="Teal and indigo background glow graphics"
+      />
+    </div>
+    <div
+      class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-gray-800/90 to-gray-900/90"
+    />
 
-      <div class="min-w-0 flex-1">
-        <p class="truncate text-sm font-semibold text-white">
-          {{ post?.title }}
-        </p>
-        <p class="truncate text-xs text-white/60">
-          {{ formatPostDate(post?.datePosted) }}
-        </p>
-      </div>
-
-      <div
-        class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
-      >
-        {{ post?.photos?.length ?? 0 }} photos
-      </div>
-    </header>
-
-    <div v-if="post?.description" class="px-3 text-sm text-slate-50">
-      <details class="group min-w-0 flex-1 text-xs leading-4 text-slate-50/90">
-        <summary
-          class="mt-1 block cursor-pointer list-none [&::-webkit-details-marker]:hidden [&::marker]:content-['']"
+    <div>
+      <header class="flex items-center gap-2 px-3 py-3 md:px-5">
+        <div
+          class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
         >
-          <span class="relative block group-open:hidden">
-            <p class="line-clamp-2">
-              {{ post.description }}
-            </p>
-            <p
-              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+          <NuxtImg
+            src="/images/lloyd-sg.jpg"
+            :alt="post?.title"
+            class="h-full w-full object-cover"
+            height="80"
+            width="80"
+          />
+        </div>
+
+        <div class="min-w-0 flex-1">
+          <p class="truncate text-sm font-semibold text-white">Lewis Lloyd</p>
+          <p class="truncate text-xs text-white/60">
+            {{ formatPostDate(post?.datePosted) }}
+          </p>
+        </div>
+
+        <div
+          class="rounded-full border border-white/10 bg-white/10 px-2.5 py-1 text-xs text-white/70"
+        >
+          {{ post?.photos?.length ?? 0 }} photos
+        </div>
+      </header>
+
+      <div class="relative">
+        <div
+          data-carousel="true"
+          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-2 overflow-x-scroll px-3 active:cursor-grabbing"
+        >
+          <div
+            v-for="photo in post?.photos"
+            :key="photo.slug"
+            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg md:h-52"
+          >
+            <button
+              type="button"
+              class="block h-full w-full"
+              @click="emit('photo-click', photo)"
+            >
+              <NuxtImg
+                :src="photo.photoUrl"
+                :alt="photo.title"
+                class="h-full w-full object-cover"
+                height="800"
+                width="600"
+                :modifiers="{ rotate: null }"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        v-if="post?.description"
+        class="mt-3 px-3 text-sm text-slate-50 md:px-5"
+      >
+        <div class="min-w-0 flex-1">
+          <p class="truncate text-sm font-semibold text-slate-50/90">
+            {{ post?.title }}
+          </p>
+        </div>
+        <div class="mt-1">
+          <p
+            v-if="!expandedDescription"
+            class="whitespace-pre-line text-sm leading-4 text-slate-200/90"
+          >
+            <span>{{ collapsedDescriptionVisible }}</span>
+            <span
+              v-if="collapsedDescriptionFadeWithEllipsis"
+              class="description-fade-tail"
+            >
+              {{ collapsedDescriptionFadeWithEllipsis }}
+            </span>
+            <button
+              v-if="isTruncated"
+              type="button"
+              class="inline font-medium text-slate-200/80 transition hover:text-slate-50"
+              @click="expandedDescription = true"
             >
               See more
-            </p>
-          </span>
+            </button>
+          </p>
 
-          <span class="hidden whitespace-pre-line pr-1 group-open:inline">
-            {{ post.description }}
-          </span>
-          <span
-            class="hidden font-medium text-slate-200/80 transition hover:text-slate-50 group-open:inline"
-          >
-            <p
-              class="pointer-events-none mt-1 text-right font-medium text-slate-200/80"
+          <div v-else>
+            <p class="whitespace-pre-line text-sm leading-4 text-slate-200/90">
+              {{ post.description }}
+            </p>
+          </div>
+        </div>
+        <div class="mt-2">
+          <div class="flex items-center space-x-1">
+            <button
+              class="mx-auto rounded-full px-2 py-1 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
             >
-              See less
-            </p>
-          </span>
-        </summary>
-      </details>
-    </div>
-
-    <div class="relative">
-      <div
-        data-carousel="true"
-        class="carousel-scrollbar relative z-0 mt-2 flex cursor-grab select-none gap-1.5 overflow-x-scroll px-3 py-1 active:cursor-grabbing"
-      >
-        <div
-          v-for="photo in post?.photos"
-          :key="photo.slug"
-          class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
-        >
-          <button
-            type="button"
-            class="block h-full w-full"
-            @click="emit('photo-click', photo)"
-          >
-            <NuxtImg
-              :src="photo.photoUrl"
-              :alt="photo.title"
-              class="h-full w-full object-cover"
-              height="800"
-              width="600"
-            />
-          </button>
+              <div class="flex items-center space-x-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
+                  />
+                  <path
+                    d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
+                  />
+                </svg>
+                <p>Share</p>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -93,6 +138,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from "vue";
+
 type TripPhoto = {
   slug: string;
   photoUrl: string;
@@ -106,7 +153,7 @@ type TripPost = {
   photos?: TripPhoto[];
 };
 
-defineProps<{
+const { post, formatPostDate } = defineProps<{
   post: TripPost;
   formatPostDate: (date: string | undefined) => string;
 }>();
@@ -114,9 +161,90 @@ defineProps<{
 const emit = defineEmits<{
   "photo-click": [photo: TripPhoto];
 }>();
+
+const expandedDescription = ref(false);
+const DESCRIPTION_PREVIEW_LENGTH = 105;
+const DESCRIPTION_FADE_WORDS = 8;
+
+const normalizedDescription = computed(() =>
+  (post?.description ?? "").replace(/\s+/g, " ").trim(),
+);
+
+const isTruncated = computed(
+  () => normalizedDescription.value.length > DESCRIPTION_PREVIEW_LENGTH,
+);
+
+const collapsedDescription = computed(() => {
+  if (!isTruncated.value) {
+    return normalizedDescription.value;
+  }
+
+  const preview = normalizedDescription.value.slice(
+    0,
+    DESCRIPTION_PREVIEW_LENGTH,
+  );
+  const lastSpaceIndex = preview.lastIndexOf(" ");
+  return (
+    lastSpaceIndex > 0 ? preview.slice(0, lastSpaceIndex) : preview
+  ).trim();
+});
+
+const collapsedDescriptionWords = computed(() =>
+  collapsedDescription.value.split(" ").filter(Boolean),
+);
+
+const collapsedDescriptionVisible = computed(() => {
+  if (!isTruncated.value) {
+    return collapsedDescription.value;
+  }
+
+  const fadeStartIndex = Math.max(
+    collapsedDescriptionWords.value.length - DESCRIPTION_FADE_WORDS,
+    0,
+  );
+
+  return collapsedDescriptionWords.value.slice(0, fadeStartIndex).join(" ");
+});
+
+const collapsedDescriptionFade = computed(() => {
+  if (!isTruncated.value) {
+    return "";
+  }
+
+  const fadeStartIndex = Math.max(
+    collapsedDescriptionWords.value.length - DESCRIPTION_FADE_WORDS,
+    0,
+  );
+  const fadeWords = collapsedDescriptionWords.value
+    .slice(fadeStartIndex)
+    .join(" ");
+
+  return fadeWords ? ` ${fadeWords}` : "";
+});
+
+const collapsedDescriptionFadeWithEllipsis = computed(() => {
+  if (!isTruncated.value) {
+    return "";
+  }
+
+  return `${collapsedDescriptionFade.value}\u2026 `;
+});
 </script>
 
 <style scoped>
+.description-fade-tail {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 232, 240, 0.9) 0%,
+    rgba(226, 232, 240, 0.82) 30%,
+    rgba(226, 232, 240, 0.62) 65%,
+    rgba(226, 232, 240, 0.5) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .carousel-scrollbar {
   scrollbar-color: #334155 #0f172a;
   scrollbar-width: thin;

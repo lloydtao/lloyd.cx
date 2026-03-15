@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen text-slate-50">
-    <div class="mx-auto w-full space-y-4">
+    <div class="mx-auto w-full space-y-5">
       <div class="px-3 md:px-5">
         <section
-          class="relative mx-auto mt-3 max-w-xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
+          class="relative mx-auto max-w-xl overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl md:mt-3"
         >
           <NuxtImg
             v-if="trip?.coverPhoto"
@@ -18,7 +18,7 @@
           />
 
           <div class="relative px-5 py-4">
-            <div class="flex flex-wrap items-center gap-1.5 text-xs">
+            <div class="flex flex-wrap items-center gap-2 text-xs">
               <span
                 class="rounded-full border border-white/10 bg-white/10 px-2 py-1 text-white/80 backdrop-blur-xl"
               >
@@ -45,7 +45,7 @@
         </section>
       </div>
       <div class="px-0 md:px-3">
-        <section class="mx-auto w-full space-y-4 md:max-w-xl">
+        <section class="mx-auto w-full md:max-w-xl md:space-y-5">
           <div
             v-if="!trip?.posts?.length"
             class="rounded-2xl border-b border-t border-white/10 bg-white/5 p-4 text-white/70 backdrop-blur-xl"
@@ -59,6 +59,7 @@
             :key="post.slug"
             :post="post"
             :format-post-date="formatPostDate"
+            class="border-slate-50/20"
             @photo-click="onPhotoClick"
           />
         </section>
