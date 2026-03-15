@@ -418,6 +418,28 @@
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0958.jpeg"
         }
       ]
+    },
+    {
+      "slug": "po_22cdded5-2c5f-47e7-8b4e-16e2c155712a",
+      "title": "Beirut 🇱🇧",
+      "description": "Arrival in Beirut, the capital of Lebanon.",
+      "datePosted": "2025-11-29",
+      "photos": [
+        {
+          "slug": "img-0698",
+          "title": "IMG_0698",
+          "description": "",
+          "dateTaken": "2025-11-29T17:09:26",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0698.jpeg"
+        },
+        {
+          "slug": "img-1265",
+          "title": "IMG_1265",
+          "description": "",
+          "dateTaken": "2025-12-03T21:14:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1265.jpeg"
+        }
+      ]
     }
   ]
 }
