@@ -21,7 +21,7 @@
           class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
         >
           <NuxtImg
-            src="/trips/2025-04-asia/photos/IMG_2292.jpeg"
+            src="/images/lloyd-sg.jpg"
             :alt="post?.title"
             class="h-full w-full object-cover"
             height="80"
