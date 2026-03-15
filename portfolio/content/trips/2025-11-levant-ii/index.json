@@ -289,6 +289,20 @@
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1387.jpeg"
         },
         {
+          "slug": "img-1399",
+          "title": "IMG_1399",
+          "description": "",
+          "dateTaken": "2025-12-04T15:34:51",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1399.jpeg"
+        },
+        {
+          "slug": "img-1450",
+          "title": "IMG_1450",
+          "description": "",
+          "dateTaken": "2025-12-04T16:58:08",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1450.jpeg"
+        },
+        {
           "slug": "img-1453",
           "title": "IMG_1453",
           "description": "",
@@ -325,6 +339,13 @@
       "datePosted": "2025-12-03",
       "photos": [
         {
+          "slug": "img-1129",
+          "title": "IMG_1129",
+          "description": "",
+          "dateTaken": "2025-12-03T10:05:11",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1129.jpeg"
+        },
+        {
           "slug": "img-1131",
           "title": "IMG_1131",
           "description": "",
@@ -332,11 +353,25 @@
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1131.jpeg"
         },
         {
+          "slug": "img-1143",
+          "title": "IMG_1143",
+          "description": "",
+          "dateTaken": "2025-12-03T10:10:58",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1143.jpeg"
+        },
+        {
           "slug": "img-1150",
           "title": "IMG_1150",
           "description": "",
           "dateTaken": "2025-12-03T10:15:55",
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1150.jpeg"
+        },
+        {
+          "slug": "img-1167",
+          "title": "IMG_1167",
+          "description": "",
+          "dateTaken": "2025-12-03T10:57:08",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1167.jpeg"
         },
         {
           "slug": "img-1197",
@@ -360,11 +395,18 @@
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1222.jpeg"
         },
         {
-          "slug": "img-1265",
-          "title": "IMG_1265",
+          "slug": "img-1226",
+          "title": "IMG_1226",
           "description": "",
-          "dateTaken": "2025-12-03T21:14:47",
-          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1265.jpeg"
+          "dateTaken": "2025-12-03T12:55:36",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1226.jpeg"
+        },
+        {
+          "slug": "img-1246",
+          "title": "IMG_1246",
+          "description": "",
+          "dateTaken": "2025-12-03T13:55:59",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1246.jpeg"
         }
       ]
     },
@@ -380,6 +422,62 @@
           "description": "",
           "dateTaken": "2025-12-02T10:39:14",
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1031.jpeg"
+        },
+        {
+          "slug": "img-0988",
+          "title": "IMG_0988",
+          "description": "",
+          "dateTaken": "2025-12-02T09:35:47",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0988.jpeg"
+        },
+        {
+          "slug": "img-1009",
+          "title": "IMG_1009",
+          "description": "",
+          "dateTaken": "2025-12-02T10:03:58",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1009.jpeg"
+        },
+        {
+          "slug": "img-1023",
+          "title": "IMG_1023",
+          "description": "",
+          "dateTaken": "2025-12-02T10:30:56",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1023.jpeg"
+        },
+        {
+          "slug": "img-1024",
+          "title": "IMG_1024",
+          "description": "",
+          "dateTaken": "2025-12-02T10:32:21",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1024.jpeg"
+        },
+        {
+          "slug": "img-1065",
+          "title": "IMG_1065",
+          "description": "",
+          "dateTaken": "2025-12-02T11:43:37",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1065.jpeg"
+        },
+        {
+          "slug": "img-1085",
+          "title": "IMG_1085",
+          "description": "",
+          "dateTaken": "2025-12-02T11:54:58",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1085.jpeg"
+        },
+        {
+          "slug": "img-1088",
+          "title": "IMG_1088",
+          "description": "",
+          "dateTaken": "2025-12-02T11:55:44",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1088.jpeg"
+        },
+        {
+          "slug": "img-1122",
+          "title": "IMG_1122",
+          "description": "",
+          "dateTaken": "2025-12-02T12:51:31",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_1122.jpeg"
         }
       ]
     },
@@ -390,11 +488,25 @@
       "datePosted": "2025-12-01",
       "photos": [
         {
+          "slug": "img-0919",
+          "title": "IMG_0919",
+          "description": "",
+          "dateTaken": "2025-12-01T12:56:40",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0919.jpeg"
+        },
+        {
           "slug": "img-0761",
           "title": "IMG_0761",
           "description": "",
           "dateTaken": "2025-11-30T13:21:13",
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0761.jpeg"
+        },
+        {
+          "slug": "img-0809",
+          "title": "IMG_0809",
+          "description": "",
+          "dateTaken": "2025-12-01T10:02:28",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0809.jpeg"
         },
         {
           "slug": "img-0812",
@@ -404,11 +516,32 @@
           "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0812.jpeg"
         },
         {
-          "slug": "img-0919",
-          "title": "IMG_0919",
+          "slug": "img-0813",
+          "title": "IMG_0813",
           "description": "",
-          "dateTaken": "2025-12-01T12:56:40",
-          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0919.jpeg"
+          "dateTaken": "2025-12-01T10:07:22",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0813.jpeg"
+        },
+        {
+          "slug": "img-0831",
+          "title": "IMG_0831",
+          "description": "",
+          "dateTaken": "2025-12-01T10:29:08",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0831.jpeg"
+        },
+        {
+          "slug": "img-0921",
+          "title": "IMG_0921",
+          "description": "",
+          "dateTaken": "2025-12-01T12:58:58",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0921.jpeg"
+        },
+        {
+          "slug": "img-0939",
+          "title": "IMG_0939",
+          "description": "",
+          "dateTaken": "2025-12-01T13:18:30",
+          "photoUrl": "/trips/2025-11-levant-ii/photos/IMG_0939.jpeg"
         },
         {
           "slug": "img-0958",
