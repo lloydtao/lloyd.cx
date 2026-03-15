@@ -85,8 +85,13 @@
             v-if="!expandedDescription"
             class="whitespace-pre-line text-sm leading-4 text-slate-200/90"
           >
-            <span>{{ collapsedDescription }}</span
-            ><span v-if="isTruncated">&hellip;&nbsp;</span>
+            <span>{{ collapsedDescriptionVisible }}</span>
+            <span
+              v-if="collapsedDescriptionFadeWithEllipsis"
+              class="description-fade-tail"
+            >
+              {{ collapsedDescriptionFadeWithEllipsis }}
+            </span>
             <button
               v-if="isTruncated"
               type="button"
@@ -158,7 +163,8 @@ const emit = defineEmits<{
 }>();
 
 const expandedDescription = ref(false);
-const DESCRIPTION_PREVIEW_LENGTH = 120;
+const DESCRIPTION_PREVIEW_LENGTH = 105;
+const DESCRIPTION_FADE_WORDS = 8;
 
 const normalizedDescription = computed(() =>
   (post?.description ?? "").replace(/\s+/g, " ").trim(),
@@ -182,9 +188,63 @@ const collapsedDescription = computed(() => {
     lastSpaceIndex > 0 ? preview.slice(0, lastSpaceIndex) : preview
   ).trim();
 });
+
+const collapsedDescriptionWords = computed(() =>
+  collapsedDescription.value.split(" ").filter(Boolean),
+);
+
+const collapsedDescriptionVisible = computed(() => {
+  if (!isTruncated.value) {
+    return collapsedDescription.value;
+  }
+
+  const fadeStartIndex = Math.max(
+    collapsedDescriptionWords.value.length - DESCRIPTION_FADE_WORDS,
+    0,
+  );
+
+  return collapsedDescriptionWords.value.slice(0, fadeStartIndex).join(" ");
+});
+
+const collapsedDescriptionFade = computed(() => {
+  if (!isTruncated.value) {
+    return "";
+  }
+
+  const fadeStartIndex = Math.max(
+    collapsedDescriptionWords.value.length - DESCRIPTION_FADE_WORDS,
+    0,
+  );
+  const fadeWords = collapsedDescriptionWords.value
+    .slice(fadeStartIndex)
+    .join(" ");
+
+  return fadeWords ? ` ${fadeWords}` : "";
+});
+
+const collapsedDescriptionFadeWithEllipsis = computed(() => {
+  if (!isTruncated.value) {
+    return "";
+  }
+
+  return `${collapsedDescriptionFade.value}\u2026 `;
+});
 </script>
 
 <style scoped>
+.description-fade-tail {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 232, 240, 0.9) 0%,
+    rgba(226, 232, 240, 0.82) 30%,
+    rgba(226, 232, 240, 0.62) 65%,
+    rgba(226, 232, 240, 0.5) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .carousel-scrollbar {
   scrollbar-color: #334155 #0f172a;
   scrollbar-width: thin;
