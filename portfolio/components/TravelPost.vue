@@ -139,27 +139,15 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
-
-type TripPhoto = {
-  slug: string;
-  photoUrl: string;
-  title?: string;
-};
-
-type TripPost = {
-  title?: string;
-  datePosted?: string;
-  description?: string;
-  photos?: TripPhoto[];
-};
+import type { TravelPhoto, TravelPost } from "~/types/travel-card-props";
 
 const { post, formatPostDate } = defineProps<{
-  post: TripPost;
+  post: TravelPost;
   formatPostDate: (date: string | undefined) => string;
 }>();
 
 const emit = defineEmits<{
-  "photo-click": [photo: TripPhoto];
+  "photo-click": [photo: TravelPhoto];
 }>();
 
 const expandedDescription = ref(false);

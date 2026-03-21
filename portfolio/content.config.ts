@@ -1,40 +1,12 @@
-import { defineCollection, defineContentConfig, z } from "@nuxt/content";
+import { defineCollection, defineContentConfig } from "@nuxt/content";
+import { travelCardSchema } from "./types/travel-card-props";
 
 export default defineContentConfig({
   collections: {
     trips: defineCollection({
       source: "trips/**/index.json",
       type: "data",
-      schema: z.object({
-        slug: z.string(),
-        title: z.string(),
-        description: z.string(),
-        startDate: z.date(),
-        endDate: z.date(),
-        countries: z.array(z.string()),
-        tags: z.array(z.string()),
-        coverPhoto: z.string(),
-        owner: z.string(),
-        contributors: z.array(z.string()),
-        favourite: z.boolean(),
-        red: z.boolean(),
-        posts: z.array(
-          z.object({
-            slug: z.string(),
-            title: z.string(),
-            description: z.string(),
-            photos: z.array(
-              z.object({
-                slug: z.string(),
-                title: z.string(),
-                description: z.string(),
-                dateTaken: z.string(),
-                photoUrl: z.string(),
-              }),
-            ),
-          }),
-        ),
-      }),
+      schema: travelCardSchema,
     }),
   },
 });

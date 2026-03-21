@@ -94,6 +94,7 @@
 
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from "vue";
+import type { TravelPhoto } from "~/types/travel-card-props";
 
 const route = useRoute();
 
@@ -194,14 +195,9 @@ useSeoMeta({
   twitterCard: "summary_large_image",
 });
 
-type LightboxPhoto = {
-  photoUrl: string;
-  title?: string;
-};
+const lightboxPhoto = ref<TravelPhoto | null>(null);
 
-const lightboxPhoto = ref<LightboxPhoto | null>(null);
-
-const onPhotoClick = (photo: LightboxPhoto) => {
+const onPhotoClick = (photo: TravelPhoto) => {
   lightboxPhoto.value = photo;
 };
 
