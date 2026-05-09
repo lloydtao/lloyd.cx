@@ -1,7 +1,7 @@
 {
   "slug": "2026-04-japan",
   "title": "Japan",
-  "description": "A trip to Japan.",
+  "description": "Catching Fuji and Hirosaki Park in peak bloom at the end of the cherry blossom season.",
   "startDate": "2026-04-09",
   "endDate": "2026-04-28",
   "countries": ["JP"],
@@ -14,8 +14,8 @@
   "posts": [
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "Film shots",
-      "description": "From across the whole trip (Olympus XA2, Kodak Gold 200).",
+      "title": "Film shots 📷",
+      "description": "From across the trip.",
       "datePosted": "2026-04-30",
       "photos": [
         {
@@ -85,7 +85,7 @@
     },
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "Ishigaki",
+      "title": "Japan's Southernmost Point 🏝️",
       "description": "A trip to Ishigaki and Hateruma Island.",
       "datePosted": "2026-04-24",
       "photos": [
@@ -142,8 +142,8 @@
     },
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "Hirosaki",
-      "description": "A trip to Hirosaki Cherry Blossom Festival.",
+      "title": "Hirosaki 🌸",
+      "description": "A trip to Hirosaki Park for the Cherry Blossom Festival.",
       "datePosted": "2026-04-20",
       "photos": [
         {
@@ -192,8 +192,8 @@
     },
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "The Golden Triangle",
-      "description": "A trip to Hiroshima, Kyoto, Nara and Osaka.",
+      "title": "The Golden Route 🚅",
+      "description": "Hiroshima, Kyoto, Nara and Osaka by bullet train.",
       "datePosted": "2026-04-14",
       "photos": [
         {
@@ -284,8 +284,8 @@
     },
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "Fujiyoshida",
-      "description": "A trip to Fujiyoshida.",
+      "title": "Fuji-san 🗻",
+      "description": "Fujikawaguchiko and the famous Chureito Pagoda.",
       "datePosted": "2026-04-12",
       "photos": [
         {
@@ -327,8 +327,8 @@
     },
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
-      "title": "Tokyo and Kamakura",
-      "description": "A trip to Tokyo and Kamakura.",
+      "title": "Tokyo and Kamakura 🗼",
+      "description": "A few nights in one of the coolest cities in the world.",
       "datePosted": "2026-04-11",
       "photos": [
         {
