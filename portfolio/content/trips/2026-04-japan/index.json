@@ -1,0 +1,123 @@
+{
+  "slug": "2026-04-japan",
+  "title": "Japan",
+  "description": "A trip to Japan.",
+  "startDate": "2026-04-09",
+  "endDate": "2026-04-28",
+  "countries": ["JP"],
+  "tags": ["hiking", "beaches", "friends"],
+  "coverPhoto": "/trips/2026-04-japan/photos/IMG_5234.jpg",
+  "owner": "lewis",
+  "contributors": ["lewis"],
+  "favourite": false,
+  "red": false,
+  "posts": [
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "Fujiyoshida",
+      "description": "A trip to Fujiyoshida.",
+      "datePosted": "2026-04-12",
+      "photos": [
+        {
+          "slug": "img-5234",
+          "title": "IMG_5234",
+          "description": "",
+          "dateTaken": "2026-04-12T09:19:49",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5234.jpg"
+        },
+        {
+          "slug": "img-5187",
+          "title": "IMG_5187",
+          "description": "",
+          "dateTaken": "2026-04-12T08:58:52",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5187.jpg"
+        },
+        {
+          "slug": "img-5294",
+          "title": "IMG_5294",
+          "description": "",
+          "dateTaken": "2026-04-12T12:34:54",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5294.jpg"
+        },
+        {
+          "slug": "img-5358",
+          "title": "IMG_5358",
+          "description": "",
+          "dateTaken": "2026-04-12T14:01:52",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5358.jpg"
+        },
+        {
+          "slug": "img-5432",
+          "title": "IMG_5432",
+          "description": "",
+          "dateTaken": "2026-04-12T17:38:43",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5432.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "Tokyo and Kamakura",
+      "description": "A trip to Tokyo and Kamakura.",
+      "datePosted": "2026-04-11",
+      "photos": [
+        {
+          "slug": "img-7018",
+          "title": "IMG_7018",
+          "description": "",
+          "dateTaken": "2026-04-19T19:04:13",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7018.jpg"
+        },
+        {
+          "slug": "img-4908",
+          "title": "IMG_4908",
+          "description": "",
+          "dateTaken": "2026-04-11T11:22:29",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_4908.jpg"
+        },
+        {
+          "slug": "img-4962",
+          "title": "IMG_4962",
+          "description": "",
+          "dateTaken": "2026-04-11T13:03:41",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_4962.jpg"
+        },
+        {
+          "slug": "img-5113",
+          "title": "IMG_5113",
+          "description": "",
+          "dateTaken": "2026-04-11T18:06:19",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5113.jpg"
+        },
+        {
+          "slug": "img-5529",
+          "title": "IMG_5529",
+          "description": "",
+          "dateTaken": "2026-04-13T16:18:51",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5529.jpg"
+        },
+        {
+          "slug": "img-5464",
+          "title": "IMG_5464",
+          "description": "",
+          "dateTaken": "2026-04-13T15:05:10",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5464.jpg"
+        },
+        {
+          "slug": "img-5570",
+          "title": "IMG_5570",
+          "description": "",
+          "dateTaken": "2026-04-13T22:02:12",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5570.jpg"
+        },
+        {
+          "slug": "img-7054",
+          "title": "IMG_7054",
+          "description": "",
+          "dateTaken": "2026-04-19T19:50:03",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7054.jpg"
+        }
+      ]
+    }
+  ]
+}
