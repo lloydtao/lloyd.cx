@@ -14,6 +14,77 @@
   "posts": [
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "Film shots",
+      "description": "From across the whole trip (Olympus XA2, Kodak Gold 200).",
+      "datePosted": "2026-04-30",
+      "photos": [
+        {
+          "slug": "img-8416",
+          "title": "IMG_8416",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:46",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8416.jpg"
+        },
+        {
+          "slug": "img-8413",
+          "title": "IMG_8413",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:45",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8413.JPG"
+        },
+        {
+          "slug": "img-8411",
+          "title": "IMG_8411",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:43",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8411.JPG"
+        },
+        {
+          "slug": "img-8410",
+          "title": "IMG_8410",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:43",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8410.jpg"
+        },
+        {
+          "slug": "img-8407",
+          "title": "IMG_8407",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:42",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8407.jpg"
+        },
+        {
+          "slug": "img-8406",
+          "title": "IMG_8406",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:40",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8406.jpg"
+        },
+        {
+          "slug": "img-8400",
+          "title": "IMG_8400",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:39",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8400.jpg"
+        },
+        {
+          "slug": "img-8425",
+          "title": "IMG_8425",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:34",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8425.JPG"
+        },
+        {
+          "slug": "img-8418",
+          "title": "IMG_8418",
+          "description": "",
+          "dateTaken": "2026-04-30T17:28:31",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_8418.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
       "title": "Ishigaki",
       "description": "A trip to Ishigaki and Hateruma Island.",
       "datePosted": "2026-04-24",
