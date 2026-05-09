@@ -14,6 +14,63 @@
   "posts": [
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "Ishigaki",
+      "description": "A trip to Ishigaki and Hateruma Island.",
+      "datePosted": "2026-04-24",
+      "photos": [
+        {
+          "slug": "img-7738",
+          "title": "IMG_7738",
+          "description": "",
+          "dateTaken": "2026-04-24T14:32:45",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7738.jpg"
+        },
+        {
+          "slug": "img-7764",
+          "title": "IMG_7764",
+          "description": "",
+          "dateTaken": "2026-04-24T15:18:15",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7764.jpg"
+        },
+        {
+          "slug": "img-7782",
+          "title": "IMG_7782",
+          "description": "",
+          "dateTaken": "2026-04-24T15:25:03",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7782.jpg"
+        },
+        {
+          "slug": "img-7848",
+          "title": "IMG_7848",
+          "description": "",
+          "dateTaken": "2026-04-24T15:45:49",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7848.jpg"
+        },
+        {
+          "slug": "img-7853",
+          "title": "IMG_7853",
+          "description": "",
+          "dateTaken": "2026-04-24T15:55:26",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7853.jpg"
+        },
+        {
+          "slug": "img-7885",
+          "title": "IMG_7885",
+          "description": "",
+          "dateTaken": "2026-04-24T20:17:24",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7885.jpg"
+        },
+        {
+          "slug": "img-7985",
+          "title": "IMG_7985",
+          "description": "",
+          "dateTaken": "2026-04-25T19:27:17",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7985.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
       "title": "Hirosaki",
       "description": "A trip to Hirosaki Cherry Blossom Festival.",
       "datePosted": "2026-04-20",
