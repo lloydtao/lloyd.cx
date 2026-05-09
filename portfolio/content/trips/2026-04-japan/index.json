@@ -14,6 +14,98 @@
   "posts": [
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "The Golden Triangle",
+      "description": "A trip to Hiroshima, Kyoto, Nara and Osaka.",
+      "datePosted": "2026-04-14",
+      "photos": [
+        {
+          "slug": "img-6296",
+          "title": "IMG_6296",
+          "description": "",
+          "dateTaken": "2026-04-16T22:52:33",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6296.jpg"
+        },
+        {
+          "slug": "img-5642",
+          "title": "IMG_5642",
+          "description": "",
+          "dateTaken": "2026-04-14T13:54:45",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5642.jpg"
+        },
+        {
+          "slug": "img-5706",
+          "title": "IMG_5706",
+          "description": "",
+          "dateTaken": "2026-04-14T20:48:45",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5706.jpg"
+        },
+        {
+          "slug": "img-5812",
+          "title": "IMG_5812",
+          "description": "",
+          "dateTaken": "2026-04-15T13:11:28",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_5812.jpg"
+        },
+        {
+          "slug": "img-6033",
+          "title": "IMG_6033",
+          "description": "",
+          "dateTaken": "2026-04-16T13:09:42",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6033.jpg"
+        },
+        {
+          "slug": "img-6118",
+          "title": "IMG_6118",
+          "description": "",
+          "dateTaken": "2026-04-16T15:29:50",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6118.jpg"
+        },
+        {
+          "slug": "img-6155",
+          "title": "IMG_6155",
+          "description": "",
+          "dateTaken": "2026-04-16T16:14:35",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6155.jpg"
+        },
+        {
+          "slug": "img-6397",
+          "title": "IMG_6397",
+          "description": "",
+          "dateTaken": "2026-04-17T14:41:17",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6397.jpg"
+        },
+        {
+          "slug": "img-6470",
+          "title": "IMG_6470",
+          "description": "",
+          "dateTaken": "2026-04-17T15:11:39",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6470.jpg"
+        },
+        {
+          "slug": "img-6540",
+          "title": "IMG_6540",
+          "description": "",
+          "dateTaken": "2026-04-17T21:46:04",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6540.jpg"
+        },
+        {
+          "slug": "img-6652",
+          "title": "IMG_6652",
+          "description": "",
+          "dateTaken": "2026-04-18T13:30:58",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6652.jpg"
+        },
+        {
+          "slug": "img-6951",
+          "title": "IMG_6951",
+          "description": "",
+          "dateTaken": "2026-04-19T13:52:30",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_6951.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
       "title": "Fujiyoshida",
       "description": "A trip to Fujiyoshida.",
       "datePosted": "2026-04-12",
