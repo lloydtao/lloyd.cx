@@ -14,6 +14,56 @@
   "posts": [
     {
       "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
+      "title": "Hirosaki",
+      "description": "A trip to Hirosaki Cherry Blossom Festival.",
+      "datePosted": "2026-04-20",
+      "photos": [
+        {
+          "slug": "img-7114",
+          "title": "IMG_7114",
+          "description": "",
+          "dateTaken": "2026-04-20T17:02:14",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7114.jpg"
+        },
+        {
+          "slug": "img-7084",
+          "title": "IMG_7084",
+          "description": "",
+          "dateTaken": "2026-04-20T15:32:24",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7084.jpg"
+        },
+        {
+          "slug": "img-7104",
+          "title": "IMG_7104",
+          "description": "",
+          "dateTaken": "2026-04-20T16:47:52",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7104.jpg"
+        },
+        {
+          "slug": "img-7126",
+          "title": "IMG_7126",
+          "description": "",
+          "dateTaken": "2026-04-20T17:10:07",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7126.jpg"
+        },
+        {
+          "slug": "img-7200",
+          "title": "IMG_7200",
+          "description": "",
+          "dateTaken": "2026-04-20T17:44:29",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7200.jpg"
+        },
+        {
+          "slug": "img-7315",
+          "title": "IMG_7315",
+          "description": "",
+          "dateTaken": "2026-04-20T21:41:45",
+          "photoUrl": "/trips/2026-04-japan/photos/IMG_7315.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "po_019b6fc4-35e2-76dd-81bf-200b6043944f",
       "title": "The Golden Triangle",
       "description": "A trip to Hiroshima, Kyoto, Nara and Osaka.",
       "datePosted": "2026-04-14",
