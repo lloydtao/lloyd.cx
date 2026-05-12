@@ -21,7 +21,7 @@
           class="space-x-0.5 text-right text-sm text-slate-50 drop-shadow-sm md:text-base"
         >
           <Twemoji
-            v-for="(emoji, i) in countries.map(getFlagEmoji)"
+            v-for="(emoji, i) in countries.map(countryCodeToFlagEmoji)"
             :key="i"
             :emoji="emoji"
           />
@@ -42,7 +42,7 @@
         <div
           class="mt-1 flex justify-between text-xs text-slate-50/90 drop-shadow-sm md:text-sm"
         >
-          <p>{{ formatDate(startDate) }}</p>
+          <p>{{ formatTravelCardDate(startDate) }}</p>
           <div class="flex items-center space-x-1">
             <p>
               {{ posts?.length }}
@@ -68,23 +68,11 @@
 
 <script setup lang="ts">
 import type { TravelCardProps } from "~/types/travel-card-props";
+import {
+  countryCodeToFlagEmoji,
+  formatTravelCardDate,
+} from "~/utils/travel-format";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const props = defineProps<TravelCardProps>();
-
-const formatDate = (date: string) => {
-  const options: Intl.DateTimeFormatOptions = {
-    month: "short",
-    year: "numeric",
-  };
-  return new Date(date).toLocaleDateString("en", options);
-};
-
-const getFlagEmoji = (countryCode: string) => {
-  const OFFSET = 0x1f1e6 - "A".charCodeAt(0);
-
-  return Array.from(countryCode.toUpperCase())
-    .map((char) => String.fromCodePoint(OFFSET + char.charCodeAt(0)))
-    .join("");
-};
 </script>

@@ -10,6 +10,8 @@
 </template>
 
 <script setup lang="ts">
+import TravelCard from "~/components/travel/TravelCard.vue";
+import TravelCardViewAll from "~/components/travel/TravelCardViewAll.vue";
 import type { TravelCardProps } from "~/types/travel-card-props";
 
 interface Props {
