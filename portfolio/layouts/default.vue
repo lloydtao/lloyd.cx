@@ -19,6 +19,11 @@
   </div>
 </template>
 
+<script setup lang="ts">
+import NavigationBar from "~/components/navigation/NavigationBar.vue";
+import NavigationFooter from "~/components/navigation/NavigationFooter.vue";
+</script>
+
 <style>
 body {
   @apply bg-gray-900;
