@@ -1,21 +1,15 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
+    class="relative isolate z-0 overflow-hidden rounded-[28px] border border-white/15 bg-slate-950/90 shadow-2xl backdrop-blur-2xl"
   >
-    <div class="pointer-events-none absolute inset-0 -z-[5]">
-      <NuxtImg
-        class="mx-auto h-64 w-full object-cover opacity-55"
-        src="/images/bg-travel.svg"
-        width="1920"
-        height="1080"
-        alt="Teal and indigo background glow graphics"
-      />
-    </div>
     <div
-      class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-gray-800/90 to-gray-900/90"
+      class="pointer-events-none absolute -inset-40 -z-10 bg-[radial-gradient(circle_at_10%_50%,rgba(0,200,200,0.5),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(135,80,255,0.4),transparent_30%),radial-gradient(circle_at_50%_100%,rgba(30,120,255,0.3),transparent_30%)] blur-2xl"
+    />
+    <div
+      class="pointer-events-none absolute inset-0 z-0 rounded-[inherit] bg-gradient-to-br from-white/15 via-white/[0.03] to-white/10"
     />
 
-    <div>
+    <div class="relative z-10">
       <header class="flex items-center gap-2 px-3 py-3">
         <div
           class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
@@ -108,7 +102,7 @@
       <div class="py-1">
         <div class="flex items-center space-x-1">
           <button
-            class="mx-auto rounded-full px-2 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
+            class="mx-auto rounded-full px-3 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
           >
             <div class="flex items-center space-x-1">
               <svg
