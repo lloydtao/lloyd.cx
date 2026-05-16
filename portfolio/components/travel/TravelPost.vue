@@ -1,6 +1,7 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden rounded-[28px] border border-white/15 bg-slate-950/90 shadow-2xl backdrop-blur-2xl"
+    :id="post.slug"
+    class="relative isolate z-0 scroll-mt-4 overflow-hidden rounded-[28px] border border-white/15 bg-slate-950/90 shadow-2xl backdrop-blur-2xl"
   >
     <div
       class="pointer-events-none absolute inset-0 -z-10 overflow-hidden rounded-[inherit] [clip-path:inset(0_round_28px)]"
@@ -105,26 +106,40 @@
       <div class="mx-3 border-t border-slate-50/10"></div>
       <div class="py-1">
         <div class="flex items-center space-x-1">
-          <button
-            class="mx-auto rounded-full px-3 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
-          >
-            <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                fill="currentColor"
-                class="size-4"
+          <div class="relative mx-auto">
+            <button
+              type="button"
+              class="rounded-full px-3 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
+              aria-label="Copy link to post"
+              @click="copyPostLink"
+            >
+              <div class="flex items-center space-x-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
+                  />
+                  <path
+                    d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
+                  />
+                </svg>
+                <p class="text-sm">Share</p>
+              </div>
+            </button>
+            <Transition name="share-tooltip">
+              <div
+                v-if="linkCopied"
+                role="status"
+                class="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 whitespace-nowrap rounded-full border border-white/10 bg-white/10 px-3 py-1.5 text-xs font-medium text-white/90 shadow-lg backdrop-blur-xl"
               >
-                <path
-                  d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
-                />
-                <path
-                  d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
-                />
-              </svg>
-              <p class="text-sm">Share</p>
-            </div>
-          </button>
+                Link copied!
+              </div>
+            </Transition>
+          </div>
         </div>
       </div>
     </div>
@@ -132,7 +147,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onBeforeUnmount, ref } from "vue";
 import type { TravelPhoto, TravelPost } from "~/types/travel-card-props";
 import { formatTravelPostDate } from "~/utils/travel-format";
 
@@ -145,8 +160,69 @@ const emit = defineEmits<{
 }>();
 
 const expandedDescription = ref(false);
+const linkCopied = ref(false);
+let linkCopiedTimeout: ReturnType<typeof setTimeout> | null = null;
 const DESCRIPTION_PREVIEW_LENGTH = 105;
 const DESCRIPTION_FADE_WORDS = 8;
+
+const postUrl = computed(() => {
+  if (!import.meta.client) {
+    return "";
+  }
+
+  const url = new URL(window.location.href);
+  url.hash = post.slug;
+  return url.toString();
+});
+
+const showLinkCopiedTooltip = () => {
+  linkCopied.value = true;
+
+  if (linkCopiedTimeout) {
+    clearTimeout(linkCopiedTimeout);
+  }
+
+  linkCopiedTimeout = setTimeout(() => {
+    linkCopied.value = false;
+    linkCopiedTimeout = null;
+  }, 1600);
+};
+
+const copyWithFallback = (value: string) => {
+  const textArea = document.createElement("textarea");
+  textArea.value = value;
+  textArea.setAttribute("readonly", "");
+  textArea.style.position = "fixed";
+  textArea.style.top = "0";
+  textArea.style.opacity = "0";
+
+  document.body.appendChild(textArea);
+
+  try {
+    textArea.focus();
+    textArea.select();
+    return document.execCommand("copy");
+  } catch {
+    return false;
+  } finally {
+    document.body.removeChild(textArea);
+  }
+};
+
+const copyPostLink = async () => {
+  if (!import.meta.client || !postUrl.value) {
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(postUrl.value);
+    showLinkCopiedTooltip();
+  } catch {
+    if (copyWithFallback(postUrl.value)) {
+      showLinkCopiedTooltip();
+    }
+  }
+};
 
 const normalizedDescription = computed(() =>
   (post?.description ?? "").replace(/\s+/g, " ").trim(),
@@ -211,6 +287,12 @@ const collapsedDescriptionFadeWithEllipsis = computed(() => {
 
   return `${collapsedDescriptionFade.value}\u2026 `;
 });
+
+onBeforeUnmount(() => {
+  if (linkCopiedTimeout) {
+    clearTimeout(linkCopiedTimeout);
+  }
+});
 </script>
 
 <style scoped>
@@ -244,5 +326,18 @@ const collapsedDescriptionFadeWithEllipsis = computed(() => {
 .carousel-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(51, 65, 85, 0.9);
   border-radius: 999px;
+}
+
+.share-tooltip-enter-active,
+.share-tooltip-leave-active {
+  transition:
+    opacity 150ms ease,
+    transform 150ms ease;
+}
+
+.share-tooltip-enter-from,
+.share-tooltip-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 0.25rem);
 }
 </style>
