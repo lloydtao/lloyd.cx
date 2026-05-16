@@ -1,22 +1,21 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    :id="post.slug"
+    class="relative isolate z-0 scroll-mt-4 overflow-hidden rounded-[28px] border border-white/15 bg-slate-950/90 shadow-2xl backdrop-blur-2xl"
   >
-    <div class="pointer-events-none absolute inset-0 -z-[5]">
-      <NuxtImg
-        class="mx-auto h-64 w-full object-cover opacity-55"
-        src="/images/bg-travel.svg"
-        width="1920"
-        height="1080"
-        alt="Teal and indigo background glow graphics"
+    <div
+      class="pointer-events-none absolute inset-0 -z-10 overflow-hidden rounded-[inherit] [clip-path:inset(0_round_28px)]"
+    >
+      <div
+        class="absolute -inset-40 bg-[radial-gradient(circle_at_10%_50%,rgba(0,200,200,0.5),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(135,80,255,0.4),transparent_30%),radial-gradient(circle_at_50%_100%,rgba(30,120,255,0.3),transparent_30%)] blur-2xl"
       />
     </div>
     <div
-      class="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-b from-gray-800/90 to-gray-900/90"
+      class="pointer-events-none absolute inset-0 z-0 rounded-[inherit] bg-gradient-to-br from-white/15 via-white/[0.03] to-white/10"
     />
 
-    <div>
-      <header class="flex items-center gap-2 px-3 py-3 md:px-5">
+    <div class="relative z-10">
+      <header class="flex items-center gap-2 px-3 py-3">
         <div
           class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
         >
@@ -42,39 +41,7 @@
           {{ post?.photos?.length ?? 0 }} photos
         </div>
       </header>
-
-      <div class="relative">
-        <div
-          data-carousel="true"
-          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-2 overflow-x-scroll px-3 active:cursor-grabbing"
-        >
-          <div
-            v-for="photo in post?.photos"
-            :key="photo.slug"
-            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg md:h-52"
-          >
-            <button
-              type="button"
-              class="block h-full w-full"
-              @click="emit('photo-click', photo)"
-            >
-              <NuxtImg
-                :src="photo.photoUrl"
-                :alt="photo.title"
-                class="h-full w-full object-cover"
-                height="800"
-                width="600"
-                :modifiers="{ rotate: null }"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        v-if="post?.description"
-        class="mt-3 px-3 text-sm text-slate-50 md:px-5"
-      >
+      <div v-if="post?.description" class="px-3 text-sm text-slate-50">
         <div class="min-w-0 flex-1">
           <p class="truncate text-sm font-semibold text-slate-50/90">
             {{ post?.title }}
@@ -108,10 +75,43 @@
             </p>
           </div>
         </div>
-        <div class="mt-2">
-          <div class="flex items-center space-x-1">
+      </div>
+      <div class="relative mt-3 pb-3">
+        <div
+          data-carousel="true"
+          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-2 active:cursor-grabbing"
+        >
+          <div
+            v-for="photo in post?.photos"
+            :key="photo.slug"
+            class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+          >
             <button
-              class="mx-auto rounded-full px-2 py-1 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
+              type="button"
+              class="block h-full w-full"
+              @click="emit('photo-click', photo)"
+            >
+              <NuxtImg
+                :src="photo.photoUrl"
+                :alt="photo.title"
+                class="h-full w-full object-cover"
+                height="800"
+                width="600"
+                :modifiers="{ rotate: null }"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mx-3 border-t border-slate-50/10"></div>
+      <div class="py-1">
+        <div class="flex items-center space-x-1">
+          <div class="relative mx-auto">
+            <button
+              type="button"
+              class="rounded-full px-3 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
+              aria-label="Copy link to post"
+              @click="copyPostLink"
             >
               <div class="flex items-center space-x-1">
                 <svg
@@ -127,9 +127,18 @@
                     d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
                   />
                 </svg>
-                <p>Share</p>
+                <p class="text-sm">Share</p>
               </div>
             </button>
+            <Transition name="share-tooltip">
+              <div
+                v-if="linkCopied"
+                role="status"
+                class="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 whitespace-nowrap rounded-full border border-white/10 bg-white/10 px-3 py-1.5 text-xs font-medium text-white/90 shadow-lg backdrop-blur-xl"
+              >
+                Link copied!
+              </div>
+            </Transition>
           </div>
         </div>
       </div>
@@ -138,7 +147,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onBeforeUnmount, ref } from "vue";
 import type { TravelPhoto, TravelPost } from "~/types/travel-card-props";
 import { formatTravelPostDate } from "~/utils/travel-format";
 
@@ -151,8 +160,69 @@ const emit = defineEmits<{
 }>();
 
 const expandedDescription = ref(false);
+const linkCopied = ref(false);
+let linkCopiedTimeout: ReturnType<typeof setTimeout> | null = null;
 const DESCRIPTION_PREVIEW_LENGTH = 105;
 const DESCRIPTION_FADE_WORDS = 8;
+
+const postUrl = computed(() => {
+  if (!import.meta.client) {
+    return "";
+  }
+
+  const url = new URL(window.location.href);
+  url.hash = post.slug;
+  return url.toString();
+});
+
+const showLinkCopiedTooltip = () => {
+  linkCopied.value = true;
+
+  if (linkCopiedTimeout) {
+    clearTimeout(linkCopiedTimeout);
+  }
+
+  linkCopiedTimeout = setTimeout(() => {
+    linkCopied.value = false;
+    linkCopiedTimeout = null;
+  }, 1600);
+};
+
+const copyWithFallback = (value: string) => {
+  const textArea = document.createElement("textarea");
+  textArea.value = value;
+  textArea.setAttribute("readonly", "");
+  textArea.style.position = "fixed";
+  textArea.style.top = "0";
+  textArea.style.opacity = "0";
+
+  document.body.appendChild(textArea);
+
+  try {
+    textArea.focus();
+    textArea.select();
+    return document.execCommand("copy");
+  } catch {
+    return false;
+  } finally {
+    document.body.removeChild(textArea);
+  }
+};
+
+const copyPostLink = async () => {
+  if (!import.meta.client || !postUrl.value) {
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(postUrl.value);
+    showLinkCopiedTooltip();
+  } catch {
+    if (copyWithFallback(postUrl.value)) {
+      showLinkCopiedTooltip();
+    }
+  }
+};
 
 const normalizedDescription = computed(() =>
   (post?.description ?? "").replace(/\s+/g, " ").trim(),
@@ -217,6 +287,12 @@ const collapsedDescriptionFadeWithEllipsis = computed(() => {
 
   return `${collapsedDescriptionFade.value}\u2026 `;
 });
+
+onBeforeUnmount(() => {
+  if (linkCopiedTimeout) {
+    clearTimeout(linkCopiedTimeout);
+  }
+});
 </script>
 
 <style scoped>
@@ -250,5 +326,62 @@ const collapsedDescriptionFadeWithEllipsis = computed(() => {
 .carousel-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(51, 65, 85, 0.9);
   border-radius: 999px;
+}
+
+article:target {
+  animation: post-target-glow 2200ms ease-out;
+}
+
+article:target::after {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  opacity: 0;
+  pointer-events: none;
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: inherit;
+  animation: post-target-overlay 2200ms ease-out;
+}
+
+.share-tooltip-enter-active,
+.share-tooltip-leave-active {
+  transition:
+    opacity 150ms ease,
+    transform 150ms ease;
+}
+
+.share-tooltip-enter-from,
+.share-tooltip-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 0.25rem);
+}
+
+@keyframes post-target-glow {
+  0% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.35),
+      0 0 42px rgba(255, 255, 255, 0.42),
+      0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@keyframes post-target-overlay {
+  0% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  100% {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0);
+  }
 }
 </style>

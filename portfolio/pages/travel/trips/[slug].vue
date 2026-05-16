@@ -1,21 +1,22 @@
 <template>
   <div class="min-h-screen text-slate-50">
-    <div class="mx-auto w-full space-y-5">
-      <div class="px-3 md:px-5">
+    <div class="mx-auto w-full max-w-xl">
+      <div class="px-2">
         <TripHero :trip="trip" />
       </div>
-      <div class="px-0 md:px-3">
-        <section class="mx-auto w-full md:max-w-xl md:space-y-5">
-          <TravelEmptyState v-if="!trip?.posts?.length" />
+      <div class="mt-1">
+        <section class="mx-auto w-full">
+          <div class="space-y-1 px-2">
+            <TravelEmptyState v-if="!trip?.posts?.length" />
 
-          <TravelPost
-            v-for="post in trip.posts"
-            v-else
-            :key="post.slug"
-            :post="post"
-            class="border-slate-50/20"
-            @photo-click="onPhotoClick"
-          />
+            <TravelPost
+              v-for="post in trip.posts"
+              v-else
+              :key="post.slug"
+              :post="post"
+              @photo-click="onPhotoClick"
+            />
+          </div>
         </section>
       </div>
     </div>
