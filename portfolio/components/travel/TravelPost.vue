@@ -3,8 +3,12 @@
     class="relative isolate z-0 overflow-hidden rounded-[28px] border border-white/15 bg-slate-950/90 shadow-2xl backdrop-blur-2xl"
   >
     <div
-      class="pointer-events-none absolute -inset-40 -z-10 bg-[radial-gradient(circle_at_10%_50%,rgba(0,200,200,0.5),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(135,80,255,0.4),transparent_30%),radial-gradient(circle_at_50%_100%,rgba(30,120,255,0.3),transparent_30%)] blur-2xl"
-    />
+      class="pointer-events-none absolute inset-0 -z-10 overflow-hidden rounded-[inherit] [clip-path:inset(0_round_28px)]"
+    >
+      <div
+        class="absolute -inset-40 bg-[radial-gradient(circle_at_10%_50%,rgba(0,200,200,0.5),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(135,80,255,0.4),transparent_30%),radial-gradient(circle_at_50%_100%,rgba(30,120,255,0.3),transparent_30%)] blur-2xl"
+      />
+    </div>
     <div
       class="pointer-events-none absolute inset-0 z-0 rounded-[inherit] bg-gradient-to-br from-white/15 via-white/[0.03] to-white/10"
     />
