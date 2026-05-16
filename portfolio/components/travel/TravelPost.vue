@@ -32,7 +32,7 @@
         <div class="min-w-0 flex-1">
           <p class="truncate text-sm font-semibold text-white">Lewis Lloyd</p>
           <p class="truncate text-xs text-white/60">
-            {{ formatPostDate(post?.datePosted) }}
+            {{ formatTravelPostDate(post?.datePosted) }}
           </p>
         </div>
 
@@ -140,10 +140,10 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import type { TravelPhoto, TravelPost } from "~/types/travel-card-props";
+import { formatTravelPostDate } from "~/utils/travel-format";
 
-const { post, formatPostDate } = defineProps<{
+const { post } = defineProps<{
   post: TravelPost;
-  formatPostDate: (date: string | undefined) => string;
 }>();
 
 const emit = defineEmits<{

@@ -4,11 +4,7 @@
       <HomeHero />
     </div>
     <div class="container mx-auto mt-8">
-      <h1
-        class="bg-gradient-to-b from-white via-slate-100 to-slate-300 bg-clip-text text-2xl font-semibold text-transparent"
-      >
-        Image editor
-      </h1>
+      <PageHeading title="Image editor" />
       <div id="travel-grid-card" class="mt-3">
         <ImageEditor />
       </div>
@@ -17,7 +13,9 @@
 </template>
 
 <script setup lang="ts">
-import ImageEditor from "~/components/ImageEditor.vue";
+import ImageEditor from "~/components/editor/ImageEditor.vue";
+import HomeHero from "~/components/home/HomeHero.vue";
+import PageHeading from "~/components/ui/PageHeading.vue";
 
 useSeoMeta({
   title: "Home • lloyd.cx",
