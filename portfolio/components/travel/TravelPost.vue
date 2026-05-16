@@ -1,6 +1,6 @@
 <template>
   <article
-    class="relative isolate z-0 overflow-hidden border-b border-t border-white/10 bg-white/5 pb-3 shadow-none backdrop-blur-xl md:rounded-2xl md:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+    class="relative isolate z-0 overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl"
   >
     <div class="pointer-events-none absolute inset-0 -z-[5]">
       <NuxtImg
@@ -16,7 +16,7 @@
     />
 
     <div>
-      <header class="flex items-center gap-2 px-3 py-3 md:px-5">
+      <header class="flex items-center gap-2 px-3 py-3">
         <div
           class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/10"
         >
@@ -42,39 +42,7 @@
           {{ post?.photos?.length ?? 0 }} photos
         </div>
       </header>
-
-      <div class="relative">
-        <div
-          data-carousel="true"
-          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-2 overflow-x-scroll px-3 active:cursor-grabbing"
-        >
-          <div
-            v-for="photo in post?.photos"
-            :key="photo.slug"
-            class="relative aspect-[3/4] h-44 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg md:h-52"
-          >
-            <button
-              type="button"
-              class="block h-full w-full"
-              @click="emit('photo-click', photo)"
-            >
-              <NuxtImg
-                :src="photo.photoUrl"
-                :alt="photo.title"
-                class="h-full w-full object-cover"
-                height="800"
-                width="600"
-                :modifiers="{ rotate: null }"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        v-if="post?.description"
-        class="mt-3 px-3 text-sm text-slate-50 md:px-5"
-      >
+      <div v-if="post?.description" class="px-3 text-sm text-slate-50">
         <div class="min-w-0 flex-1">
           <p class="truncate text-sm font-semibold text-slate-50/90">
             {{ post?.title }}
@@ -108,29 +76,57 @@
             </p>
           </div>
         </div>
-        <div class="mt-2">
-          <div class="flex items-center space-x-1">
+      </div>
+      <div class="relative mt-3 pb-3">
+        <div
+          data-carousel="true"
+          class="carousel-scrollbar relative z-0 flex cursor-grab select-none gap-1 overflow-x-scroll px-2 active:cursor-grabbing"
+        >
+          <div
+            v-for="photo in post?.photos"
+            :key="photo.slug"
+            class="relative aspect-[3/4] h-48 shrink-0 overflow-hidden rounded-2xl border border-slate-50/10 shadow-lg"
+          >
             <button
-              class="mx-auto rounded-full px-2 py-1 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
+              type="button"
+              class="block h-full w-full"
+              @click="emit('photo-click', photo)"
             >
-              <div class="flex items-center space-x-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  class="size-4"
-                >
-                  <path
-                    d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
-                  />
-                  <path
-                    d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
-                  />
-                </svg>
-                <p>Share</p>
-              </div>
+              <NuxtImg
+                :src="photo.photoUrl"
+                :alt="photo.title"
+                class="h-full w-full object-cover"
+                height="800"
+                width="600"
+                :modifiers="{ rotate: null }"
+              />
             </button>
           </div>
+        </div>
+      </div>
+      <div class="mx-3 border-t border-slate-50/10"></div>
+      <div class="py-1">
+        <div class="flex items-center space-x-1">
+          <button
+            class="mx-auto rounded-full px-2 py-2 text-slate-500 duration-100 hover:bg-slate-200/10 hover:text-slate-50"
+          >
+            <div class="flex items-center space-x-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="size-4"
+              >
+                <path
+                  d="M7.25 10.25a.75.75 0 0 0 1.5 0V4.56l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 0 0 1.06 1.06l2.22-2.22v5.69Z"
+                />
+                <path
+                  d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"
+                />
+              </svg>
+              <p class="text-sm">Share</p>
+            </div>
+          </button>
         </div>
       </div>
     </div>
