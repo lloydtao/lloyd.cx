@@ -31,13 +31,14 @@
           />
         </span>
       </div>
-
-      <h1 class="mt-3 text-5xl font-semibold tracking-tight text-white/90">
-        {{ trip?.title }}
-      </h1>
-      <p class="mt-3 w-1/2 max-w-prose text-sm text-white/80">
-        {{ trip?.description }}
-      </p>
+      <div class="mt-3 w-[75%]">
+        <h1 class="text-5xl font-semibold tracking-tight text-white/90">
+          {{ trip?.title }}
+        </h1>
+        <p class="mt-3 max-w-prose text-sm text-white/80">
+          {{ trip?.description }}
+        </p>
+      </div>
     </div>
   </section>
 </template>
