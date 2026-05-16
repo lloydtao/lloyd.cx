@@ -328,6 +328,22 @@ onBeforeUnmount(() => {
   border-radius: 999px;
 }
 
+article:target {
+  animation: post-target-glow 2200ms ease-out;
+}
+
+article:target::after {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  opacity: 0;
+  pointer-events: none;
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: inherit;
+  animation: post-target-overlay 2200ms ease-out;
+}
+
 .share-tooltip-enter-active,
 .share-tooltip-leave-active {
   transition:
@@ -339,5 +355,33 @@ onBeforeUnmount(() => {
 .share-tooltip-leave-to {
   opacity: 0;
   transform: translate(-50%, 0.25rem);
+}
+
+@keyframes post-target-glow {
+  0% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.35),
+      0 0 42px rgba(255, 255, 255, 0.42),
+      0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@keyframes post-target-overlay {
+  0% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.16);
+  }
+
+  100% {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0);
+  }
 }
 </style>
